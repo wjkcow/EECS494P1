@@ -25,6 +25,7 @@ public class Gravity : MonoBehaviour {
 	}
 
 	void FixedUpdate(){
+		if (still) return;
 		float dt = Time.fixedDeltaTime;
 
 		Vector3 curPos = this.transform.position;
@@ -45,8 +46,11 @@ public class Gravity : MonoBehaviour {
 			if(other.transform.position.y < transform.position.y){
 				speed = new Vector3(0,0,0);
 				acc = -1 * g;
+				Vector3 tempPos = transform.position;
+
+				transform.position = tempPos;
 			}
-		}
+		} 
 	}
 
 	void OnTriggerExit2D(Collider2D other){
@@ -54,7 +58,7 @@ public class Gravity : MonoBehaviour {
 			if(other.transform.position.y < transform.position.y){
 				acc =  Vector3.zero;
 			}
-		}
+		} 
 	}
 
 

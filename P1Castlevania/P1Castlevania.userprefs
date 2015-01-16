@@ -1,8 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Gravity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Hero.cs">
     <Files>
-      <File FileName="Assets/Gravity.cs" Line="6" Column="37" />
+      <File FileName="Assets/Gravity.cs" Line="27" Column="18" />
+      <File FileName="Assets/Hero.cs" Line="30" Column="20" />
+      <File FileName="Assets/stair.cs" Line="55" Column="2" />
       <File FileName="Assets/HeroState.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
