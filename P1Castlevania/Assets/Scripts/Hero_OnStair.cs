@@ -19,7 +19,8 @@ public class Hero_OnStair : MonoBehaviour {
 	public bool up = false;
 	
 	void FixedUpdate () {
-		Gravity g = GetComponent<Gravity> ();		
+		Gravity g = GetComponent<Gravity> ();
+		Hero h = GetComponent<Hero> ();
 		if (onTheWayToStair) {
 			if (getReadyToGoStairs()){
 				onStair = true;
@@ -40,6 +41,7 @@ public class Hero_OnStair : MonoBehaviour {
 				leaveStair = false;
 				keepWalking = false;
 				g.setSpeed (new Vector3 (0, 0, 0));
+				h.isStairMode = false;
 			}
 			else if (Input.GetKey (KeyCode.DownArrow)) {
 				g.setSpeed (-1 * stairDir);
@@ -67,6 +69,35 @@ public class Hero_OnStair : MonoBehaviour {
 				if (onCheckPoint == false)
 					keepWalking = true;
 			}
+		} else {
+			if (Input.GetKeyDown (KeyCode.UpArrow)) {
+				up = true;
+				if (upStairL){
+					stairDir = new Vector3 (-0.5f,0.5f,0);
+					g.setSpeed (new Vector3 (0, 0, 0));
+					onTheWayToStair = true;
+				} else if (upStairR){
+					stairDir = new Vector3 (0.5f,0.5f,0);
+					g.setSpeed (new Vector3 (0, 0, 0));
+					onTheWayToStair = true;
+				}
+			} else if (Input.GetKeyDown (KeyCode.DownArrow)) {
+				up = false;
+				if (downStairL){
+					onTheWayToStair = true;
+					stairDir = new Vector3 (-0.5f,0.5f,0);
+					g.setSpeed (new Vector3 (0, 0, 0));
+				} else if (downStairR){
+					onTheWayToStair = true;
+					stairDir = new Vector3 (0.5f,0.5f,0);
+					g.setSpeed (new Vector3 (0, 0, 0));
+				} else {
+					print ("sit");
+				}
+			}
+
+			if (onTheWayToStair)
+				h.isStairMode = true;
 		}
 	}
 	
