@@ -17,10 +17,24 @@ public class Hero_OnStair : MonoBehaviour {
 	public Vector3 target;
 	public Vector3 stairDir;
 	public bool up = false;
+	private Animator anim;
+	private bool facingLeft = true;
+	private bool leftStair = true;
+	private bool goingUp = true;
+	private bool goingLeft = true;
+	public stairInfo sInfo;
+	public GameObject curStair;
+	public GameObject nextPos;
+
+	void Start(){
+		anim = GetComponent<Animator> ();
+		sInfo = GetComponent<stairInfo> ();
+	}
 	
 	void FixedUpdate () {
-		Gravity g = GetComponent<Gravity> ();
 		Hero h = GetComponent<Hero> ();
+		Gravity g = GetComponent<Gravity> ();
+		nextPos = nextCheckPoint();
 		if (onTheWayToStair) {
 			if (getReadyToGoStairs()){
 				onStair = true;
@@ -29,6 +43,11 @@ public class Hero_OnStair : MonoBehaviour {
 				print ("ready");
 				if (up) g.setSpeed(stairDir);
 				else g.setSpeed(-1 * stairDir);
+				setFaceLeft(leftStair);
+				if (up)
+					anim.SetTrigger("Up_stair");
+				else
+					anim.SetTrigger("Down_stair");
 			}
 		}
 		else if (onStair) {
@@ -42,81 +61,108 @@ public class Hero_OnStair : MonoBehaviour {
 				keepWalking = false;
 				g.setSpeed (new Vector3 (0, 0, 0));
 				h.isStairMode = false;
+				anim.SetTrigger("BackToIdle");
+			} else if (playFirstAnim() && !keepWalking){
+				if (goingUp){
+					setFaceLeft(leftStair);
+					anim.SetTrigger("Up_stair");
+					g.setSpeed(stairDir);
+				}
+				else {
+					setFaceLeft(!leftStair);
+					anim.SetTrigger("Down_stair");
+					g.setSpeed(-1 * stairDir);
+				}
+				onCheckPoint = false;
 			}
-			else if (Input.GetKey (KeyCode.DownArrow)) {
-				g.setSpeed (-1 * stairDir);
-				onCheckPoint = false;
-			} else if (Input.GetKey (KeyCode.UpArrow)) {
-				g.setSpeed(stairDir);
-				onCheckPoint = false;
-			} else if (Input.GetKey (KeyCode.RightArrow)) {
-				if (stairDir.x > 0)
+			else if (hasInput()){
+				if (goingUp){
+					setFaceLeft(leftStair);
+					if (throughCheckPoint())
+						anim.SetTrigger("Up_stair");
 					g.setSpeed(stairDir);
-				else 
+				}
+				else {
+					setFaceLeft(!leftStair);
+					if (throughCheckPoint())
+						anim.SetTrigger("Down_stair");
 					g.setSpeed(-1 * stairDir);
+				}
 				onCheckPoint = false;
-			} else if (Input.GetKey (KeyCode.LeftArrow)) {
-				if (stairDir.x < 0)
-					g.setSpeed(stairDir);
-				else 
-					g.setSpeed(-1 * stairDir);
-				onCheckPoint = false;
+				keepWalking = true;
+			} else if (nextPos == null){
+				print ("null stair");
+				if (getToEnd()){
+					leaveStair = true;
+				}
 			} else {
 				if (onCheckPoint){
 					g.setSpeed (new Vector3 (0, 0, 0));
 					keepWalking = false;
 				}
-				if (onCheckPoint == false)
+				if (onCheckPoint == false){
+					print ("finding next point");
 					keepWalking = true;
+					float dis = nextPos.transform.position.x - transform.position.x;
+					if (Mathf.Abs(dis) < 0.005f){
+						Vector3 temp = transform.position;
+						temp = temp + dis * stairDir.normalized;
+						transform.position = temp;
+						onCheckPoint = true;
+						curStair = nextPos;
+					}
+				}
 			}
 		} else {
 			if (Input.GetKeyDown (KeyCode.UpArrow)) {
 				up = true;
 				if (upStairL){
-					stairDir = new Vector3 (-0.5f,0.5f,0);
-					g.setSpeed (new Vector3 (0, 0, 0));
-					onTheWayToStair = true;
+					setLStair();
 				} else if (upStairR){
-					stairDir = new Vector3 (0.5f,0.5f,0);
-					g.setSpeed (new Vector3 (0, 0, 0));
-					onTheWayToStair = true;
+					setRStair();
 				}
 			} else if (Input.GetKeyDown (KeyCode.DownArrow)) {
 				up = false;
 				if (downStairL){
-					onTheWayToStair = true;
-					stairDir = new Vector3 (-0.5f,0.5f,0);
-					g.setSpeed (new Vector3 (0, 0, 0));
+					setLStair();
 				} else if (downStairR){
-					onTheWayToStair = true;
-					stairDir = new Vector3 (0.5f,0.5f,0);
-					g.setSpeed (new Vector3 (0, 0, 0));
-				} else {
-					print ("sit");
+					setRStair();
 				}
 			}
-
 			if (onTheWayToStair)
 				h.isStairMode = true;
 		}
 	}
-	
+
+	void setLStair(){
+		Gravity g = GetComponent<Gravity> ();
+		stairDir = new Vector3 (-0.2f,0.2f,0);
+		g.setSpeed (new Vector3 (0, 0, 0));
+		onTheWayToStair = true;
+		setFaceLeft(up);
+		leftStair = true;
+	}
+
+	void setRStair(){
+		Gravity g = GetComponent<Gravity> ();
+		stairDir = new Vector3 (0.2f,0.2f,0);
+		g.setSpeed (new Vector3 (0, 0, 0));
+		onTheWayToStair = true;
+		setFaceLeft(!up);
+		leftStair = false;
+	}
 	
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.tag == "StairChecker"){
-			
+
 		} else if (other.tag == "Stair"){
 			if (onStair && other.name == "stairS"){
 				leaveStair = true;
 				return;
 			}
-			if (onStair && keepWalking){
-				onCheckPoint = true;
-				keepWalking = false;
-			}
 		}
 	}
-	
+
 	void OnTriggerStay2D(Collider2D other){
 		if (other.tag == "StairChecker" && !onTheWayToStair) {
 			if (other.bounds.Contains(transform.position)){
@@ -131,6 +177,7 @@ public class Hero_OnStair : MonoBehaviour {
 					upStairL = true;
 				}
 				startChecker = other;
+				sInfo = other.transform.parent.gameObject.transform.GetComponent<stairInfo>();
 			}
 		}
 	}
@@ -145,14 +192,38 @@ public class Hero_OnStair : MonoBehaviour {
 		target = transform.position;
 		target.x = startChecker.transform.FindChild("stairP").transform.position.x;
 		dis = target.x - transform.position.x;
+		if (dis < 0)
+			setFaceLeft(true);
+		else 
+			setFaceLeft(false);
 		if (Mathf.Abs (dis) < 0.003f) {
 			transform.position = target;
+			anim.SetBool ("Walk", false);
 			return true;
 		}
 		float step = speed * Time.deltaTime;
 		transform.position = Vector3.MoveTowards(transform.position, target, step);
+		anim.SetBool ("Walk", true);
 		return false;
 	}	
+
+	bool hasInput(){
+		if (Input.GetKey (KeyCode.DownArrow)) {
+			goingUp = false;
+			goingLeft = leftStair;
+		} else if (Input.GetKey (KeyCode.UpArrow)) {
+			goingUp = true;
+			goingLeft = !leftStair;
+		} else if (Input.GetKey (KeyCode.RightArrow)) {
+			goingUp = !leftStair;
+			goingLeft = false;
+		} else if (Input.GetKey (KeyCode.LeftArrow)) {
+			goingUp = leftStair;
+			goingLeft = true;
+		} else 
+			return false;
+		return true;
+	}
 	
 	void setFalse(){
 		downStairL = false;
@@ -160,4 +231,91 @@ public class Hero_OnStair : MonoBehaviour {
 		upStairL = false;
 		upStairR = false;
 	} 
+
+	GameObject nextCheckPoint(){
+		if (goingLeft){
+			if (leftStair){
+				foreach (GameObject g in sInfo.stairs){
+					if (g.transform.position.x < transform.position.x)
+						return g;
+				}
+			} else {
+				for (int i = sInfo.stairs.Length; i --> 0; ){
+					GameObject g = sInfo.stairs[i];
+					if (g.transform.position.x < transform.position.x)
+						return g;
+				}
+			}
+		}
+		else {
+			if (!leftStair){
+				foreach (GameObject g in sInfo.stairs){
+					if (g.transform.position.x > transform.position.x)
+						return g;
+				}
+			} else {
+				for (int i = sInfo.stairs.Length; i --> 0; ){
+					GameObject g = sInfo.stairs[i];
+					if (g.transform.position.x > transform.position.x)
+						return g;
+				}
+			}
+		}
+		return null;
+	}
+
+	bool throughCheckPoint(){
+		foreach (GameObject g in sInfo.stairs){
+			if (Mathf.Abs(g.transform.position.x - transform.position.x) < 0.002f)
+				return true;
+		}
+		return false;
+	}
+
+	void setFaceLeft(bool left){
+		if (left) {
+			if (!facingLeft) {
+				flip();
+				facingLeft = true;
+			}	
+		} else { 
+			if(facingLeft){
+				flip();
+				facingLeft = false;
+			}
+			
+		}
+	}
+
+	bool getToEnd (){
+		foreach (GameObject g in sInfo.startPos){
+			if (Mathf.Abs(g.transform.position.x - transform.position.x) < 0.002f)
+				return true;
+		}
+		return false;
+	}
+
+	bool playFirstAnim(){
+		if (Input.GetKeyDown (KeyCode.DownArrow)) {
+			goingUp = false;
+			goingLeft = leftStair;
+		} else if (Input.GetKeyDown (KeyCode.UpArrow)) {
+			goingUp = true;
+			goingLeft = !leftStair;
+		} else if (Input.GetKeyDown (KeyCode.RightArrow)) {
+			goingUp = !leftStair;
+			goingLeft = false;
+		} else if (Input.GetKeyDown (KeyCode.LeftArrow)) {
+			goingUp = leftStair;
+			goingLeft = true;
+		} else
+			return false;
+		return true;
+	}
+
+	void flip(){
+		Vector3 theScale = transform.localScale;
+		theScale.x *= -1;
+		transform.localScale = theScale;
+	}
 }
