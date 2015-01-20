@@ -27,9 +27,6 @@ public class Hero_BaseMovement : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Space)) {
 						if (!isJumping) {
 								anim.SetTrigger ("Jump");
-				anim.SetBool ("Walk",true);
-				anim.SetTrigger ("Up_stair");
-				anim.SetBool ("Walk",false);
 								g.setSpeed (jumpSpeed);
 								isJumping = true;
 						}
