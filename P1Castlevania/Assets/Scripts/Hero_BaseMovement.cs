@@ -2,15 +2,22 @@
 using System.Collections;
 
 public class Hero_BaseMovement : MonoBehaviour {
+	private Animator anim;
+	private bool facingLeft = true;
 	public Vector3 jumpSpeed = new Vector3 (0,1.75f,0);
 	public Vector3 rightSpeed = new Vector3 (0.8f, 0, 0);
 	// Use this for initialization
 	void Start () {
-	
+		anim = GetComponent<Animator> ();
+
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
+		bool isOnStair = GetComponent<Hero> ().isStairMode;
+		if (isOnStair) {
+			return;		
+		}
 		Gravity g = GetComponent<Gravity> ();		
 
 		if (Input.GetKeyDown (KeyCode.Space)) {
@@ -22,5 +29,25 @@ public class Hero_BaseMovement : MonoBehaviour {
 			g.setSpeed (new Vector3 (-1.0f, 0, 0));
 		} 
 
+	}
+	void setFaceLeft(bool left){
+		if (left) {
+			if (!facingLeft) {
+				flip();
+				facingLeft = true;
+			}	
+		} else { 
+			if(facingLeft){
+				flip();
+				facingLeft = false;
+			}
+			
+		}
+	}
+
+	void flip(){
+		Vector3 theScale = transform.localScale;
+		theScale.x *= -1;
+		transform.localScale = theScale;
 	}
 }

@@ -260,9 +260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52b2e1e21a214996bffca2dafea8bbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onTheWayToStair: 0
-  jumpSpeed: {x: 0, y: 1.75, z: 0}
-  rightSpeed: {x: .800000012, y: 0, z: 0}
+  isStairMode: 0
 --- !u!212 &1011661153
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -363,20 +361,24 @@ MonoBehaviour:
   keepWalking: 0
   leaveStair: 0
   startChecker: {fileID: 0}
+  onTheWayToStair: 0
   dis: 0
   target: {x: 0, y: 0, z: 0}
+  stairDir: {x: 0, y: 0, z: 0}
+  up: 0
 --- !u!114 &1011661159
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11463700, guid: f45b93863e3834364bd6f0226b152461,
-    type: 2}
-  m_PrefabInternal: {fileID: 1718667163}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1011661151}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72c30c91a5db745bfbfdf26e45b26a65, type: 3}
+  m_Script: {fileID: 11500000, guid: 03e99d8ec05c94b07bfc6de23b450cb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumpSpeed: {x: 0, y: 1.75, z: 0}
+  rightSpeed: {x: .800000012, y: 0, z: 0}
 --- !u!95 &1011661160
 Animator:
   serializedVersion: 3
@@ -471,7 +473,12 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 11463700, guid: f45b93863e3834364bd6f0226b152461, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11463700, guid: f45b93863e3834364bd6f0226b152461, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: f45b93863e3834364bd6f0226b152461, type: 2}
   m_RootGameObject: {fileID: 1011661151}
   m_IsPrefabParent: 0
