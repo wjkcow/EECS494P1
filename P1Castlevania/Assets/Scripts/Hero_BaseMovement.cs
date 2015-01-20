@@ -1,71 +1,234 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Hero_BaseMovement : MonoBehaviour {
-	private Animator anim;
-	private bool facingLeft = true;
-	public Vector3 jumpSpeed = new Vector3 (0,1.75f,0);
-	public Vector3 jumpRightSpeed = new Vector3 ();
-	public Vector3 rightSpeed = new Vector3 (0.8f, 0, 0);
-
-
-	private bool isJumping = false;
-	// Use this for initialization
-	void Start () {
-		anim = GetComponent<Animator> ();
-
-	}
+public class Hero_BaseMovement : MonoBehaviour
+{
+		private Animator anim;
+		private bool facingLeft = true;
+		public Vector3 jumpSpeed = new Vector3 (0, 1.75f, 0);
+		public Vector3 jumpRightSpeed = new Vector3 (0.75f, 0, 0);
+		public Vector3 rightSpeed = new Vector3 (0.015f, 0, 0);
+		public Vector3 fallSpeed = new Vector3 (0, -6f, 0);
+		private Gravity g;
+		private Vector3 jumpHeight = Vector3.zero;
+		enum HeroState
+		{
+				STAND,
+				WALK,
+				JUMP,
+				SQUAT,
+				THROW,
+				WHIP,
+				FALLING,
+				HIT
+		}
+		HeroState curState = HeroState.STAND;
+		HeroState lastState;
+		public void toLastState(){
+			curState = lastState;
+		}
+		// Use this for initialization
+		void Start ()
+		{
+				anim = GetComponent<Animator> ();
+				g = GetComponent<Gravity> ();		
+		}
 	
-	// Update is called once per frame
-	void FixedUpdate () {
-		bool isOnStair = GetComponent<Hero> ().isStairMode;
-		if (isOnStair) {
-			return;		
+		// Update is called once per frame
+		void FixedUpdate ()
+		{
+				bool isOnStair = GetComponent<Hero> ().isStairMode;
+				if (isOnStair) {
+						return;		
+				}
+
+				if (curState == HeroState.STAND) {
+						jump ();
+						walk ();
+						squat ();
+				}
+				if (curState == HeroState.WALK) {
+						walk ();
+						jump ();
+						squat ();		
+
+				}
+				if (curState == HeroState.SQUAT) {
+						squat ();		
+						face ();
+				}
+				whip ();
+				walk_release ();
+				squat_release ();
+		
 		}
-		Gravity g = GetComponent<Gravity> ();		
 
-		if (Input.GetKeyDown (KeyCode.Space)) {
-						if (!isJumping) {
-								anim.SetTrigger ("Jump");
-								g.setSpeed (jumpSpeed);
-								isJumping = true;
-						}
-		}
-//		} else if (Input.GetKeyDown (KeyCode.RightArrow)) {
-//			g.setSpeed (rightSpeed);
-//		} else if (Input.GetKeyDown (KeyCode.LeftArrow)) {
-//			g.setSpeed (new Vector3 (-1.0f, 0, 0));
-//		} else if (Input.GetKeyUp (KeyCode.RightArrow)) {
-//			g.setSpeed (rightSpeed);
-//		} else if (Input.GetKeyUp (KeyCode.LeftArrow)) {
-//			g.setSpeed (new Vector3 (-1.0f, 0, 0));
-//		} 
+	void whip(){
+		if (curState == HeroState.STAND || curState == HeroState.WALK || 
+		    curState == HeroState.JUMP || curState == HeroState.SQUAT) {
+			if(Input.GetKeyDown(KeyCode.S)){
+				anim.SetBool ("Walk", false);
+				anim.SetTrigger("Whip");
+				lastState = curState;
+				curState = HeroState.WHIP;
 
-	}
-
-	void OnTriggerEnter2D(Collider2D other){
-		if (other.tag == "Ground") {
-			isJumping = false;
-		} 
-	}
-	void setFaceLeft(bool left){
-		if (left) {
-			if (!facingLeft) {
-				flip();
-				facingLeft = true;
-			}	
-		} else { 
-			if(facingLeft){
-				flip();
-				facingLeft = false;
 			}
-			
-		}
-	}
 
-	void flip(){
-		Vector3 theScale = transform.localScale;
-		theScale.x *= -1;
-		transform.localScale = theScale;
+		}
+	
 	}
+		void face ()
+		{
+				if (Input.GetKeyDown (KeyCode.LeftArrow)) {
+						setFaceLeft (true);
+				} 
+				if (Input.GetKeyDown (KeyCode.RightArrow)) {
+						setFaceLeft (false);
+				}
+		
+		}
+
+		void squat ()
+		{
+				if (Input.GetKeyDown (KeyCode.DownArrow)) {
+			anim.SetBool ("Walk", false);
+
+			anim.SetBool ("Squat", true);
+						curState = HeroState.SQUAT;
+				} //else if (Input.GetKeyUp (KeyCode.DownArrow)) {
+//						anim.SetBool ("Squat", false);
+//						curState = HeroState.STAND;
+//				}
+		
+		}
+
+		void squat_release ()
+		{
+				if (!Input.GetKey (KeyCode.DownArrow)) {
+						anim.SetBool ("Squat", false);
+						if (curState == HeroState.SQUAT) {
+								curState = HeroState.STAND;
+						}
+				}
+		}
+
+		void walk_release ()
+		{
+				if (!Input.GetKey (KeyCode.LeftArrow) && !Input.GetKey (KeyCode.RightArrow)) {
+						anim.SetBool ("Walk", false);
+						if (curState == HeroState.WALK) {
+								curState = HeroState.STAND;
+
+						}
+				}
+		}
+
+		void walk ()
+		{
+		print ("walking");
+				if (Input.GetKey (KeyCode.LeftArrow)) {
+						setFaceLeft (true);
+						anim.SetBool ("Walk", true);
+						//rigidbody2D.MovePosition(transform.position - rightSpeed);
+						transform.position = transform.position - rightSpeed;
+						curState = HeroState.WALK;
+				}
+				if (Input.GetKey (KeyCode.RightArrow)) {
+						setFaceLeft (false);
+						anim.SetBool ("Walk", true);
+						//rigidbody2D.MovePosition(transform.position + rightSpeed);
+						transform.position = transform.position + rightSpeed;
+
+						curState = HeroState.WALK;
+				}
+		}
+	
+		void jump ()
+		{
+		if (Input.GetKeyDown (KeyCode.Space ) || Input.GetKeyDown (KeyCode.A )) {
+						anim.SetBool ("Walk", false);
+						jumpHeight = transform.position;
+						anim.SetTrigger ("Jump"); 
+						Vector3 speed = jumpSpeed;
+						if (Input.GetKey (KeyCode.LeftArrow)) {
+								print ("Left");
+								speed -= jumpRightSpeed;
+								setFaceLeft (true);				
+						} else if (Input.GetKey (KeyCode.RightArrow)) {
+								speed += jumpRightSpeed;
+								setFaceLeft (false);
+				
+						}
+						print ("Speed" + speed);
+						g.setSpeed (speed);		
+
+						curState = HeroState.JUMP;
+				}
+
+		}
+
+		void OnTriggerEnter2D (Collider2D other)
+		{
+				if (other.tag == "Ground") {
+						if (other.transform.position.y < transform.position.y) {
+								if (curState == HeroState.FALLING) {
+										anim.SetTrigger ("Landing");
+										curState = HeroState.STAND;
+
+								}
+				if (curState == HeroState.JUMP || curState == HeroState.WHIP) {
+					if (transform.position.y < jumpHeight.y - 0.001) {
+												anim.SetTrigger ("Landing");
+										}
+										lastState = curState = HeroState.STAND;
+
+								}
+				
+						}
+						
+				} 
+		}
+
+		void OnTriggerStay2D (Collider2D other)
+		{
+				if (other.tag == "Bottom") {
+						g.speed.x = 0;
+				}
+		}
+
+		void OnTriggerExit2D (Collider2D other)
+		{
+				if (other.tag == "Ground") {
+			if (g.speed.y <= 0 && other.transform.position.y < transform.position.y) {
+								
+								curState = HeroState.FALLING;
+								g.setSpeed (fallSpeed);
+						}
+				
+				}
+
+		}
+
+		void setFaceLeft (bool left)
+		{
+				if (left) {
+						if (!facingLeft) {
+								flip ();
+								facingLeft = true;
+						}	
+				} else { 
+						if (facingLeft) {
+								flip ();
+								facingLeft = false;
+						}
+			
+				}
+		}
+
+		void flip ()
+		{
+				Vector3 theScale = transform.localScale;
+				theScale.x *= -1;
+				transform.localScale = theScale;
+		}
 }

@@ -8,6 +8,12 @@ public class Gravity : MonoBehaviour {
 	public Vector3 speed = Vector3.zero;
 	public Vector3 acc = Vector3.zero;
 
+	public void setStill(){
+		still = true;
+	}
+	public void resetStill(){
+		still = false;
+	}
 	// Use this for in =itialization
 	void Start () {
 	
@@ -22,6 +28,7 @@ public class Gravity : MonoBehaviour {
 	}
 	public void setSpeed(Vector3 newSpeed){
 		this.speed = newSpeed;
+		FixedUpdate ();
 	}
 
 	void FixedUpdate(){
@@ -33,13 +40,13 @@ public class Gravity : MonoBehaviour {
 		speed = speed + dt * curAcc;
 
 		Vector3 nextPos = curPos + speed * dt;
-//		print (speed);
-//		print (curAcc);
-		transform.position = nextPos;
-
+		rigidbody2D.MovePosition (nextPos);
+			
 		
 	}
-
+	void OnTriggerStay2D(Collider2D other){
+		OnTriggerEnter2D (other);
+	}
 	void OnTriggerEnter2D(Collider2D other){
 		print (other.name);
 		Hero h = GetComponent<Hero> ();
@@ -48,17 +55,19 @@ public class Gravity : MonoBehaviour {
 			if(other.transform.position.y < transform.position.y && !h.isStairMode){
 				speed = new Vector3(0,0,0);
 				acc = -1 * g;
-				Vector3 tempPos = transform.position;
-
-				transform.position = tempPos;
 			}
 		} 
 	}
 
 	void OnTriggerExit2D(Collider2D other){
+<<<<<<< HEAD
+		if (other.tag == "Ground") {
+			if(other.transform.position.y < transform.position.y + 0.006){
+=======
 		Hero h = GetComponent<Hero> ();
 		if (other.tag == "Ground") {
 			if(other.transform.position.y < transform.position.y && !h.isStairMode){
+>>>>>>> 5a6f0714a3983fba09354f6a751cdf93ab0e9c35
 				acc =  Vector3.zero;
 			}
 		} 
