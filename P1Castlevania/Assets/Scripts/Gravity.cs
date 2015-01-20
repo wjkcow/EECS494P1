@@ -41,9 +41,11 @@ public class Gravity : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D other){
+		print (other.name);
+		Hero h = GetComponent<Hero> ();
 		if (other.tag == "Ground") {
 			print ("hit ground");
-			if(other.transform.position.y < transform.position.y){
+			if(other.transform.position.y < transform.position.y && !h.isStairMode){
 				speed = new Vector3(0,0,0);
 				acc = -1 * g;
 				Vector3 tempPos = transform.position;
@@ -54,9 +56,9 @@ public class Gravity : MonoBehaviour {
 	}
 
 	void OnTriggerExit2D(Collider2D other){
-		print (other.tag);
+		Hero h = GetComponent<Hero> ();
 		if (other.tag == "Ground") {
-			if(other.transform.position.y < transform.position.y){
+			if(other.transform.position.y < transform.position.y && !h.isStairMode){
 				acc =  Vector3.zero;
 			}
 		} 
