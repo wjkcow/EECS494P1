@@ -534,6 +534,9 @@ MonoBehaviour:
   target: {x: 0, y: 0, z: 0}
   stairDir: {x: 0, y: 0, z: 0}
   up: 0
+  sInfo: {fileID: 0}
+  curStair: {fileID: 0}
+  nextPos: {fileID: 0}
 --- !u!114 &1011661159
 MonoBehaviour:
   m_ObjectHideFlags: 0
