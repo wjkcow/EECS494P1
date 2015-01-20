@@ -24,8 +24,11 @@ public class Hero_BaseMovement : MonoBehaviour {
 			g.setSpeed (jumpSpeed);
 		} else if (Input.GetKeyDown (KeyCode.RightArrow)) {
 			g.setSpeed (rightSpeed);
-			
 		} else if (Input.GetKeyDown (KeyCode.LeftArrow)) {
+			g.setSpeed (new Vector3 (-1.0f, 0, 0));
+		} else if (Input.GetKeyUp (KeyCode.RightArrow)) {
+			g.setSpeed (rightSpeed);
+		} else if (Input.GetKeyUp (KeyCode.LeftArrow)) {
 			g.setSpeed (new Vector3 (-1.0f, 0, 0));
 		} 
 
