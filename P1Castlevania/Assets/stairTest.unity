@@ -506,6 +506,9 @@ MonoBehaviour:
   target: {x: 0, y: 0, z: 0}
   stairDir: {x: 0, y: 0, z: 0}
   up: 0
+  leftStair: 1
+  goingUp: 1
+  goingLeft: 1
   sInfo: {fileID: 0}
   curStair: {fileID: 0}
   nextPos: {fileID: 0}
