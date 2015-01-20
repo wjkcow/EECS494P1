@@ -145,8 +145,8 @@ TextureImporter:
         y: 646
         width: 16
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_1
       rect:
@@ -155,8 +155,8 @@ TextureImporter:
         y: 646
         width: 12
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_2
       rect:
@@ -165,8 +165,8 @@ TextureImporter:
         y: 646
         width: 15
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_3
       rect:
@@ -175,8 +175,8 @@ TextureImporter:
         y: 646
         width: 16
         height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_4
       rect:
@@ -185,8 +185,8 @@ TextureImporter:
         y: 646
         width: 16
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_5
       rect:
@@ -195,8 +195,8 @@ TextureImporter:
         y: 646
         width: 15
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_6
       rect:
@@ -205,8 +205,8 @@ TextureImporter:
         y: 646
         width: 16
         height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_7
       rect:
@@ -215,8 +215,8 @@ TextureImporter:
         y: 646
         width: 32
         height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_8
       rect:
@@ -225,8 +225,8 @@ TextureImporter:
         y: 646
         width: 16
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_9
       rect:
@@ -235,8 +235,8 @@ TextureImporter:
         y: 603
         width: 24
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .333299994, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_10
       rect:
@@ -245,8 +245,8 @@ TextureImporter:
         y: 603
         width: 16
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_11
       rect:
@@ -255,8 +255,8 @@ TextureImporter:
         y: 603
         width: 22
         height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .636399984, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_12
       rect:
@@ -265,8 +265,8 @@ TextureImporter:
         y: 602
         width: 24
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_13
       rect:
@@ -275,8 +275,8 @@ TextureImporter:
         y: 602
         width: 16
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .375, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_14
       rect:
@@ -285,8 +285,8 @@ TextureImporter:
         y: 602
         width: 22
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .54549998, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_15
       rect:
@@ -295,8 +295,8 @@ TextureImporter:
         y: 562
         width: 32
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .25, y: .0333000012}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_16
       rect:
@@ -305,8 +305,8 @@ TextureImporter:
         y: 563
         width: 32
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_17
       rect:
@@ -315,8 +315,8 @@ TextureImporter:
         y: 564
         width: 44
         height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .818199992, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_18
       rect:
@@ -325,8 +325,8 @@ TextureImporter:
         y: 562
         width: 32
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .233999997, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_19
       rect:
@@ -335,8 +335,8 @@ TextureImporter:
         y: 562
         width: 32
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .233999997, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_20
       rect:
@@ -345,8 +345,8 @@ TextureImporter:
         y: 563
         width: 44
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .816637218, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_21
       rect:
@@ -356,7 +356,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_22
       rect:
@@ -366,7 +366,7 @@ TextureImporter:
         width: 32
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_23
       rect:
@@ -376,7 +376,7 @@ TextureImporter:
         width: 44
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_24
       rect:
@@ -386,7 +386,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_25
       rect:
@@ -396,7 +396,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_26
       rect:
@@ -406,7 +406,7 @@ TextureImporter:
         width: 44
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_27
       rect:
@@ -416,7 +416,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_28
       rect:
@@ -426,7 +426,7 @@ TextureImporter:
         width: 32
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_29
       rect:
@@ -436,7 +436,7 @@ TextureImporter:
         width: 60
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_30
       rect:
@@ -446,7 +446,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_31
       rect:
@@ -456,7 +456,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_32
       rect:
@@ -466,7 +466,7 @@ TextureImporter:
         width: 60
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_33
       rect:
@@ -476,7 +476,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_34
       rect:
@@ -486,7 +486,7 @@ TextureImporter:
         width: 32
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_35
       rect:
@@ -496,7 +496,7 @@ TextureImporter:
         width: 60
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_36
       rect:
@@ -506,7 +506,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_37
       rect:
@@ -516,7 +516,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_38
       rect:
@@ -526,7 +526,7 @@ TextureImporter:
         width: 60
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_39
       rect:
@@ -536,7 +536,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_40
       rect:
@@ -546,7 +546,7 @@ TextureImporter:
         width: 32
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_41
       rect:
@@ -556,7 +556,7 @@ TextureImporter:
         width: 60
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_42
       rect:
@@ -566,7 +566,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_43
       rect:
@@ -576,7 +576,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_44
       rect:
@@ -586,7 +586,7 @@ TextureImporter:
         width: 60
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_45
       rect:
@@ -596,7 +596,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_46
       rect:
@@ -606,7 +606,7 @@ TextureImporter:
         width: 32
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_47
       rect:
@@ -616,7 +616,7 @@ TextureImporter:
         width: 60
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_48
       rect:
@@ -626,7 +626,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_49
       rect:
@@ -636,7 +636,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_50
       rect:
@@ -646,7 +646,7 @@ TextureImporter:
         width: 60
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_51
       rect:
@@ -655,8 +655,8 @@ TextureImporter:
         y: 323
         width: 32
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .25, y: .258100003}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_52
       rect:
@@ -665,8 +665,8 @@ TextureImporter:
         y: 327
         width: 32
         height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_53
       rect:
@@ -675,8 +675,8 @@ TextureImporter:
         y: 326
         width: 44
         height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .818199992, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_54
       rect:
@@ -685,8 +685,8 @@ TextureImporter:
         y: 320
         width: 24
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .333000004, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_55
       rect:
@@ -695,8 +695,8 @@ TextureImporter:
         y: 320
         width: 16
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_56
       rect:
@@ -705,8 +705,8 @@ TextureImporter:
         y: 320
         width: 22
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .634000003, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_57
       rect:
@@ -716,7 +716,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_58
       rect:
@@ -726,7 +726,7 @@ TextureImporter:
         width: 32
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_59
       rect:
@@ -736,7 +736,7 @@ TextureImporter:
         width: 44
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_60
       rect:
@@ -745,8 +745,8 @@ TextureImporter:
         y: 281
         width: 32
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_61
       rect:
@@ -755,8 +755,8 @@ TextureImporter:
         y: 281
         width: 32
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .25, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_62
       rect:
@@ -765,8 +765,8 @@ TextureImporter:
         y: 282
         width: 44
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .818199992, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_63
       rect:
@@ -776,7 +776,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_64
       rect:
@@ -786,7 +786,7 @@ TextureImporter:
         width: 32
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_65
       rect:
@@ -796,7 +796,7 @@ TextureImporter:
         width: 60
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_66
       rect:
@@ -806,7 +806,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_67
       rect:
@@ -816,7 +816,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_68
       rect:
@@ -826,7 +826,7 @@ TextureImporter:
         width: 44
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_69
       rect:
@@ -836,7 +836,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_70
       rect:
@@ -846,7 +846,7 @@ TextureImporter:
         width: 32
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_71
       rect:
@@ -856,7 +856,7 @@ TextureImporter:
         width: 60
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_72
       rect:
@@ -866,7 +866,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_73
       rect:
@@ -876,7 +876,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_74
       rect:
@@ -886,7 +886,7 @@ TextureImporter:
         width: 60
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_75
       rect:
@@ -896,7 +896,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_76
       rect:
@@ -906,7 +906,7 @@ TextureImporter:
         width: 32
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_77
       rect:
@@ -916,7 +916,7 @@ TextureImporter:
         width: 60
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_78
       rect:
@@ -926,7 +926,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_79
       rect:
@@ -936,7 +936,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_80
       rect:
@@ -946,7 +946,7 @@ TextureImporter:
         width: 60
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_81
       rect:
@@ -956,7 +956,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_82
       rect:
@@ -966,7 +966,7 @@ TextureImporter:
         width: 32
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_83
       rect:
@@ -976,7 +976,7 @@ TextureImporter:
         width: 60
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_84
       rect:
@@ -986,7 +986,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_85
       rect:
@@ -996,7 +996,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_86
       rect:
@@ -1006,7 +1006,7 @@ TextureImporter:
         width: 60
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_87
       rect:
@@ -1015,8 +1015,8 @@ TextureImporter:
         y: 82
         width: 16
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_88
       rect:
@@ -1025,8 +1025,8 @@ TextureImporter:
         y: 82
         width: 16
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_89
       rect:
@@ -1035,8 +1035,8 @@ TextureImporter:
         y: 82
         width: 16
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_90
       rect:
@@ -1045,8 +1045,8 @@ TextureImporter:
         y: 82
         width: 16
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_91
       rect:
@@ -1056,7 +1056,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_92
       rect:
@@ -1066,7 +1066,7 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_93
       rect:
@@ -1076,7 +1076,7 @@ TextureImporter:
         width: 60
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Sprites_Heros_94
       rect:
@@ -1086,7 +1086,7 @@ TextureImporter:
         width: 416
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
