@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class stair : MonoBehaviour {
+public class Hero_OnStair : MonoBehaviour {
 	
 	public bool downStairL = false;
 	public bool downStairR = false;
@@ -20,53 +20,52 @@ public class stair : MonoBehaviour {
 	
 	void FixedUpdate () {
 		Gravity g = GetComponent<Gravity> ();		
-		stair s = GetComponent<stair> ();
-		if (s.onTheWayToStair) {
-			if (s.getReadyToGoStairs()){
-				s.onStair = true;
-				s.onTheWayToStair = false;
-				s.keepWalking = true;
+		if (onTheWayToStair) {
+			if (getReadyToGoStairs()){
+				onStair = true;
+				onTheWayToStair = false;
+				keepWalking = true;
 				print ("ready");
 				if (up) g.setSpeed(stairDir);
 				else g.setSpeed(-1 * stairDir);
 			}
 		}
-		else if (s.onStair) {
+		else if (onStair) {
 			g.setAcc(-1 * g.g);
-			if (s.leaveStair){
-				s.onStair = false;
+			if (leaveStair){
+				onStair = false;
 				print ("back to ground");
 				g.setAcc(Vector3.zero);
-				s.onCheckPoint = false;
-				s.leaveStair = false;
-				s.keepWalking = false;
+				onCheckPoint = false;
+				leaveStair = false;
+				keepWalking = false;
 				g.setSpeed (new Vector3 (0, 0, 0));
 			}
 			else if (Input.GetKey (KeyCode.DownArrow)) {
 				g.setSpeed (-1 * stairDir);
-				s.onCheckPoint = false;
+				onCheckPoint = false;
 			} else if (Input.GetKey (KeyCode.UpArrow)) {
 				g.setSpeed(stairDir);
-				s.onCheckPoint = false;
+				onCheckPoint = false;
 			} else if (Input.GetKey (KeyCode.RightArrow)) {
 				if (stairDir.x > 0)
 					g.setSpeed(stairDir);
 				else 
 					g.setSpeed(-1 * stairDir);
-				s.onCheckPoint = false;
+				onCheckPoint = false;
 			} else if (Input.GetKey (KeyCode.LeftArrow)) {
 				if (stairDir.x < 0)
 					g.setSpeed(stairDir);
 				else 
 					g.setSpeed(-1 * stairDir);
-				s.onCheckPoint = false;
+				onCheckPoint = false;
 			} else {
-				if (s.onCheckPoint){
+				if (onCheckPoint){
 					g.setSpeed (new Vector3 (0, 0, 0));
-					s.keepWalking = false;
+					keepWalking = false;
 				}
-				if (s.onCheckPoint == false)
-					s.keepWalking = true;
+				if (onCheckPoint == false)
+					keepWalking = true;
 			}
 		}
 	}
