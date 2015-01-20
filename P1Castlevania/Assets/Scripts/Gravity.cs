@@ -54,6 +54,7 @@ public class Gravity : MonoBehaviour {
 	}
 
 	void OnTriggerExit2D(Collider2D other){
+		print (other.tag);
 		if (other.tag == "Ground") {
 			if(other.transform.position.y < transform.position.y){
 				acc =  Vector3.zero;

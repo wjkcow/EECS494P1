@@ -5,7 +5,11 @@ public class Hero_BaseMovement : MonoBehaviour {
 	private Animator anim;
 	private bool facingLeft = true;
 	public Vector3 jumpSpeed = new Vector3 (0,1.75f,0);
+	public Vector3 jumpRightSpeed = new Vector3 ();
 	public Vector3 rightSpeed = new Vector3 (0.8f, 0, 0);
+
+
+	private bool isJumping = false;
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator> ();
@@ -21,17 +25,31 @@ public class Hero_BaseMovement : MonoBehaviour {
 		Gravity g = GetComponent<Gravity> ();		
 
 		if (Input.GetKeyDown (KeyCode.Space)) {
-			g.setSpeed (jumpSpeed);
-		} else if (Input.GetKeyDown (KeyCode.RightArrow)) {
-			g.setSpeed (rightSpeed);
-		} else if (Input.GetKeyDown (KeyCode.LeftArrow)) {
-			g.setSpeed (new Vector3 (-1.0f, 0, 0));
-		} else if (Input.GetKeyUp (KeyCode.RightArrow)) {
-			g.setSpeed (rightSpeed);
-		} else if (Input.GetKeyUp (KeyCode.LeftArrow)) {
-			g.setSpeed (new Vector3 (-1.0f, 0, 0));
-		} 
+						if (!isJumping) {
+								anim.SetTrigger ("Jump");
+				anim.SetBool ("Walk",true);
+				anim.SetTrigger ("Up_stair");
+				anim.SetBool ("Walk",false);
+								g.setSpeed (jumpSpeed);
+								isJumping = true;
+						}
+		}
+//		} else if (Input.GetKeyDown (KeyCode.RightArrow)) {
+//			g.setSpeed (rightSpeed);
+//		} else if (Input.GetKeyDown (KeyCode.LeftArrow)) {
+//			g.setSpeed (new Vector3 (-1.0f, 0, 0));
+//		} else if (Input.GetKeyUp (KeyCode.RightArrow)) {
+//			g.setSpeed (rightSpeed);
+//		} else if (Input.GetKeyUp (KeyCode.LeftArrow)) {
+//			g.setSpeed (new Vector3 (-1.0f, 0, 0));
+//		} 
 
+	}
+
+	void OnTriggerEnter2D(Collider2D other){
+		if (other.tag == "Ground") {
+			isJumping = false;
+		} 
 	}
 	void setFaceLeft(bool left){
 		if (left) {
