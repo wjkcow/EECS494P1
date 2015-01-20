@@ -125,6 +125,7 @@ public class Hero_BaseMovement : MonoBehaviour
 
 		void walk ()
 		{
+		print ("walking");
 				if (Input.GetKey (KeyCode.LeftArrow)) {
 						setFaceLeft (true);
 						anim.SetBool ("Walk", true);
@@ -144,7 +145,7 @@ public class Hero_BaseMovement : MonoBehaviour
 	
 		void jump ()
 		{
-				if (Input.GetKeyDown (KeyCode.Space)) {
+		if (Input.GetKeyDown (KeyCode.Space ) || Input.GetKeyDown (KeyCode.A )) {
 						anim.SetBool ("Walk", false);
 						jumpHeight = transform.position;
 						anim.SetTrigger ("Jump"); 
@@ -198,7 +199,8 @@ public class Hero_BaseMovement : MonoBehaviour
 		void OnTriggerExit2D (Collider2D other)
 		{
 				if (other.tag == "Ground") {
-						if (g.speed.y <= 0) {
+			if (g.speed.y <= 0 && other.transform.position.y < transform.position.y) {
+								
 								curState = HeroState.FALLING;
 								g.setSpeed (fallSpeed);
 						}
