@@ -28,6 +28,7 @@ public class Gravity : MonoBehaviour {
 	}
 	public void setSpeed(Vector3 newSpeed){
 		this.speed = newSpeed;
+		FixedUpdate ();
 	}
 
 	void FixedUpdate(){
@@ -48,7 +49,7 @@ public class Gravity : MonoBehaviour {
 	}
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.tag == "Ground") {
-		//	print ("hit ground");
+			print ("hit ground");
 			if(other.transform.position.y < transform.position.y){
 				speed = new Vector3(0,0,0);
 				acc = -1 * g;
@@ -58,10 +59,7 @@ public class Gravity : MonoBehaviour {
 
 	void OnTriggerExit2D(Collider2D other){
 		if (other.tag == "Ground") {
-			//print (other.transform.position + "and" +transform.position );
 			if(other.transform.position.y < transform.position.y + 0.006){
-				print ("LeaveGround");
-
 				acc =  Vector3.zero;
 			}
 		} 
