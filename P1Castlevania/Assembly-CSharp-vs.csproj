@@ -46,10 +46,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Gravity.cs" />
      <Compile Include="Assets\Scripts\Hero.cs" />
      <Compile Include="Assets\Scripts\HeroAnimation.cs" />
      <Compile Include="Assets\Scripts\HeroState.cs" />
+     <Compile Include="Assets\Scripts\Hero_BaseMovement.cs" />
      <Compile Include="Assets\Scripts\Hero_backup.cs" />
      <Compile Include="Assets\Scripts\script.cs" />
      <Compile Include="Assets\Scripts\stair.cs" />
