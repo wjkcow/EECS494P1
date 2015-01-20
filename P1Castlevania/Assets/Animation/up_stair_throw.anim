@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: squash_hit
+  m_Name: up_stair_throw
   serializedVersion: 4
   m_AnimationType: 2
   m_Compressed: 0
@@ -17,15 +17,19 @@ AnimationClip:
   m_FloatCurves: []
   m_PPtrCurves:
   - curve:
-    - time: .5
-      value: {fileID: 21300006, guid: c6922e1a903de4294aa55b142999163a, type: 3}
-    - time: 1.60000002
-      value: {fileID: 21300012, guid: c6922e1a903de4294aa55b142999163a, type: 3}
+    - time: 0
+      value: {fileID: 21300010, guid: c6922e1a903de4294aa55b142999163a, type: 3}
+    - time: .116666667
+      value: {fileID: 21300024, guid: c6922e1a903de4294aa55b142999163a, type: 3}
+    - time: .150000006
+      value: {fileID: 21300026, guid: c6922e1a903de4294aa55b142999163a, type: 3}
+    - time: .183333337
+      value: {fileID: 21300028, guid: c6922e1a903de4294aa55b142999163a, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 10
+  m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -39,16 +43,18 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300006, guid: c6922e1a903de4294aa55b142999163a, type: 3}
-    - {fileID: 21300012, guid: c6922e1a903de4294aa55b142999163a, type: 3}
+    - {fileID: 21300010, guid: c6922e1a903de4294aa55b142999163a, type: 3}
+    - {fileID: 21300024, guid: c6922e1a903de4294aa55b142999163a, type: 3}
+    - {fileID: 21300026, guid: c6922e1a903de4294aa55b142999163a, type: 3}
+    - {fileID: 21300028, guid: c6922e1a903de4294aa55b142999163a, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_StartTime: 0
-    m_StopTime: 1.70000005
+    m_StopTime: .200000003
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
-    m_LoopTime: 1
+    m_LoopTime: 0
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
