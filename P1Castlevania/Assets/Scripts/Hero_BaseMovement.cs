@@ -23,6 +23,10 @@ public class Hero_BaseMovement : MonoBehaviour
 				HIT
 		}
 		HeroState curState = HeroState.STAND;
+		HeroState lastState;
+		public void toLastState(){
+			curState = lastState;
+		}
 		// Use this for initialization
 		void Start ()
 		{
@@ -46,21 +50,33 @@ public class Hero_BaseMovement : MonoBehaviour
 				if (curState == HeroState.WALK) {
 						walk ();
 						jump ();
+						squat ();		
 
 				}
 				if (curState == HeroState.SQUAT) {
 						squat ();		
 						face ();
 				}
+				whip ();
 				walk_release ();
 				squat_release ();
 		
 		}
-//		public void landDone(){
-//			if (curState == HeroState.FALLING) {
-//				
-//			}
-//		}
+
+	void whip(){
+		if (curState == HeroState.STAND || curState == HeroState.WALK || 
+		    curState == HeroState.JUMP || curState == HeroState.SQUAT) {
+			if(Input.GetKeyDown(KeyCode.S)){
+				anim.SetBool ("Walk", false);
+				anim.SetTrigger("Whip");
+				lastState = curState;
+				curState = HeroState.WHIP;
+
+			}
+
+		}
+	
+	}
 		void face ()
 		{
 				if (Input.GetKeyDown (KeyCode.LeftArrow)) {
@@ -75,7 +91,9 @@ public class Hero_BaseMovement : MonoBehaviour
 		void squat ()
 		{
 				if (Input.GetKeyDown (KeyCode.DownArrow)) {
-						anim.SetBool ("Squat", true);
+			anim.SetBool ("Walk", false);
+
+			anim.SetBool ("Squat", true);
 						curState = HeroState.SQUAT;
 				} //else if (Input.GetKeyUp (KeyCode.DownArrow)) {
 //						anim.SetBool ("Squat", false);
@@ -141,7 +159,8 @@ public class Hero_BaseMovement : MonoBehaviour
 				
 						}
 						print ("Speed" + speed);
-						g.setSpeed (speed);			
+						g.setSpeed (speed);		
+
 						curState = HeroState.JUMP;
 				}
 
@@ -156,11 +175,11 @@ public class Hero_BaseMovement : MonoBehaviour
 										curState = HeroState.STAND;
 
 								}
-								if (curState == HeroState.JUMP) {
-										if (transform.position.y < jumpHeight.y - 0.001) {
+				if (curState == HeroState.JUMP || curState == HeroState.WHIP) {
+					if (transform.position.y < jumpHeight.y - 0.001) {
 												anim.SetTrigger ("Landing");
 										}
-										curState = HeroState.STAND;
+										lastState = curState = HeroState.STAND;
 
 								}
 				
