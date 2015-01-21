@@ -10,7 +10,7 @@ public class Hero_BaseMovement : MonoBehaviour
 		public Vector3 fallSpeed = new Vector3 (0, -6f, 0);
 		private Gravity g;
 		private Vector3 jumpHeight = Vector3.zero;
-
+	private bool lastStairState;
 		public enum HeroState
 		{
 				STAND,
@@ -20,7 +20,8 @@ public class Hero_BaseMovement : MonoBehaviour
 				THROW,
 				WHIP,
 				FALLING,
-				HIT
+				HIT,
+				OUTSTAIR
 		}
 		public HeroState curState = HeroState.STAND;
 		HeroState lastState;
@@ -33,19 +34,25 @@ public class Hero_BaseMovement : MonoBehaviour
 		void Start ()
 		{
 				anim = GetComponent<Animator> ();
-				g = GetComponent<Gravity> ();		
+				g = GetComponent<Gravity> ();
+		lastStairState =  GetComponent<Hero> ().isStairMode;
 		}
 	
 		// Update is called once per frame
 		void FixedUpdate ()
 		{
 			
-				bool isOnStair = GetComponent<Hero> ().isStairMode;
-				if (isOnStair) {
-						return;		
-				}
-
-				if (curState == HeroState.STAND) {
+		bool isOnStair = GetComponent<Hero> ().isStairMode;
+		if (isOnStair) {
+			lastStairState = isOnStair;
+			return;		
+		}
+		if (!isOnStair && lastStairState) {
+			lastStairState = isOnStair;
+			curState = HeroState.OUTSTAIR;
+		}
+		
+		if (curState == HeroState.STAND) {
 						jump ();
 						walk ();
 						squat ();
@@ -176,9 +183,14 @@ public class Hero_BaseMovement : MonoBehaviour
 		
 		bool isOnStair = GetComponent<Hero> ().isStairMode;
 		if (isOnStair) {
+			lastStairState = isOnStair;
 			return;		
 		}
-				g.gTrigger (other);
+		if (!isOnStair && lastStairState) {
+			lastStairState = isOnStair;
+			curState = HeroState.OUTSTAIR;
+		}
+		g.gTrigger (other);
 				if (other.tag == "Ground") {
 						if (other.transform.position.y < transform.position.y) {
 								if (curState == HeroState.FALLING) {
@@ -186,7 +198,11 @@ public class Hero_BaseMovement : MonoBehaviour
 										curState = HeroState.STAND;
 
 								}
-								if (curState == HeroState.JUMP || curState == HeroState.WHIP) {
+					if (curState == HeroState.OUTSTAIR) {
+						curState = HeroState.STAND;
+						
+					}
+				if (curState == HeroState.JUMP || curState == HeroState.WHIP) {
 										lastState = curState = HeroState.STAND;
 										if (transform.position.y < jumpHeight.y - 0.001) {
 												anim.SetTrigger ("Landing");
@@ -203,7 +219,12 @@ public class Hero_BaseMovement : MonoBehaviour
 		
 		bool isOnStair = GetComponent<Hero> ().isStairMode;
 		if (isOnStair) {
+			lastStairState = isOnStair;
 			return;		
+		}
+		if (!isOnStair && lastStairState) {
+			lastStairState = isOnStair;
+			curState = HeroState.OUTSTAIR;
 		}
 				if (other.tag == "Bottom") {
 						g.speed.x = 0;
@@ -215,10 +236,15 @@ public class Hero_BaseMovement : MonoBehaviour
 		
 		bool isOnStair = GetComponent<Hero> ().isStairMode;
 		if (isOnStair) {
+			lastStairState = isOnStair;
 			return;		
 		}
-	
-				if (other.tag == "Ground") {
+		if (!isOnStair && lastStairState) {
+			lastStairState = isOnStair;
+			curState = HeroState.OUTSTAIR;
+		}
+		
+		if (other.tag == "Ground") {
 						if (g.speed.y == 0 && other.transform.position.y < transform.position.y) {
 								anim.SetBool ("Walk", false);
 								curState = HeroState.FALLING;
