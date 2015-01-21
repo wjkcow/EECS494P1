@@ -5,15 +5,12 @@ public class Gravity : MonoBehaviour {
 
 	public Vector3 g = new Vector3(0,-6f,0);
 	public bool still  	 = false;
+	public bool landByYourself = false;
 	public Vector3 speed = Vector3.zero;
 	public Vector3 acc = Vector3.zero;
+	public float landDelta = 0.0105f;
 
-	public void setStill(){
-		still = true;
-	}
-	public void resetStill(){
-		still = false;
-	}
+	
 	// Use this for in =itialization
 	void Start () {
 	
@@ -24,9 +21,11 @@ public class Gravity : MonoBehaviour {
 	}
 
 	public void setAcc(Vector3 newAcc){
+
 		this.acc = newAcc;
 	}
 	public void setSpeed(Vector3 newSpeed){
+
 		this.speed = newSpeed;
 		FixedUpdate ();
 	}
@@ -48,21 +47,28 @@ public class Gravity : MonoBehaviour {
 		OnTriggerEnter2D (other);
 	}
 	void OnTriggerEnter2D(Collider2D other){
-		print (other.name);
-		Hero h = GetComponent<Hero> ();
+		if (still|| landByYourself)
+			return;
+
 		if (other.tag == "Ground") {
-			print ("hit ground");
-			if(other.transform.position.y < transform.position.y && !h.isStairMode){
+//			print ("hit ground" + other.transform.position.y);
+//			print (transform.position.y);
+			if(other.transform.position.y < transform.position.y  + 0.07){
 				speed = new Vector3(0,0,0);
 				acc = -1 * g;
+				Vector3 pos = transform.position;
+				pos.y = other.transform.position.y + landDelta; // measured
+				transform.position = pos;
 			}
 		} 
 	}
 
 	void OnTriggerExit2D(Collider2D other){
-		Hero h = GetComponent<Hero> ();
+		if (still || landByYourself) {
+			return;
+		}
 		if (other.tag == "Ground") {
-			if(other.transform.position.y < transform.position.y && !h.isStairMode){
+			if(other.transform.position.y < transform.position.y){
 				acc =  Vector3.zero;
 			}
 		} 
