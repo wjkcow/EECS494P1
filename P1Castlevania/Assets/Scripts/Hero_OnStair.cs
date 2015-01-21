@@ -9,7 +9,6 @@ public class Hero_OnStair : MonoBehaviour {
 	public bool upStairR = false;
 	public bool onStair = false;
 	public bool onCheckPoint = false;
-	public bool keepWalking = false;
 	public bool leaveStair = false;
 	public Collider2D startChecker;
 	public bool onTheWayToStair = false;
@@ -39,7 +38,7 @@ public class Hero_OnStair : MonoBehaviour {
 			if (getReadyToGoStairs()){
 				onStair = true;
 				onTheWayToStair = false;
-				keepWalking = true;
+				onCheckPoint = false;
 				print ("ready");
 				if (up) g.setSpeed(stairDir);
 				else g.setSpeed(-1 * stairDir);
@@ -64,53 +63,58 @@ public class Hero_OnStair : MonoBehaviour {
 				g.setAcc(Vector3.zero);
 				onCheckPoint = false;
 				leaveStair = false;
-				keepWalking = false;
 				g.setSpeed (new Vector3 (0, 0, 0));
 				h.isStairMode = false;
 				anim.SetTrigger("BackToIdle");
-			} else if (playFirstAnim() && !keepWalking){
-				if (goingUp){
-					setFaceLeft(leftStair);
-					anim.SetTrigger("Up_stair");
-					g.setSpeed(stairDir);
-				}
-				else {
-					setFaceLeft(!leftStair);
-					anim.SetTrigger("Down_stair");
-					g.setSpeed(-1 * stairDir);
-				}
-				onCheckPoint = false;
-			}
-			else if (hasInput()){
-				if (goingUp){
-					setFaceLeft(leftStair);
-					if (throughCheckPoint())
+			} else if (onCheckPoint){
+				if (playFirstAnim()){
+					if (goingUp){
+						setFaceLeft(leftStair);
+						print ("go up stair");
 						anim.SetTrigger("Up_stair");
-					g.setSpeed(stairDir);
-				}
-				else {
-					setFaceLeft(!leftStair);
-					if (throughCheckPoint())
+						g.setSpeed(stairDir);
+					}
+					else {
+						setFaceLeft(!leftStair);
+						print ("go down stair");
 						anim.SetTrigger("Down_stair");
-					g.setSpeed(-1 * stairDir);
+						g.setSpeed(-1 * stairDir);
+					}
+					onCheckPoint = false;
 				}
-				onCheckPoint = false;
-				keepWalking = true;
-			} else {
-				if (onCheckPoint){
-					g.setSpeed (new Vector3 (0, 0, 0));
-					keepWalking = false;
-				}
-				if (onCheckPoint == false){
-					print ("finding next point");
-					keepWalking = true;
-					float dis = nextPos.transform.position.x - transform.position.x;
-					if (Mathf.Abs(dis) < 0.005f){
-						Vector3 temp = transform.position;
-						temp = temp + dis * stairDir.normalized;
-						transform.position = temp;
-						onCheckPoint = true;
-						curStair = nextPos;
+			}
+			else if (!onCheckPoint){
+				if (hasInput()){
+					if (goingUp){
+						setFaceLeft(leftStair);
+						if (throughCheckPoint()){
+							print ("go up stair");
+							anim.SetTrigger("Up_stair");
+						}
+						g.setSpeed(stairDir);
+					}
+					else {
+						setFaceLeft(!leftStair);
+						if (throughCheckPoint()){
+							print ("go down stair");
+							anim.SetTrigger("Down_stair");
+						}
+						g.setSpeed(-1 * stairDir);
+					}
+					onCheckPoint = false;
+				} 
+				else {
+					if (!onCheckPoint){
+						float dis = nextPos.transform.position.x - transform.position.x;
+						if (Mathf.Abs(dis) < 0.005f){
+							Vector3 temp = transform.position;
+							temp = temp + dis * stairDir.normalized;
+							transform.position = temp;
+							onCheckPoint = true;
+							curStair = nextPos;
+							print ("get to checkPoihnter");
+							g.setSpeed (new Vector3 (0, 0, 0));
+						}
 					}
 				}
 			}
@@ -209,20 +213,27 @@ public class Hero_OnStair : MonoBehaviour {
 	}	
 
 	bool hasInput(){
+		bool localUp = goingUp;
+		bool localLeft = goingLeft;
 		if (Input.GetKey (KeyCode.DownArrow)) {
-			goingUp = false;
-			goingLeft = !leftStair;
+			localUp = false;
+			localLeft = !leftStair;
 		} else if (Input.GetKey (KeyCode.UpArrow)) {
-			goingUp = true;
-			goingLeft = leftStair;
+			localUp = true;
+			localLeft = leftStair;
 		} else if (Input.GetKey (KeyCode.RightArrow)) {
-			goingUp = !leftStair;
-			goingLeft = false;
+			localUp = !leftStair;
+			localLeft = false;
 		} else if (Input.GetKey (KeyCode.LeftArrow)) {
-			goingUp = leftStair;
-			goingLeft = true;
+			localUp = leftStair;
+			localLeft = true;
 		} else 
-			return false;
+			return false; 
+
+		if (localUp != goingUp || localLeft != goingLeft) {
+			print ("cannot change dir");
+			return false;		
+		}
 		return true;
 	}
 	
@@ -267,8 +278,10 @@ public class Hero_OnStair : MonoBehaviour {
 
 	bool throughCheckPoint(){
 		foreach (GameObject g in sInfo.stairs){
-			if (Mathf.Abs(g.transform.position.x - transform.position.x) < 0.002f)
-				return true;
+			if (Mathf.Abs(g.transform.position.x - transform.position.x) < 0.0015f){
+				if (g != curStair)
+					return true;
+			}
 		}
 		return false;
 	}
@@ -297,16 +310,16 @@ public class Hero_OnStair : MonoBehaviour {
 	}
 
 	bool playFirstAnim(){
-		if (Input.GetKeyDown (KeyCode.DownArrow)) {
+		if (Input.GetKey (KeyCode.DownArrow)) {
 			goingUp = false;
 			goingLeft = !leftStair;
-		} else if (Input.GetKeyDown (KeyCode.UpArrow)) {
+		} else if (Input.GetKey (KeyCode.UpArrow)) {
 			goingUp = true;
 			goingLeft = leftStair;
-		} else if (Input.GetKeyDown (KeyCode.RightArrow)) {
+		} else if (Input.GetKey (KeyCode.RightArrow)) {
 			goingUp = !leftStair;
 			goingLeft = false;
-		} else if (Input.GetKeyDown (KeyCode.LeftArrow)) {
+		} else if (Input.GetKey (KeyCode.LeftArrow)) {
 			goingUp = leftStair;
 			goingLeft = true;
 		} else
