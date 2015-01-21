@@ -17,7 +17,6 @@ public class Hero_OnStair : MonoBehaviour {
 	public Vector3 stairDir;
 	public bool up = false;
 	private Animator anim;
-	private bool facingLeft = true;
 	public bool leftStair = true;
 	public bool goingUp = true;
 	public bool goingLeft = true;
@@ -286,20 +285,11 @@ public class Hero_OnStair : MonoBehaviour {
 		return false;
 	}
 
-	void setFaceLeft(bool left){
-		if (left) {
-			if (!facingLeft) {
-				flip();
-				facingLeft = true;
-			}	
-		} else { 
-			if(facingLeft){
-				flip();
-				facingLeft = false;
-			}
-			
-		}
+	void setFaceLeft (bool left)
+	{
+		GetComponent<Hero> ().setFaceLeft (left);
 	}
+
 
 	bool getToEnd (){
 		foreach (GameObject g in sInfo.startPos){
@@ -327,9 +317,5 @@ public class Hero_OnStair : MonoBehaviour {
 		return true;
 	}
 
-	void flip(){
-		Vector3 theScale = transform.localScale;
-		theScale.x *= -1;
-		transform.localScale = theScale;
-	}
+
 }

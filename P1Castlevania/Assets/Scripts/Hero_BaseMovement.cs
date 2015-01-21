@@ -4,13 +4,13 @@ using System.Collections;
 public class Hero_BaseMovement : MonoBehaviour
 {
 		private Animator anim;
-		private bool facingLeft = true;
 		public Vector3 jumpSpeed = new Vector3 (0, 1.75f, 0);
 		public Vector3 jumpRightSpeed = new Vector3 (0.75f, 0, 0);
 		public Vector3 rightSpeed = new Vector3 (0.015f, 0, 0);
 		public Vector3 fallSpeed = new Vector3 (0, -6f, 0);
 		private Gravity g;
 		private Vector3 jumpHeight = Vector3.zero;
+
 		enum HeroState
 		{
 				STAND,
@@ -39,6 +39,7 @@ public class Hero_BaseMovement : MonoBehaviour
 		// Update is called once per frame
 		void FixedUpdate ()
 		{
+			
 				bool isOnStair = GetComponent<Hero> ().isStairMode;
 				if (isOnStair) {
 						return;		
@@ -172,6 +173,11 @@ public class Hero_BaseMovement : MonoBehaviour
 
 		void OnTriggerEnter2D (Collider2D other)
 		{
+		
+		bool isOnStair = GetComponent<Hero> ().isStairMode;
+		if (isOnStair) {
+			return;		
+		}
 				g.gTrigger (other);
 				if (other.tag == "Ground") {
 						if (other.transform.position.y < transform.position.y) {
@@ -194,6 +200,11 @@ public class Hero_BaseMovement : MonoBehaviour
 
 		void OnTriggerStay2D (Collider2D other)
 		{
+		
+		bool isOnStair = GetComponent<Hero> ().isStairMode;
+		if (isOnStair) {
+			return;		
+		}
 				if (other.tag == "Bottom") {
 						g.speed.x = 0;
 				}
@@ -201,6 +212,11 @@ public class Hero_BaseMovement : MonoBehaviour
 
 		void OnTriggerExit2D (Collider2D other)
 		{
+		
+		bool isOnStair = GetComponent<Hero> ().isStairMode;
+		if (isOnStair) {
+			return;		
+		}
 				print ("e" + curState);
 				print (jumpHeight.y);
 				print (transform.position.y);
@@ -217,24 +233,8 @@ public class Hero_BaseMovement : MonoBehaviour
 
 		void setFaceLeft (bool left)
 		{
-				if (left) {
-						if (!facingLeft) {
-								flip ();
-								facingLeft = true;
-						}	
-				} else { 
-						if (facingLeft) {
-								flip ();
-								facingLeft = false;
-						}
-			
-				}
+			GetComponent<Hero> ().setFaceLeft (left);
 		}
 
-		void flip ()
-		{
-				Vector3 theScale = transform.localScale;
-				theScale.x *= -1;
-				transform.localScale = theScale;
-		}
+
 }
