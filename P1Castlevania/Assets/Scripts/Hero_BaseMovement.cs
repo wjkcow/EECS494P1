@@ -11,7 +11,7 @@ public class Hero_BaseMovement : MonoBehaviour
 		private Gravity g;
 		private Vector3 jumpHeight = Vector3.zero;
 
-		enum HeroState
+		public enum HeroState
 		{
 				STAND,
 				WALK,
@@ -22,7 +22,7 @@ public class Hero_BaseMovement : MonoBehaviour
 				FALLING,
 				HIT
 		}
-		HeroState curState = HeroState.STAND;
+		public HeroState curState = HeroState.STAND;
 		HeroState lastState;
 
 		public void toLastState ()

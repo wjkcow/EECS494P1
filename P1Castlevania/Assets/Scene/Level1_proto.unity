@@ -2014,6 +2014,7 @@ MonoBehaviour:
   jumpRightSpeed: {x: .75, y: 0, z: 0}
   rightSpeed: {x: .0149999997, y: 0, z: 0}
   fallSpeed: {x: 0, y: -4, z: 0}
+  curState: 0
 --- !u!95 &1011661160
 Animator:
   serializedVersion: 3
