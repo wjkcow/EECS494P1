@@ -217,9 +217,7 @@ public class Hero_BaseMovement : MonoBehaviour
 		if (isOnStair) {
 			return;		
 		}
-				print ("e" + curState);
-				print (jumpHeight.y);
-				print (transform.position.y);
+	
 				if (other.tag == "Ground") {
 						if (g.speed.y == 0 && other.transform.position.y < transform.position.y) {
 								anim.SetBool ("Walk", false);

@@ -11,7 +11,6 @@ public class Hero_OnStair : MonoBehaviour {
 	public bool onCheckPoint = false;
 	public bool leaveStair = false;
 	public Collider2D startChecker;
-	public bool canGoStair = false;
 	public bool onTheWayToStair = false;
 	public float dis = 0f;
 	public Vector3 target;
@@ -42,21 +41,24 @@ public class Hero_OnStair : MonoBehaviour {
 				print ("ready");
 				if (up) g.setSpeed(stairDir);
 				else g.setSpeed(-1 * stairDir);
-				setFaceLeft(leftStair);
+
 				if (up){
 					anim.SetTrigger("Up_stair");
 					goingUp = true;
 					goingLeft = leftStair;
+					setFaceLeft(leftStair);
 				}
 				else {
 					goingUp = false;
 					goingLeft = !leftStair;
+					setFaceLeft(!leftStair);
 					anim.SetTrigger("Down_stair");
 				}
 			}
 		}
 		else if (onStair) {
 			g.setAcc(-1 * g.g);
+			g.landByYourself = true;
 			if (leaveStair){
 				onStair = false;
 				print ("back to ground");
@@ -66,6 +68,7 @@ public class Hero_OnStair : MonoBehaviour {
 				g.setSpeed (new Vector3 (0, 0, 0));
 				h.isStairMode = false;
 				anim.SetTrigger("BackToIdle");
+				g.landByYourself = false;
 			} else if (onCheckPoint){
 				if (playFirstAnim()){
 					if (goingUp){
@@ -118,7 +121,8 @@ public class Hero_OnStair : MonoBehaviour {
 					}
 				}
 			}
-		} else if (canGoStair){
+		} else if (startChecker){
+
 			if (Input.GetKeyDown (KeyCode.UpArrow)) {
 				up = true;
 				if (upStairL){
@@ -183,14 +187,14 @@ public class Hero_OnStair : MonoBehaviour {
 				}
 				startChecker = other;
 				sInfo = other.transform.parent.gameObject.transform.GetComponent<stairInfo>();
-				canGoStair = true;
 			}
 		}
-		canGoStair = false;
 	}
 	
 	void OnTriggerExit2D(Collider2D other){
-		
+		if (other == startChecker) {
+			startChecker = null;		
+		}
 	}
 	
 	public bool getReadyToGoStairs (){
