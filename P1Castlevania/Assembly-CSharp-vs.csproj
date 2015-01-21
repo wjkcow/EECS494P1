@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Hero_Attack.cs" />
+     <Compile Include="Assets\Item.cs" />
      <Compile Include="Assets\Item_Swing.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Gravity.cs" />
@@ -54,8 +56,8 @@
      <Compile Include="Assets\Scripts\Hero_BaseMovement.cs" />
      <Compile Include="Assets\Scripts\Hero_OnStair.cs" />
      <Compile Include="Assets\Scripts\Hero_backup.cs" />
-     <Compile Include="Assets\Scripts\script.cs" />
      <Compile Include="Assets\Scripts\stairInfo.cs" />
+     <Compile Include="Assets\Whip.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>

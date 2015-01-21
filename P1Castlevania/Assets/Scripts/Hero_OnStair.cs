@@ -33,6 +33,7 @@ public class Hero_OnStair : MonoBehaviour {
 		Hero h = GetComponent<Hero> ();
 		Gravity g = GetComponent<Gravity> ();
 		nextPos = nextCheckPoint();
+
 		if (onTheWayToStair) {
 			if (getReadyToGoStairs()){
 				onStair = true;
@@ -108,6 +109,9 @@ public class Hero_OnStair : MonoBehaviour {
 				} 
 				else {
 					if (!onCheckPoint){
+						if(!nextPos){
+							return;
+						}
 						float dis = nextPos.transform.position.x - transform.position.x;
 						if (Mathf.Abs(dis) < 0.005f){
 							Vector3 temp = transform.position;
@@ -251,6 +255,9 @@ public class Hero_OnStair : MonoBehaviour {
 	} 
 
 	GameObject nextCheckPoint(){
+		if(!sInfo){
+			return null;
+		}
 		if (goingLeft){
 			if (!leftStair){
 				for (int i = sInfo.stairs.Length; i --> 0; ){
@@ -259,6 +266,7 @@ public class Hero_OnStair : MonoBehaviour {
 						return g;
 				}
 			} else {
+
 				foreach (GameObject g in sInfo.stairs ){
 					if (g.transform.position.x < transform.position.x)
 						return g;

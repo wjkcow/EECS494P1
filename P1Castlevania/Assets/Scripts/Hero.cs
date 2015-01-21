@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Hero : MonoBehaviour {
 	public bool isStairMode = false;
-	private bool facingLeft = true;
+	public bool facingLeft = true;
 
 	// Use this for initialization
 	void Start () {
