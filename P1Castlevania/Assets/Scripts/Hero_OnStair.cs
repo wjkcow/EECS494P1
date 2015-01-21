@@ -19,9 +19,9 @@ public class Hero_OnStair : MonoBehaviour {
 	public bool up = false;
 	private Animator anim;
 	private bool facingLeft = true;
-	private bool leftStair = true;
-	private bool goingUp = true;
-	private bool goingLeft = true;
+	public bool leftStair = true;
+	public bool goingUp = true;
+	public bool goingLeft = true;
 	public stairInfo sInfo;
 	public GameObject curStair;
 	public GameObject nextPos;
@@ -44,10 +44,16 @@ public class Hero_OnStair : MonoBehaviour {
 				if (up) g.setSpeed(stairDir);
 				else g.setSpeed(-1 * stairDir);
 				setFaceLeft(leftStair);
-				if (up)
+				if (up){
 					anim.SetTrigger("Up_stair");
-				else
+					goingUp = true;
+					goingLeft = leftStair;
+				}
+				else {
+					goingUp = false;
+					goingLeft = !leftStair;
 					anim.SetTrigger("Down_stair");
+				}
 			}
 		}
 		else if (onStair) {
@@ -90,11 +96,6 @@ public class Hero_OnStair : MonoBehaviour {
 				}
 				onCheckPoint = false;
 				keepWalking = true;
-			} else if (nextPos == null){
-				print ("null stair");
-				if (getToEnd()){
-					leaveStair = true;
-				}
 			} else {
 				if (onCheckPoint){
 					g.setSpeed (new Vector3 (0, 0, 0));
@@ -210,10 +211,10 @@ public class Hero_OnStair : MonoBehaviour {
 	bool hasInput(){
 		if (Input.GetKey (KeyCode.DownArrow)) {
 			goingUp = false;
-			goingLeft = leftStair;
+			goingLeft = !leftStair;
 		} else if (Input.GetKey (KeyCode.UpArrow)) {
 			goingUp = true;
-			goingLeft = !leftStair;
+			goingLeft = leftStair;
 		} else if (Input.GetKey (KeyCode.RightArrow)) {
 			goingUp = !leftStair;
 			goingLeft = false;
@@ -234,28 +235,28 @@ public class Hero_OnStair : MonoBehaviour {
 
 	GameObject nextCheckPoint(){
 		if (goingLeft){
-			if (leftStair){
-				foreach (GameObject g in sInfo.stairs){
+			if (!leftStair){
+				for (int i = sInfo.stairs.Length; i --> 0; ){
+					GameObject g = sInfo.stairs[i];
 					if (g.transform.position.x < transform.position.x)
 						return g;
 				}
 			} else {
-				for (int i = sInfo.stairs.Length; i --> 0; ){
-					GameObject g = sInfo.stairs[i];
+				foreach (GameObject g in sInfo.stairs ){
 					if (g.transform.position.x < transform.position.x)
 						return g;
 				}
 			}
 		}
-		else {
-			if (!leftStair){
-				foreach (GameObject g in sInfo.stairs){
+		else if(!goingLeft){
+			if (leftStair){
+				for (int i = sInfo.stairs.Length; i --> 0; ){
+					GameObject g = sInfo.stairs[i];
 					if (g.transform.position.x > transform.position.x)
 						return g;
 				}
 			} else {
-				for (int i = sInfo.stairs.Length; i --> 0; ){
-					GameObject g = sInfo.stairs[i];
+				foreach (GameObject g in sInfo.stairs ){
 					if (g.transform.position.x > transform.position.x)
 						return g;
 				}
@@ -289,7 +290,7 @@ public class Hero_OnStair : MonoBehaviour {
 
 	bool getToEnd (){
 		foreach (GameObject g in sInfo.startPos){
-			if (Mathf.Abs(g.transform.position.x - transform.position.x) < 0.002f)
+			if (Mathf.Abs(g.transform.position.x - transform.position.x) < 0.01f)
 				return true;
 		}
 		return false;
@@ -298,10 +299,10 @@ public class Hero_OnStair : MonoBehaviour {
 	bool playFirstAnim(){
 		if (Input.GetKeyDown (KeyCode.DownArrow)) {
 			goingUp = false;
-			goingLeft = leftStair;
+			goingLeft = !leftStair;
 		} else if (Input.GetKeyDown (KeyCode.UpArrow)) {
 			goingUp = true;
-			goingLeft = !leftStair;
+			goingLeft = leftStair;
 		} else if (Input.GetKeyDown (KeyCode.RightArrow)) {
 			goingUp = !leftStair;
 			goingLeft = false;
