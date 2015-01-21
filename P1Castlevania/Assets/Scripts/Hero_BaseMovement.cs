@@ -184,11 +184,7 @@ public class Hero_BaseMovement : MonoBehaviour
 										lastState = curState = HeroState.STAND;
 										if (transform.position.y < jumpHeight.y - 0.001) {
 												anim.SetTrigger ("Landing");
-					} else {
-						anim.SetTrigger("Idle");
-
-					}
-
+										}
 								}
 				
 						}
@@ -209,14 +205,8 @@ public class Hero_BaseMovement : MonoBehaviour
 				print (jumpHeight.y);
 				print (transform.position.y);
 				if (other.tag == "Ground") {
-						if (g.speed.y == 0 && other.transform.position.y < transform.position.y && 
-			    curState != HeroState.STAND) {
-//			    && jumpHeight.y >= transform.position.y) {
-								if (curState == HeroState.JUMP && jumpHeight.y >= transform.position.y) {
-										curState = HeroState.FALLING;
-										return;
-								}
-								print ("boost" + curState);
+						if (g.speed.y == 0 && other.transform.position.y < transform.position.y) {
+								anim.SetBool ("Walk", false);
 								curState = HeroState.FALLING;
 								g.setSpeed (fallSpeed);
 						}
