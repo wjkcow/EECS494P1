@@ -11,6 +11,7 @@ public class Hero_OnStair : MonoBehaviour {
 	public bool onCheckPoint = false;
 	public bool leaveStair = false;
 	public Collider2D startChecker;
+	public bool canGoStair = false;
 	public bool onTheWayToStair = false;
 	public float dis = 0f;
 	public Vector3 target;
@@ -117,7 +118,7 @@ public class Hero_OnStair : MonoBehaviour {
 					}
 				}
 			}
-		} else {
+		} else if (canGoStair){
 			if (Input.GetKeyDown (KeyCode.UpArrow)) {
 				up = true;
 				if (upStairL){
@@ -182,8 +183,10 @@ public class Hero_OnStair : MonoBehaviour {
 				}
 				startChecker = other;
 				sInfo = other.transform.parent.gameObject.transform.GetComponent<stairInfo>();
+				canGoStair = true;
 			}
 		}
+		canGoStair = false;
 	}
 	
 	void OnTriggerExit2D(Collider2D other){

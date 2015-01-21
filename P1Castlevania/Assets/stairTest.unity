@@ -680,14 +680,14 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 537611220}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 03e99d8ec05c94b07bfc6de23b450cb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   jumpSpeed: {x: 0, y: 1.75, z: 0}
   jumpRightSpeed: {x: 0, y: 0, z: 0}
-  rightSpeed: {x: .800000012, y: 0, z: 0}
+  rightSpeed: {x: .0149999997, y: 0, z: 0}
   fallSpeed: {x: 0, y: -6, z: 0}
 --- !u!114 &537611222
 MonoBehaviour:
@@ -750,8 +750,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   g: {x: 0, y: -5, z: 0}
   still: 0
+  landByYourself: 0
   speed: {x: 0, y: 0, z: 0}
   acc: {x: 0, y: 0, z: 0}
+  landDelta: .0104999999
 --- !u!61 &537611225
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -823,7 +825,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 537611220}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.02799988, y: -.713999987, z: 0}
+  m_LocalPosition: {x: -.875, y: -.713999987, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1131,6 +1133,7 @@ GameObject:
   - 92: {fileID: 769785909}
   - 124: {fileID: 769785908}
   - 81: {fileID: 769785907}
+  - 114: {fileID: 769785912}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1198,11 +1201,24 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 769785906}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.55299997, y: 0, z: -10}
+  m_LocalPosition: {x: .354000002, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!114 &769785912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 769785906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7048863b05d3a4a0fb6f68b57dd79209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dampTime: .150000006
+  target: {fileID: 537611229}
 --- !u!1 &819635686
 GameObject:
   m_ObjectHideFlags: 0
