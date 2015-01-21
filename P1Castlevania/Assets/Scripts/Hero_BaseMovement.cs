@@ -24,8 +24,10 @@ public class Hero_BaseMovement : MonoBehaviour
 		}
 		HeroState curState = HeroState.STAND;
 		HeroState lastState;
-		public void toLastState(){
-			curState = lastState;
+
+		public void toLastState ()
+		{
+				curState = lastState;
 		}
 		// Use this for initialization
 		void Start ()
@@ -63,20 +65,22 @@ public class Hero_BaseMovement : MonoBehaviour
 		
 		}
 
-	void whip(){
-		if (curState == HeroState.STAND || curState == HeroState.WALK || 
-		    curState == HeroState.JUMP || curState == HeroState.SQUAT) {
-			if(Input.GetKeyDown(KeyCode.S)){
-				anim.SetBool ("Walk", false);
-				anim.SetTrigger("Whip");
-				lastState = curState;
-				curState = HeroState.WHIP;
+		void whip ()
+		{
+				if (curState == HeroState.STAND || curState == HeroState.WALK || 
+						curState == HeroState.JUMP || curState == HeroState.SQUAT) {
+						if (Input.GetKeyDown (KeyCode.S)) {
+								anim.SetBool ("Walk", false);
+								anim.SetTrigger ("Whip");
+								lastState = curState;
+								curState = HeroState.WHIP;
 
-			}
+						}
 
-		}
+				}
 	
-	}
+		}
+
 		void face ()
 		{
 				if (Input.GetKeyDown (KeyCode.LeftArrow)) {
@@ -91,9 +95,9 @@ public class Hero_BaseMovement : MonoBehaviour
 		void squat ()
 		{
 				if (Input.GetKeyDown (KeyCode.DownArrow)) {
-			anim.SetBool ("Walk", false);
+						anim.SetBool ("Walk", false);
 
-			anim.SetBool ("Squat", true);
+						anim.SetBool ("Squat", true);
 						curState = HeroState.SQUAT;
 				} //else if (Input.GetKeyUp (KeyCode.DownArrow)) {
 //						anim.SetBool ("Squat", false);
@@ -124,7 +128,7 @@ public class Hero_BaseMovement : MonoBehaviour
 		}
 
 		void walk ()
-		{
+		{	
 				if (Input.GetKey (KeyCode.LeftArrow)) {
 						setFaceLeft (true);
 						anim.SetBool ("Walk", true);
@@ -144,7 +148,7 @@ public class Hero_BaseMovement : MonoBehaviour
 	
 		void jump ()
 		{
-		if (Input.GetKeyDown (KeyCode.Space ) || Input.GetKeyDown (KeyCode.A )) {
+				if (Input.GetKeyDown (KeyCode.Space) || Input.GetKeyDown (KeyCode.A)) {
 						anim.SetBool ("Walk", false);
 						jumpHeight = transform.position;
 						anim.SetTrigger ("Jump"); 
@@ -168,6 +172,7 @@ public class Hero_BaseMovement : MonoBehaviour
 
 		void OnTriggerEnter2D (Collider2D other)
 		{
+				g.gTrigger (other);
 				if (other.tag == "Ground") {
 						if (other.transform.position.y < transform.position.y) {
 								if (curState == HeroState.FALLING) {
@@ -175,11 +180,14 @@ public class Hero_BaseMovement : MonoBehaviour
 										curState = HeroState.STAND;
 
 								}
-				if (curState == HeroState.JUMP || curState == HeroState.WHIP) {
-					if (transform.position.y < jumpHeight.y - 0.001) {
-												anim.SetTrigger ("Landing");
-										}
+								if (curState == HeroState.JUMP || curState == HeroState.WHIP) {
 										lastState = curState = HeroState.STAND;
+										if (transform.position.y < jumpHeight.y - 0.001) {
+												anim.SetTrigger ("Landing");
+					} else {
+						anim.SetTrigger("Idle");
+
+					}
 
 								}
 				
@@ -197,10 +205,18 @@ public class Hero_BaseMovement : MonoBehaviour
 
 		void OnTriggerExit2D (Collider2D other)
 		{
-			if (other.tag == "Ground") {
-			if (g.speed.y <= 0 && other.transform.position.y < transform.position.y
-			    && jumpHeight.y >= transform.position.y) {
-
+				print ("e" + curState);
+				print (jumpHeight.y);
+				print (transform.position.y);
+				if (other.tag == "Ground") {
+						if (g.speed.y == 0 && other.transform.position.y < transform.position.y && 
+			    curState != HeroState.STAND) {
+//			    && jumpHeight.y >= transform.position.y) {
+								if (curState == HeroState.JUMP && jumpHeight.y >= transform.position.y) {
+										curState = HeroState.FALLING;
+										return;
+								}
+								print ("boost" + curState);
 								curState = HeroState.FALLING;
 								g.setSpeed (fallSpeed);
 						}

@@ -52,10 +52,13 @@ public class Gravity : MonoBehaviour
 		
 		}
 
-		void OnTriggerStay2D (Collider2D other)
-		{
-				OnTriggerEnter2D (other);
-		}
+	public void gTrigger(Collider2D other){
+		OnTriggerEnter2D (other);
+	}
+//		void OnTriggerStay2D (Collider2D other)
+//		{
+//				OnTriggerEnter2D (other);
+//		}
 
 		void OnTriggerEnter2D (Collider2D other)
 		{
@@ -63,9 +66,8 @@ public class Gravity : MonoBehaviour
 						return;
 
 				if (other.tag == "Ground") {
-//			print ("hit ground" + other.transform.position.y);
-//			print (transform.position.y);
 						if (other.transform.position.y < transform.position.y + 0.07) {
+				print ("gravity lading");
 								speed = new Vector3 (0, 0, 0);
 								acc = -1 * g;
 								Vector3 pos = transform.position;
