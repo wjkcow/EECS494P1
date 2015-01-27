@@ -14,6 +14,9 @@ public class Ghost : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (!GetComponent<Enemy> ().start) {
+			return;		
+		}
 		if (walk_left) {
 						transform.position = transform.position - rightSpeed;
 				} else {
@@ -21,14 +24,7 @@ public class Ghost : MonoBehaviour {
 		}
 	
 	}
-
-	void Die(){
-		Destroy (this.gameObject);
-	}
-	void OnBecameInvisible() {
-		enabled = false;
-		Die ();
-	}
+	
 
 	void flip ()
 	{

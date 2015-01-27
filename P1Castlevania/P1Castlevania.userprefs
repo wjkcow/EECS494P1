@@ -1,30 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Hero_BaseMovement.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Bat_fly.cs">
     <Files>
-      <File FileName="Assets/Scripts/Hero_BaseMovement.cs" Line="158" Column="7" />
-      <File FileName="Assets/Hero_Attack.cs" Line="12" Column="1" />
-      <File FileName="Assets/Scripts/Gravity.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Hero_OnStair.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Hero.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/HeroAnimation.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Hero_BaseMovement.cs" Line="13" Column="31" />
+      <File FileName="Assets/Hero_Attack.cs" Line="15" Column="2" />
       <File FileName="Assets/Whip.cs" Line="1" Column="1" />
-      <File FileName="Assets/Item.cs" Line="1" Column="1" />
-      <File FileName="Assets/Ghost.cs" Line="1" Column="1" />
-      <File FileName="Assets/Enemy.cs" Line="24" Column="10" />
-      <File FileName="Assets/Die_effect_done.cs" Line="1" Column="1" />
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Whip.cs">
-    <Files>
-      <File FileName="Assets/Hero_Attack.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Gravity.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Hero_BaseMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Hero_OnStair.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Hero.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/HeroAnimation.cs" Line="1" Column="1" />
-      <File FileName="Assets/Whip.cs" Line="28" Column="3" />
->>>>>>> af93969df79a66246d92632b5cb9308f68095e64
+      <File FileName="Assets/Bat_fly.cs" Line="17" Column="117" />
+      <File FileName="Assets/Enemy.cs" Line="20" Column="1" />
+      <File FileName="Assets/Ghost.cs" Line="25" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

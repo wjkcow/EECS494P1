@@ -66,8 +66,9 @@ public class Gravity : MonoBehaviour
 						return;
 
 				if (other.tag == "Ground") {
+			//print ("delta" + (transform.position.y - other.transform.position.y ));
 						if (other.transform.position.y < transform.position.y + 0.07) {
-				print ("gravity lading");
+								print ("gravity lading");
 								speed = new Vector3 (0, 0, 0);
 								acc = -1 * g;
 							if(landDelta > 0){
