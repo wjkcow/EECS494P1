@@ -50,6 +50,7 @@
      <Compile Include="Assets\Die_effect_done.cs" />
      <Compile Include="Assets\Enemy.cs" />
      <Compile Include="Assets\Ghost.cs" />
+     <Compile Include="Assets\GlobalV.cs" />
      <Compile Include="Assets\Hero_Attack.cs" />
      <Compile Include="Assets\Hero_hitten.cs" />
      <Compile Include="Assets\Item.cs" />
@@ -64,6 +65,10 @@
      <Compile Include="Assets\Scripts\Hero_backup.cs" />
      <Compile Include="Assets\Scripts\stairInfo.cs" />
      <Compile Include="Assets\Whip.cs" />
+     <Compile Include="Assets\control_camera.cs" />
+     <Compile Include="Assets\nextLevel.cs" />
+     <Compile Include="Assets\wall.cs" />
+     <Compile Include="Assets\wall_v.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
