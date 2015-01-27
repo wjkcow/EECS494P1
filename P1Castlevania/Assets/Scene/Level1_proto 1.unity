@@ -83,7 +83,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 414296, guid: f45b93863e3834364bd6f0226b152461, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -.589999974
+      value: .400000006
       objectReference: {fileID: 0}
     - target: {fileID: 414296, guid: f45b93863e3834364bd6f0226b152461, type: 2}
       propertyPath: m_LocalPosition.y
@@ -113,8 +113,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 11435700, guid: f45b93863e3834364bd6f0226b152461, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f45b93863e3834364bd6f0226b152461, type: 2}
   m_RootGameObject: {fileID: 1011661151}
   m_IsPrefabParent: 0
@@ -1857,9 +1856,10 @@ GameObject:
   - 114: {fileID: 1011661159}
   - 114: {fileID: 1011661162}
   - 114: {fileID: 1011661161}
+  - 114: {fileID: 1011661163}
   m_Layer: 9
   m_Name: Hero
-  m_TagString: Hero
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1909,7 +1909,7 @@ Transform:
   m_PrefabInternal: {fileID: 5969333}
   m_GameObject: {fileID: 1011661151}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.589999974, y: -.800000012, z: 0}
+  m_LocalPosition: {x: .400000006, y: -.800000012, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1190188324}
@@ -2039,12 +2039,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   immune_time: 100
   blink_time: 5
-  up_speed: {x: 0, y: 1.29999995, z: 0}
-  left_speed: {x: -1, y: 0, z: 0}
+  up_speed: {x: 0, y: .300000012, z: 0}
+  left_speed: {x: -1, y: 1, z: 0}
 --- !u!114 &1011661162
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11418650, guid: f45b93863e3834364bd6f0226b152461,
+    type: 2}
+  m_PrefabInternal: {fileID: 5969333}
+  m_GameObject: {fileID: 1011661151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00371a7450bbf4cb582d95ea3d5f2d74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whip: {fileID: 1190188321}
+--- !u!114 &1011661163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11435700, guid: f45b93863e3834364bd6f0226b152461,
     type: 2}
   m_PrefabInternal: {fileID: 5969333}
   m_GameObject: {fileID: 1011661151}

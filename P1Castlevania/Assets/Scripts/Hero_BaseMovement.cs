@@ -10,7 +10,7 @@ public class Hero_BaseMovement : MonoBehaviour
 		public Vector3 fallSpeed = new Vector3 (0, -6f, 0);
 		private Gravity g;
 		private Vector3 jumpHeight = Vector3.zero;
-	private bool lastStairState;
+		private bool lastStairState;
 		public enum HeroState
 		{
 				STAND,
@@ -39,18 +39,30 @@ public class Hero_BaseMovement : MonoBehaviour
 		}
 	
 		// Update is called once per frame
+		bool check(){
+			if (GetComponent<Hero> ().hitten) {
+				anim.SetBool ("Walk", false);
+			anim.SetBool ("Squat", false);
+
+				return true;
+			}
+			bool isOnStair = GetComponent<Hero> ().isStairMode;
+			if (isOnStair) {
+				lastStairState = isOnStair;
+				return true;		
+			}
+			if (!isOnStair && lastStairState) {
+				lastStairState = isOnStair;
+				curState = HeroState.OUTSTAIR;
+			}
+			return false;
+		}
 		void FixedUpdate ()
 		{
-			
-		bool isOnStair = GetComponent<Hero> ().isStairMode;
-		if (isOnStair) {
-			lastStairState = isOnStair;
+		if (check ()) {
 			return;		
 		}
-		if (!isOnStair && lastStairState) {
-			lastStairState = isOnStair;
-			curState = HeroState.OUTSTAIR;
-		}
+
 		
 		if (curState == HeroState.STAND) {
 						jump ();
@@ -142,6 +154,7 @@ public class Hero_BaseMovement : MonoBehaviour
 						anim.SetBool ("Walk", true);
 						//rigidbody2D.MovePosition(transform.position - rightSpeed);
 						transform.position = transform.position - rightSpeed;
+
 						curState = HeroState.WALK;
 				}
 				if (Input.GetKey (KeyCode.RightArrow)) {
@@ -181,16 +194,11 @@ public class Hero_BaseMovement : MonoBehaviour
 		void OnTriggerEnter2D (Collider2D other)
 		{
 		
-		bool isOnStair = GetComponent<Hero> ().isStairMode;
-		if (isOnStair) {
-			lastStairState = isOnStair;
+		if (check ()) {
 			return;		
 		}
-		if (!isOnStair && lastStairState) {
-			lastStairState = isOnStair;
-			curState = HeroState.OUTSTAIR;
-		}
-		g.gTrigger (other);
+
+				g.gTrigger (other);
 				if (other.tag == "Ground") {
 						if (other.transform.position.y < transform.position.y) {
 								if (curState == HeroState.FALLING) {
@@ -217,33 +225,23 @@ public class Hero_BaseMovement : MonoBehaviour
 		void OnTriggerStay2D (Collider2D other)
 		{
 		
-		bool isOnStair = GetComponent<Hero> ().isStairMode;
-		if (isOnStair) {
-			lastStairState = isOnStair;
+		if (check ()) {
 			return;		
 		}
-		if (!isOnStair && lastStairState) {
-			lastStairState = isOnStair;
-			curState = HeroState.OUTSTAIR;
+
+		if (other.tag == "Bottom") {
+			print ("hit bottom");
+			g.speed.x = 0;
 		}
-				if (other.tag == "Bottom") {
-						g.speed.x = 0;
-				}
 		}
 
 		void OnTriggerExit2D (Collider2D other)
 		{
 		
-		bool isOnStair = GetComponent<Hero> ().isStairMode;
-		if (isOnStair) {
-			lastStairState = isOnStair;
+		if (check ()) {
 			return;		
 		}
-		if (!isOnStair && lastStairState) {
-			lastStairState = isOnStair;
-			curState = HeroState.OUTSTAIR;
-		}
-		
+
 		if (other.tag == "Ground") {
 						if (g.speed.y == 0 && other.transform.position.y < transform.position.y) {
 								anim.SetBool ("Walk", false);

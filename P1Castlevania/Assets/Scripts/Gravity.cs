@@ -70,9 +70,11 @@ public class Gravity : MonoBehaviour
 				print ("gravity lading");
 								speed = new Vector3 (0, 0, 0);
 								acc = -1 * g;
+							if(landDelta > 0){
 								Vector3 pos = transform.position;
 								pos.y = other.transform.position.y + landDelta; // measured
 								transform.position = pos;
+							}	
 						}
 				} 
 		}
