@@ -23,6 +23,12 @@ public class Hero_OnStair : MonoBehaviour {
 	public stairInfo sInfo;
 	public GameObject curStair;
 	public GameObject nextPos;
+	private bool startAttack = false;
+	private bool attack = false;
+
+	public void attackDone (){
+		attack = false;
+	}
 
 	void Start(){
 		anim = GetComponent<Animator> ();
@@ -45,6 +51,7 @@ public class Hero_OnStair : MonoBehaviour {
 
 				if (up){
 					anim.SetTrigger("Up_stair");
+					print ("upstair ada s");
 					goingUp = true;
 					goingLeft = leftStair;
 					setFaceLeft(leftStair);
@@ -71,20 +78,31 @@ public class Hero_OnStair : MonoBehaviour {
 				anim.SetTrigger("BackToIdle");
 				g.landByYourself = false;
 			} else if (onCheckPoint){
-				if (playFirstAnim()){
-					if (goingUp){
-						setFaceLeft(leftStair);
-						print ("go up stair");
-						anim.SetTrigger("Up_stair");
-						g.setSpeed(stairDir);
+				if (Input.GetKeyDown (KeyCode.S) && !attack && !startAttack) {
+					startAttack = true;
+				}
+				if (startAttack){
+					attack = true;
+					anim.SetTrigger ("Whip");
+					startAttack = false;
+					print ("attacjsajdaasd");
+				} 
+				else if (!attack){
+					if (playFirstAnim()){
+						if (goingUp){
+							setFaceLeft(leftStair);
+							print ("go up stair");
+							anim.SetTrigger("Up_stair");
+							g.setSpeed(stairDir);
+						}
+						else {
+							setFaceLeft(!leftStair);
+							print ("go down stair");
+							anim.SetTrigger("Down_stair");
+							g.setSpeed(-1 * stairDir);
+						}
+						onCheckPoint = false;
 					}
-					else {
-						setFaceLeft(!leftStair);
-						print ("go down stair");
-						anim.SetTrigger("Down_stair");
-						g.setSpeed(-1 * stairDir);
-					}
-					onCheckPoint = false;
 				}
 			}
 			else if (!onCheckPoint){

@@ -46,14 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-     <Compile Include="Assets\GlobalV.cs" />
-=======
      <Compile Include="Assets\Bat_fly.cs" />
      <Compile Include="Assets\Die_effect_done.cs" />
      <Compile Include="Assets\Enemy.cs" />
      <Compile Include="Assets\Ghost.cs" />
->>>>>>> FETCH_HEAD
+     <Compile Include="Assets\GlobalV.cs" />
      <Compile Include="Assets\Hero_Attack.cs" />
      <Compile Include="Assets\Hero_hitten.cs" />
      <Compile Include="Assets\Item.cs" />
