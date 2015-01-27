@@ -27,8 +27,8 @@ public class GlobalV : MonoBehaviour {
 		scoreT.GetComponent<Text> ().text = String.Concat("SCORE --- " , score);
 		timeT.GetComponent<Text> ().text = String.Concat("TIME   " , time);
 		stageT.GetComponent<Text> ().text = String.Concat("STAGE   " , stage);
-		playerT.GetComponent<Text> ().text = String.Concat("SCORE    " , playerLife);
-		enemyT.GetComponent<Text> ().text = String.Concat("SCORE    " , enemyLife);
+		playerT.GetComponent<Text> ().text = String.Concat("PLAYER    " , playerLife);
+		enemyT.GetComponent<Text> ().text = String.Concat("ENEMY    " , enemyLife);
 		if (mytime + 1 < Time.time) {
 			mytime = Time.time;	
 			time --;
