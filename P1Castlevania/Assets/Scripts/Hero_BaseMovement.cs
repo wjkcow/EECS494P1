@@ -35,36 +35,39 @@ public class Hero_BaseMovement : MonoBehaviour
 		{
 				anim = GetComponent<Animator> ();
 				g = GetComponent<Gravity> ();
-		lastStairState =  GetComponent<Hero> ().isStairMode;
+				lastStairState = GetComponent<Hero> ().isStairMode;
 		}
 	
 		// Update is called once per frame
-		bool check(){
-			if (GetComponent<Hero> ().hitten) {
-				anim.SetBool ("Walk", false);
-			anim.SetBool ("Squat", false);
-
-				return true;
-			}
-			bool isOnStair = GetComponent<Hero> ().isStairMode;
-			if (isOnStair) {
-				lastStairState = isOnStair;
-				return true;		
-			}
-			if (!isOnStair && lastStairState) {
-				lastStairState = isOnStair;
-				curState = HeroState.OUTSTAIR;
-			}
-			return false;
+		bool check ()
+		{
+				if (GetComponent<Hero> ().hitten) {
+						anim.SetBool ("Walk", false);
+						anim.SetBool ("Squat", false);
+						lastState = curState = HeroState.STAND;
+						return true;
+				}
+				bool isOnStair = GetComponent<Hero> ().isStairMode;
+				if (isOnStair) {
+						lastStairState = isOnStair;
+						anim.SetBool ("Squat", false);
+						return true;		
+				}
+				if (!isOnStair && lastStairState) {
+						lastStairState = isOnStair;
+						curState = HeroState.OUTSTAIR;
+				}
+				return false;
 		}
+
 		void FixedUpdate ()
 		{
-		if (check ()) {
-			return;		
-		}
+				if (check ()) {
+						return;		
+				}
 
 		
-		if (curState == HeroState.STAND) {
+				if (curState == HeroState.STAND) {
 						jump ();
 						walk ();
 						squat ();
@@ -76,6 +79,7 @@ public class Hero_BaseMovement : MonoBehaviour
 
 				}
 				if (curState == HeroState.SQUAT) {
+			print ("squat");
 						squat ();		
 						face ();
 				}
@@ -194,9 +198,9 @@ public class Hero_BaseMovement : MonoBehaviour
 		void OnTriggerEnter2D (Collider2D other)
 		{
 		
-		if (check ()) {
-			return;		
-		}
+				if (check ()) {
+						return;		
+				}
 
 				g.gTrigger (other);
 				if (other.tag == "Ground") {
@@ -206,11 +210,11 @@ public class Hero_BaseMovement : MonoBehaviour
 										curState = HeroState.STAND;
 
 								}
-					if (curState == HeroState.OUTSTAIR) {
-						curState = HeroState.STAND;
+								if (curState == HeroState.OUTSTAIR) {
+										curState = HeroState.STAND;
 						
-					}
-				if (curState == HeroState.JUMP || curState == HeroState.WHIP) {
+								}
+								if (curState == HeroState.JUMP || curState == HeroState.WHIP) {
 										lastState = curState = HeroState.STAND;
 										if (transform.position.y < jumpHeight.y - 0.001) {
 												anim.SetTrigger ("Landing");
@@ -225,24 +229,24 @@ public class Hero_BaseMovement : MonoBehaviour
 		void OnTriggerStay2D (Collider2D other)
 		{
 		
-		if (check ()) {
-			return;		
-		}
+				if (check ()) {
+						return;		
+				}
 
-		if (other.tag == "Bottom") {
-			print ("hit bottom");
-			g.speed.x = 0;
-		}
+				if (other.tag == "Bottom") {
+						print ("hit bottom");
+						g.speed.x = 0;
+				}
 		}
 
 		void OnTriggerExit2D (Collider2D other)
 		{
 		
-		if (check ()) {
-			return;		
-		}
+				if (check ()) {
+						return;		
+				}
 
-		if (other.tag == "Ground") {
+				if (other.tag == "Ground") {
 						if (g.speed.y == 0 && other.transform.position.y < transform.position.y) {
 								anim.SetBool ("Walk", false);
 								curState = HeroState.FALLING;
@@ -255,7 +259,7 @@ public class Hero_BaseMovement : MonoBehaviour
 
 		void setFaceLeft (bool left)
 		{
-			GetComponent<Hero> ().setFaceLeft (left);
+				GetComponent<Hero> ().setFaceLeft (left);
 		}
 
 
