@@ -21,7 +21,7 @@ public class Whip : MonoBehaviour {
 				print ("hit");
 				other.GetComponent<Item>().breakMe();
 			} else if(other.tag == "Enemy"){
-				
+				other.GetComponent<Enemy>().hitten();
 			}
 		}
 

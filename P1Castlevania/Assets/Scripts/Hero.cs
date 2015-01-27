@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class Hero : MonoBehaviour {
+	public bool hitten = false;
 	public bool isStairMode = false;
 	public bool facingLeft = true;
 

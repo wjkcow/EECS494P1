@@ -16,8 +16,28 @@ GameObject:
   - 95: {fileID: 9563702}
   - 114: {fileID: 11463702}
   - 114: {fileID: 11456924}
+  - 114: {fileID: 11418650}
+  - 114: {fileID: 11435698}
+  - 114: {fileID: 11435700}
   m_Layer: 9
   m_Name: Hero
+  m_TagString: Hero
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &118648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 418648}
+  - 114: {fileID: 11418648}
+  - 68: {fileID: 6818648}
+  m_Layer: 9
+  m_Name: whip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,10 +50,23 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 114296}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .0430000015, y: -.172999993, z: 0}
+  m_LocalPosition: {x: .400000006, y: -.800000012, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 418648}
   m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &418648
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118648}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.239999995, y: .180000007, z: 0}
+  m_LocalScale: {x: .300000012, y: 1.09000003, z: 1}
+  m_Children: []
+  m_Father: {fileID: 414296}
   m_RootOrder: 0
 --- !u!50 &5014296
 Rigidbody2D:
@@ -61,6 +94,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_Size: {x: .159999996, y: .306772292}
   m_Center: {x: 0, y: .145947129}
+--- !u!68 &6818648
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118648}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Points:
+  - {x: -.5, y: 0}
+  - {x: .5, y: 0}
 --- !u!95 &9563702
 Animator:
   serializedVersion: 3
@@ -89,8 +134,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   g: {x: 0, y: -5, z: 0}
   still: 0
+  landByYourself: 0
   speed: {x: 0, y: 0, z: 0}
   acc: {x: 0, y: 0, z: 0}
+  landDelta: .0104999999
 --- !u!114 &11414296
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -102,7 +149,60 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52b2e1e21a214996bffca2dafea8bbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitten: 0
   isStairMode: 0
+  facingLeft: 1
+--- !u!114 &11418648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64aa7f6eba7994e7d8693bead711198f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whipping: 0
+--- !u!114 &11418650
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00371a7450bbf4cb582d95ea3d5f2d74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whip: {fileID: 118648}
+--- !u!114 &11435698
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b4da25aa9bc84a47a3e093faf90b210, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  immune_time: 100
+  blink_time: 5
+  up_speed: {x: 0, y: 1.29999995, z: 0}
+  left_speed: {x: -1, y: 0, z: 0}
+--- !u!114 &11435700
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00371a7450bbf4cb582d95ea3d5f2d74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whip: {fileID: 118648}
 --- !u!114 &11456924
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -118,13 +218,14 @@ MonoBehaviour:
   jumpRightSpeed: {x: .75, y: 0, z: 0}
   rightSpeed: {x: .0149999997, y: 0, z: 0}
   fallSpeed: {x: 0, y: -4, z: 0}
+  curState: 0
 --- !u!114 &11463702
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 114296}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af6acc874da2a42d98fa0d4224f21bd3, type: 3}
   m_Name: 
@@ -135,7 +236,6 @@ MonoBehaviour:
   upStairR: 0
   onStair: 0
   onCheckPoint: 0
-  keepWalking: 0
   leaveStair: 0
   startChecker: {fileID: 0}
   onTheWayToStair: 0
@@ -143,6 +243,9 @@ MonoBehaviour:
   target: {x: 0, y: 0, z: 0}
   stairDir: {x: 0, y: 0, z: 0}
   up: 0
+  leftStair: 1
+  goingUp: 1
+  goingLeft: 1
   sInfo: {fileID: 0}
   curStair: {fileID: 0}
   nextPos: {fileID: 0}

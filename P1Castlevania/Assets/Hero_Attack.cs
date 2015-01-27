@@ -7,13 +7,12 @@ public class Hero_Attack: MonoBehaviour {
 //	private float length = 0.1f;
 	public GameObject whip;
 
-	public void whipStart(){
 
+	void whipStart(){
 		whip.GetComponent<Whip> ().whipping = true;;
-	//	whipping = true;
+		//	whipping = true;
 	}
-
-	public void whipDone(){
+	void whipDone(){
 		whip.GetComponent<Whip> ().whipping = false ;
 
 	//	whipping = false;
@@ -25,6 +24,8 @@ public class Hero_Attack: MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		print (Vector2.up);
+		whipStart ();
+		whipDone ();
 	}
 	
 	// Update is called once per frame
