@@ -2,25 +2,39 @@
 using System.Collections;
 
 public class Item_Swing : MonoBehaviour {
-	public float swingSpeed = 0.3f;
-	public float swingR = 0.3f;
-	private Gravity g;
-	private float initX;
-
+	private float pos_x;
+	public float range;
+	public float max_left;
+	public bool left = true;
+	public Vector3 speed = new Vector3(0.0f, -0.01f, 0.0f);
 	// Use this for initialization
 	void Start () {
-		g = GetComponent<Gravity> ();
-		initX = transform.position.x;
-		g.setSpeed (new Vector3 (swingSpeed, 0, 0));
+		pos_x = transform.position.x;
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		if (transform.position.x > initX + swingR) {
-			g.setSpeed (new Vector3 (-swingSpeed, 0, 0));
+	void FixedUpdate () {
+		if(range < Mathf.Abs (pos_x - transform.position.x) || (range - Mathf.Abs (pos_x - transform.position.x)) < 0.1){
+			if (pos_x < transform.position.x){
+				left = false;
+			}
+			else {
+				left = true;
+			}
+		} 
+		float lspeed = max_left * (range - Mathf.Abs (pos_x - transform.position.x));
+		if (left) {
+			lspeed = -1.0f * Mathf.Abs (lspeed);
+		} else {
+			lspeed =  Mathf.Abs (lspeed);
+
 		}
-		if ((transform.position.x < initX - swingR)) {
-			g.setSpeed (new Vector3 (swingSpeed, 0, 0));
-		}
+		speed.x = lspeed;
+		print (lspeed);
+		transform.position = transform.position + speed;
+	}
+	
+	void Die(){
+		Destroy (this.gameObject);
 	}
 }

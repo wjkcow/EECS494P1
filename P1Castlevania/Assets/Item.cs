@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class Item : MonoBehaviour {
+	public GameObject die_effect;
 
 	// Use this for initialization
 	void Start () {
@@ -13,7 +14,7 @@ public class Item : MonoBehaviour {
 	
 	}
 	public void breakMe(){
-
-		print("it's broken");
+		GameObject de =  (GameObject)Instantiate (die_effect, transform.position, Quaternion.identity);
+		Destroy(this.gameObject);
 	}
 }
