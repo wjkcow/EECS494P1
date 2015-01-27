@@ -29,6 +29,15 @@ AnimationClip:
     path: 
     classID: 212
     script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 0}
+    - time: .600000024
+      value: {fileID: 0}
+    attribute: whip
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: 00371a7450bbf4cb582d95ea3d5f2d74, type: 3}
   m_SampleRate: 15
   m_WrapMode: 0
   m_Bounds:
@@ -42,11 +51,19 @@ AnimationClip:
       classID: 212
       customType: 23
       isPPtrCurve: 1
+    - path: 0
+      attribute: 1968340083
+      script: {fileID: 11500000, guid: 00371a7450bbf4cb582d95ea3d5f2d74, type: 3}
+      classID: 114
+      customType: 0
+      isPPtrCurve: 1
     pptrCurveMapping:
     - {fileID: 21300010, guid: c6922e1a903de4294aa55b142999163a, type: 3}
     - {fileID: 21300036, guid: c6922e1a903de4294aa55b142999163a, type: 3}
     - {fileID: 21300038, guid: c6922e1a903de4294aa55b142999163a, type: 3}
     - {fileID: 21300040, guid: c6922e1a903de4294aa55b142999163a, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_StartTime: 0
@@ -66,4 +83,25 @@ AnimationClip:
     m_Mirror: 0
   m_EditorCurves: []
   m_EulerEditorCurves: []
-  m_Events: []
+  m_Events:
+  - time: .600000024
+    functionName: whipStart
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: .933333337
+    functionName: whipDone
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1
+    functionName: attackDone
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
