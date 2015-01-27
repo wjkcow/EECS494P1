@@ -10,8 +10,10 @@ public class Hero_BaseMovement : MonoBehaviour
 		public Vector3 fallSpeed = new Vector3 (0, -6f, 0);
 		private Gravity g;
 		private Vector3 jumpHeight = Vector3.zero;
+	public bool player_control_enable = true;
 	private bool lastStairState;
-		public enum HeroState
+
+	public enum HeroState
 		{
 				STAND,
 				WALK,
@@ -25,6 +27,11 @@ public class Hero_BaseMovement : MonoBehaviour
 		}
 		public HeroState curState = HeroState.STAND;
 		HeroState lastState;
+
+	public void setPlayerControl (bool b){
+		player_control_enable = b;
+	}
+
 
 		public void toLastState ()
 		{
@@ -41,35 +48,36 @@ public class Hero_BaseMovement : MonoBehaviour
 		// Update is called once per frame
 		void FixedUpdate ()
 		{
-			
-		bool isOnStair = GetComponent<Hero> ().isStairMode;
-		if (isOnStair) {
-			lastStairState = isOnStair;
-			return;		
-		}
-		if (!isOnStair && lastStairState) {
-			lastStairState = isOnStair;
-			curState = HeroState.OUTSTAIR;
-		}
+		if (player_control_enable) {
+						bool isOnStair = GetComponent<Hero> ().isStairMode;
+						if (isOnStair) {
+								lastStairState = isOnStair;
+								return;		
+						}
+						if (!isOnStair && lastStairState) {
+								lastStairState = isOnStair;
+								curState = HeroState.OUTSTAIR;
+						}
 		
-		if (curState == HeroState.STAND) {
-						jump ();
-						walk ();
-						squat ();
-				}
-				if (curState == HeroState.WALK) {
-						walk ();
-						jump ();
-						squat ();		
+						if (curState == HeroState.STAND) {
+								jump ();
+								walk ();
+								squat ();
+						}
+						if (curState == HeroState.WALK) {
+								walk ();
+								jump ();
+								squat ();		
 
+						}
+						if (curState == HeroState.SQUAT) {
+								squat ();		
+								face ();
+						}
+						whip ();
+						walk_release ();
+						squat_release ();
 				}
-				if (curState == HeroState.SQUAT) {
-						squat ();		
-						face ();
-				}
-				whip ();
-				walk_release ();
-				squat_release ();
 		
 		}
 
@@ -137,6 +145,7 @@ public class Hero_BaseMovement : MonoBehaviour
 
 		void walk ()
 		{	
+		print ("walk");
 				if (Input.GetKey (KeyCode.LeftArrow)) {
 						setFaceLeft (true);
 						anim.SetBool ("Walk", true);
@@ -259,6 +268,5 @@ public class Hero_BaseMovement : MonoBehaviour
 		{
 			GetComponent<Hero> ().setFaceLeft (left);
 		}
-
 
 }
