@@ -181,7 +181,7 @@ public class Hero_BaseMovement : MonoBehaviour
 	
 	void jump ()
 	{
-		if (Input.GetKeyDown (KeyCode.Space) || Input.GetKeyDown (KeyCode.A)) {
+		if (Input.GetKeyDown (KeyCode.A)) {
 			anim.SetBool ("Walk", false);
 			jumpHeight = transform.position;
 			anim.SetTrigger ("Jump"); 

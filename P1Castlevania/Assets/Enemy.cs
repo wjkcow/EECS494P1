@@ -4,6 +4,7 @@ using System.Collections;
 public class Enemy : MonoBehaviour {
 	public GameObject die_effect;
 	public bool start = false;
+	public int score;
 	// Use this for initialization
 	void Start () {
 		start = false;

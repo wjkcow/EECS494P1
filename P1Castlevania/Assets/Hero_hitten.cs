@@ -11,11 +11,13 @@ public class Hero_hitten : MonoBehaviour {
 	private int blink_c = 0;
 	private Gravity g;
 	private Animator anim;
-
+	public GameObject canvas;
+	private GlobalV globalV;
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator> ();
 		g = GetComponent<Gravity> ();
+		globalV = canvas.GetComponent<GlobalV> ();
 	}
 	
 	// Update is called once per frame
@@ -39,6 +41,7 @@ public class Hero_hitten : MonoBehaviour {
 		if (immune_c > 0) {
 			return;
 		}
+		globalV.playerLife --;
 			immune_c = immune_time;
 		if (!GetComponent<Hero> ().isStairMode) {
 			if(transform.position.x < x){

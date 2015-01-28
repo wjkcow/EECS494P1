@@ -5,7 +5,7 @@ public class CameraFollow : MonoBehaviour {
 	public float dampTime = 0.15f;
 	private Vector3 velocity = Vector3.zero;
 	public Transform target;
-	private bool stop = false;
+	public bool stop = false;
 	public Vector3 delta;
 	public float speed = 1f;
 
