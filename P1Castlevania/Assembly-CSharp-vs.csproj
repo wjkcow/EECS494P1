@@ -47,15 +47,18 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Bat_fly.cs" />
+     <Compile Include="Assets\Breakable.cs" />
      <Compile Include="Assets\Die_effect_done.cs" />
      <Compile Include="Assets\Enemy.cs" />
      <Compile Include="Assets\Ghost.cs" />
      <Compile Include="Assets\GlobalV.cs" />
      <Compile Include="Assets\Hero_Attack.cs" />
      <Compile Include="Assets\Hero_hitten.cs" />
+     <Compile Include="Assets\Hero_pickitem.cs" />
      <Compile Include="Assets\Item.cs" />
      <Compile Include="Assets\Item_Swing.cs" />
      <Compile Include="Assets\Leopard.cs" />
+     <Compile Include="Assets\Pickable.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Gravity.cs" />
      <Compile Include="Assets\Scripts\Hero.cs" />

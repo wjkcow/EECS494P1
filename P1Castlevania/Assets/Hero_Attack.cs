@@ -34,21 +34,6 @@ public class Hero_Attack: MonoBehaviour {
 	}
 
 	void FixedUpdate(){
-//		bool facingLeft = GetComponent<Hero> ().facingLeft;
-//		Vector2 direction;
-//		if (facingLeft) {
-//						direction = new Vector2 (1.0f, 0);		
-//		} else {
-//			direction = new Vector2 (-1.0f, 0);		
-//
-//		}
-//		if (whipping) {
-//			RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, length);
-//			if (hit.collider != null) {
-//				print(hit.collider.tag );
-//			}
-//			
-//		}
 
 	}
 }

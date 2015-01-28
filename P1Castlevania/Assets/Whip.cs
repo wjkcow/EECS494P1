@@ -17,9 +17,9 @@ public class Whip : MonoBehaviour {
 
 	void OnTriggerStay2D(Collider2D other){
 		if (whipping) {	
-			if (other.tag == "Item") {
+			if (other.tag == "Breakable") {
 				print ("hit");
-				other.GetComponent<Item>().breakMe();
+				other.GetComponent<Breakable>().breakMe();
 			} else if(other.tag == "Enemy"){
 				other.GetComponent<Enemy>().hitten();
 			}
