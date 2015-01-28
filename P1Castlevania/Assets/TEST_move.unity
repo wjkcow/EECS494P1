@@ -956,7 +956,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 414726, guid: 58f88f405543a43fa9fdf722f5526b41, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 58f88f405543a43fa9fdf722f5526b41, type: 2}
@@ -1094,7 +1094,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 414726, guid: 58f88f405543a43fa9fdf722f5526b41, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 58f88f405543a43fa9fdf722f5526b41, type: 2}
@@ -1606,11 +1606,11 @@ GameObject:
   - 4: {fileID: 573893713}
   - 212: {fileID: 573893712}
   - 95: {fileID: 573893711}
-  - 114: {fileID: 573893710}
   - 61: {fileID: 573893709}
+  - 114: {fileID: 573893710}
   m_Layer: 0
   m_Name: candle
-  m_TagString: Item
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1630,16 +1630,17 @@ BoxCollider2D:
 --- !u!114 &573893710
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11414726, guid: 58f88f405543a43fa9fdf722f5526b41,
+  m_PrefabParentObject: {fileID: 11425446, guid: 58f88f405543a43fa9fdf722f5526b41,
     type: 2}
   m_PrefabInternal: {fileID: 340604596}
   m_GameObject: {fileID: 573893708}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff2558a1cf2bb48109b3556c4ee80efe, type: 3}
+  m_Script: {fileID: 11500000, guid: 31100be4f76394af69fd9a41d1351eeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   die_effect: {fileID: 170050, guid: 80ae569678ed642fd9e8ca2208208efc, type: 2}
+  Drop_item: {fileID: 108900, guid: 2db1737e3223a43038bc4093271124c9, type: 2}
 --- !u!95 &573893711
 Animator:
   serializedVersion: 3
@@ -2426,7 +2427,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 414726, guid: 58f88f405543a43fa9fdf722f5526b41, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 58f88f405543a43fa9fdf722f5526b41, type: 2}
@@ -3981,11 +3982,11 @@ GameObject:
   - 4: {fileID: 1425729537}
   - 212: {fileID: 1425729536}
   - 95: {fileID: 1425729535}
-  - 114: {fileID: 1425729534}
   - 61: {fileID: 1425729533}
+  - 114: {fileID: 1425729534}
   m_Layer: 0
   m_Name: candle
-  m_TagString: Item
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4005,16 +4006,17 @@ BoxCollider2D:
 --- !u!114 &1425729534
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11414726, guid: 58f88f405543a43fa9fdf722f5526b41,
+  m_PrefabParentObject: {fileID: 11425446, guid: 58f88f405543a43fa9fdf722f5526b41,
     type: 2}
   m_PrefabInternal: {fileID: 304346042}
   m_GameObject: {fileID: 1425729532}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff2558a1cf2bb48109b3556c4ee80efe, type: 3}
+  m_Script: {fileID: 11500000, guid: 31100be4f76394af69fd9a41d1351eeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   die_effect: {fileID: 170050, guid: 80ae569678ed642fd9e8ca2208208efc, type: 2}
+  Drop_item: {fileID: 108900, guid: 2db1737e3223a43038bc4093271124c9, type: 2}
 --- !u!95 &1425729535
 Animator:
   serializedVersion: 3
@@ -4574,11 +4576,11 @@ GameObject:
   - 4: {fileID: 1693911068}
   - 212: {fileID: 1693911067}
   - 95: {fileID: 1693911066}
-  - 114: {fileID: 1693911065}
   - 61: {fileID: 1693911064}
+  - 114: {fileID: 1693911065}
   m_Layer: 0
   m_Name: candle
-  m_TagString: Item
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4598,16 +4600,17 @@ BoxCollider2D:
 --- !u!114 &1693911065
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11414726, guid: 58f88f405543a43fa9fdf722f5526b41,
+  m_PrefabParentObject: {fileID: 11425446, guid: 58f88f405543a43fa9fdf722f5526b41,
     type: 2}
   m_PrefabInternal: {fileID: 1889664772}
   m_GameObject: {fileID: 1693911063}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff2558a1cf2bb48109b3556c4ee80efe, type: 3}
+  m_Script: {fileID: 11500000, guid: 31100be4f76394af69fd9a41d1351eeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   die_effect: {fileID: 170050, guid: 80ae569678ed642fd9e8ca2208208efc, type: 2}
+  Drop_item: {fileID: 108900, guid: 2db1737e3223a43038bc4093271124c9, type: 2}
 --- !u!95 &1693911066
 Animator:
   serializedVersion: 3
@@ -4888,11 +4891,11 @@ GameObject:
   - 4: {fileID: 1786622124}
   - 212: {fileID: 1786622123}
   - 95: {fileID: 1786622122}
-  - 114: {fileID: 1786622121}
   - 61: {fileID: 1786622120}
+  - 114: {fileID: 1786622121}
   m_Layer: 0
   m_Name: candle
-  m_TagString: Item
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4912,16 +4915,17 @@ BoxCollider2D:
 --- !u!114 &1786622121
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11414726, guid: 58f88f405543a43fa9fdf722f5526b41,
+  m_PrefabParentObject: {fileID: 11425446, guid: 58f88f405543a43fa9fdf722f5526b41,
     type: 2}
   m_PrefabInternal: {fileID: 787027280}
   m_GameObject: {fileID: 1786622119}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff2558a1cf2bb48109b3556c4ee80efe, type: 3}
+  m_Script: {fileID: 11500000, guid: 31100be4f76394af69fd9a41d1351eeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   die_effect: {fileID: 170050, guid: 80ae569678ed642fd9e8ca2208208efc, type: 2}
+  Drop_item: {fileID: 108900, guid: 2db1737e3223a43038bc4093271124c9, type: 2}
 --- !u!95 &1786622122
 Animator:
   serializedVersion: 3
@@ -5448,7 +5452,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 414726, guid: 58f88f405543a43fa9fdf722f5526b41, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 58f88f405543a43fa9fdf722f5526b41, type: 2}
