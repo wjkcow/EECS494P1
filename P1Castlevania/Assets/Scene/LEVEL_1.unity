@@ -305,6 +305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   die_effect: {fileID: 170050, guid: 80ae569678ed642fd9e8ca2208208efc, type: 2}
   start: 0
+  score: 0
 --- !u!114 &92155913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -811,6 +812,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   die_effect: {fileID: 170050, guid: 80ae569678ed642fd9e8ca2208208efc, type: 2}
   start: 0
+  score: 0
 --- !u!114 &222945115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1324,6 +1326,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   die_effect: {fileID: 170050, guid: 80ae569678ed642fd9e8ca2208208efc, type: 2}
   start: 0
+  score: 0
 --- !u!114 &310976120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1992,6 +1995,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   die_effect: {fileID: 170050, guid: 80ae569678ed642fd9e8ca2208208efc, type: 2}
   start: 0
+  score: 0
 --- !u!114 &468462951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2773,6 +2777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   die_effect: {fileID: 170050, guid: 80ae569678ed642fd9e8ca2208208efc, type: 2}
   start: 0
+  score: 0
 --- !u!61 &735085191
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2991,6 +2996,10 @@ MonoBehaviour:
   stage: 0
   playerLife: 15
   enemyLife: 15
+  hearts: 0
+  P: 1
+  heartT: {fileID: 0}
+  PT: {fileID: 0}
   scoreT: {fileID: 450222129}
   timeT: {fileID: 1580829162}
   stageT: {fileID: 2076070187}
@@ -3149,6 +3158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dampTime: .150000006
   target: {fileID: 1011661154}
+  stop: 0
   delta: {x: 0, y: 0, z: 0}
   speed: 5
 --- !u!1 &771575081
@@ -3228,6 +3238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   die_effect: {fileID: 170050, guid: 80ae569678ed642fd9e8ca2208208efc, type: 2}
   start: 0
+  score: 0
 --- !u!114 &789013909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3947,6 +3958,7 @@ MonoBehaviour:
   blink_time: 5
   up_speed: {x: 0, y: 1.29999995, z: 0}
   left_speed: {x: -1, y: 0, z: 0}
+  canvas: {fileID: 0}
 --- !u!1001 &1043460818
 Prefab:
   m_ObjectHideFlags: 0
@@ -4151,6 +4163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   die_effect: {fileID: 170050, guid: 80ae569678ed642fd9e8ca2208208efc, type: 2}
   start: 0
+  score: 0
 --- !u!61 &1086667151
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4447,6 +4460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   die_effect: {fileID: 170050, guid: 80ae569678ed642fd9e8ca2208208efc, type: 2}
   start: 0
+  score: 0
 --- !u!114 &1167518714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4705,6 +4719,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   die_effect: {fileID: 170050, guid: 80ae569678ed642fd9e8ca2208208efc, type: 2}
   start: 0
+  score: 0
 --- !u!114 &1241006754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6271,6 +6286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   die_effect: {fileID: 170050, guid: 80ae569678ed642fd9e8ca2208208efc, type: 2}
   start: 0
+  score: 0
 --- !u!114 &1742440316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6855,6 +6871,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   die_effect: {fileID: 170050, guid: 80ae569678ed642fd9e8ca2208208efc, type: 2}
   start: 0
+  score: 0
 --- !u!114 &1822504212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7145,6 +7162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   whipping: 0
+  canvas: {fileID: 0}
 --- !u!1 &1868802353
 GameObject:
   m_ObjectHideFlags: 0
@@ -7503,6 +7521,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   die_effect: {fileID: 170050, guid: 80ae569678ed642fd9e8ca2208208efc, type: 2}
   start: 0
+  score: 0
 --- !u!114 &1954953021
 MonoBehaviour:
   m_ObjectHideFlags: 0

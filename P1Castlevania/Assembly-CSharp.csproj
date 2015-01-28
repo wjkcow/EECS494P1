@@ -67,9 +67,12 @@
      <Compile Include="Assets\Scripts\Hero_OnStair.cs" />
      <Compile Include="Assets\Scripts\Hero_backup.cs" />
      <Compile Include="Assets\Scripts\stairInfo.cs" />
+     <Compile Include="Assets\UsingItem.cs" />
      <Compile Include="Assets\Whip.cs" />
      <Compile Include="Assets\control_camera.cs" />
      <Compile Include="Assets\nextLevel.cs" />
+     <Compile Include="Assets\shootedItem.cs" />
+     <Compile Include="Assets\usedItem.cs" />
      <Compile Include="Assets\wall.cs" />
      <Compile Include="Assets\wall_v.cs" />
  <Reference Include="UnityEngine.UI">
