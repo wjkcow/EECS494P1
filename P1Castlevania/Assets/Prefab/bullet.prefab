@@ -101,7 +101,7 @@ MonoBehaviour:
   facingLeft: 0
   vel: {x: 2, y: 0, z: 0}
   acc: {x: -1.10000002, y: 0, z: 0}
-  canvas: {fileID: 0}
+  canvas: {fileID: 124902, guid: e51d704c855a542ab9ea66ab68106ad4, type: 2}
 --- !u!114 &11411366
 MonoBehaviour:
   m_ObjectHideFlags: 1

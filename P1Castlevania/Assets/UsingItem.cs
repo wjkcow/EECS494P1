@@ -49,6 +49,10 @@ public class UsingItem : MonoBehaviour {
 		print ("start to throw");
 		anim.SetBool ("Walk", false);
 		anim.SetTrigger("Throw");
+		shootHelper ();
+	}
+
+	void shootHelper(){
 		GameObject newBullet =  (GameObject)Instantiate (item, muzzle.transform.position, Quaternion.identity);
 		newBullet.GetComponent<usedItem> ().facingLeft = h.facingLeft;
 	}
