@@ -66,7 +66,7 @@ public class Hero_BaseMovement : MonoBehaviour
 		return false;
 	}
 	
-	void FixedUpdate ()
+	void Update ()
 	{
 		if (player_control_enable) {
 			if (check ()) {
@@ -93,7 +93,6 @@ public class Hero_BaseMovement : MonoBehaviour
 			walk_release ();
 			squat_release ();
 		}
-		
 	}
 	
 	void whip ()
