@@ -87,6 +87,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   die_effect: {fileID: 170050, guid: 80ae569678ed642fd9e8ca2208208efc, type: 2}
+  start: 0
+  score: 100
 --- !u!114 &11414174
 MonoBehaviour:
   m_ObjectHideFlags: 1
