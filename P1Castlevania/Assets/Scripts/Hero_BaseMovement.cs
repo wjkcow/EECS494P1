@@ -65,7 +65,17 @@ public class Hero_BaseMovement : MonoBehaviour
 		}
 		return false;
 	}
-	
+	void FixedUpdate(){
+		if (player_control_enable) {
+						if (check ()) {
+								return;		
+						}
+			if(curState == HeroState.STAND || curState == HeroState.WALK){
+			walk ();
+			}
+				}
+
+	}
 	void Update ()
 	{
 		if (player_control_enable) {
@@ -76,11 +86,11 @@ public class Hero_BaseMovement : MonoBehaviour
 			
 			if (curState == HeroState.STAND) {
 				jump ();
-				walk ();
+		//		walk ();
 				squat ();
 			}
 			if (curState == HeroState.WALK) {
-				walk ();
+		//		walk ();
 				jump ();
 				squat ();		
 				
