@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -46,35 +46,35 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Bat_fly.cs" />
-     <Compile Include="Assets\Breakable.cs" />
-     <Compile Include="Assets\Die_effect_done.cs" />
-     <Compile Include="Assets\Enemy.cs" />
-     <Compile Include="Assets\Ghost.cs" />
-     <Compile Include="Assets\GlobalV.cs" />
-     <Compile Include="Assets\Hero_Attack.cs" />
-     <Compile Include="Assets\Hero_hitten.cs" />
-     <Compile Include="Assets\Hero_pickitem.cs" />
-     <Compile Include="Assets\Item.cs" />
-     <Compile Include="Assets\Item_Swing.cs" />
-     <Compile Include="Assets\Leopard.cs" />
-     <Compile Include="Assets\Pickable.cs" />
+     <Compile Include="Assets\Scripts\Bat_fly.cs" />
+     <Compile Include="Assets\Scripts\Breakable.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\Die_effect_done.cs" />
+     <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Ghost.cs" />
+     <Compile Include="Assets\Scripts\GlobalV.cs" />
      <Compile Include="Assets\Scripts\Gravity.cs" />
      <Compile Include="Assets\Scripts\Hero.cs" />
      <Compile Include="Assets\Scripts\HeroAnimation.cs" />
+     <Compile Include="Assets\Scripts\Hero_Attack.cs" />
      <Compile Include="Assets\Scripts\Hero_BaseMovement.cs" />
      <Compile Include="Assets\Scripts\Hero_OnStair.cs" />
      <Compile Include="Assets\Scripts\Hero_backup.cs" />
+     <Compile Include="Assets\Scripts\Hero_hitten.cs" />
+     <Compile Include="Assets\Scripts\Hero_pickitem.cs" />
+     <Compile Include="Assets\Scripts\Item.cs" />
+     <Compile Include="Assets\Scripts\Item_Swing.cs" />
+     <Compile Include="Assets\Scripts\Leopard.cs" />
+     <Compile Include="Assets\Scripts\Pickable.cs" />
+     <Compile Include="Assets\Scripts\UsingItem.cs" />
+     <Compile Include="Assets\Scripts\Whip.cs" />
+     <Compile Include="Assets\Scripts\control_camera.cs" />
+     <Compile Include="Assets\Scripts\nextLevel.cs" />
+     <Compile Include="Assets\Scripts\shootedItem.cs" />
      <Compile Include="Assets\Scripts\stairInfo.cs" />
-     <Compile Include="Assets\UsingItem.cs" />
-     <Compile Include="Assets\Whip.cs" />
-     <Compile Include="Assets\control_camera.cs" />
-     <Compile Include="Assets\nextLevel.cs" />
-     <Compile Include="Assets\shootedItem.cs" />
-     <Compile Include="Assets\usedItem.cs" />
-     <Compile Include="Assets\wall.cs" />
-     <Compile Include="Assets\wall_v.cs" />
+     <Compile Include="Assets\Scripts\usedItem.cs" />
+     <Compile Include="Assets\Scripts\wall.cs" />
+     <Compile Include="Assets\Scripts\wall_v.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
