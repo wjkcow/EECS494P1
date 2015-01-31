@@ -13,7 +13,7 @@ public class Hero_hitten : MonoBehaviour
 		private Animator anim;
 		public GameObject canvas;
 		private GlobalV globalV;
-		private float emptyZ = 1;
+		private float emptyZ = 100;
 		public float visibleZ = 0;
 		// Use this for initialization
 		void Start ()
@@ -33,6 +33,7 @@ public class Hero_hitten : MonoBehaviour
 		{
 				if (immune_c > 0) {
 						if (blink_c == 0) {
+				print ("blink");
 								//	GetComponent<SpriteRenderer> ().enabled = !GetComponent<SpriteRenderer> ().enabled ;
 								if (transform.position.z == emptyZ) {
 										Vector3 pos = transform.position;
