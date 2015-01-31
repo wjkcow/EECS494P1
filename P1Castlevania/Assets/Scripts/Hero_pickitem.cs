@@ -13,13 +13,8 @@ public class Hero_pickitem : MonoBehaviour {
 	void Update () {
 
 	}
-	void OnTriggerEnter2D (Collider2D other){
-		if (other.tag == "Pickable") {
-			string k = other.gameObject.GetComponent<Pickable>().kind;
-			print (k + " is picked   " + this.tag + this.name);
-			if (other.name == "Heart(Clone)")
-				globalV.hearts ++;
-
-		}
+	public void pick(string kind){
+		if (kind == "Heart")
+			globalV.hearts ++;
 	}
 }

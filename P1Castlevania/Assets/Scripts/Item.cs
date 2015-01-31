@@ -17,4 +17,6 @@ public class Item : MonoBehaviour {
 		GameObject de =  (GameObject)Instantiate (die_effect, transform.position, Quaternion.identity);
 		Destroy(this.gameObject);
 	}
+
+
 }
