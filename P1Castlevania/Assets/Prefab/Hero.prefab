@@ -16,9 +16,11 @@ GameObject:
   - 95: {fileID: 9563702}
   - 114: {fileID: 11463702}
   - 114: {fileID: 11456924}
-  - 114: {fileID: 11418650}
   - 114: {fileID: 11435698}
-  - 114: {fileID: 11435700}
+  - 114: {fileID: 11465690}
+  - 114: {fileID: 11465692}
+  - 114: {fileID: 11465688}
+  - 114: {fileID: 11465686}
   m_Layer: 9
   m_Name: Hero
   m_TagString: Hero
@@ -38,7 +40,7 @@ GameObject:
   - 68: {fileID: 6818648}
   m_Layer: 9
   m_Name: whip
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50,7 +52,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 114296}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .400000006, y: -.800000012, z: 0}
+  m_LocalPosition: {x: 9.17000008, y: -1.47000003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 418648}
@@ -164,18 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   whipping: 0
---- !u!114 &11418650
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 114296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00371a7450bbf4cb582d95ea3d5f2d74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  whip: {fileID: 118648}
+  canvas: {fileID: 0}
 --- !u!114 &11435698
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -191,18 +182,8 @@ MonoBehaviour:
   blink_time: 5
   up_speed: {x: 0, y: 1.29999995, z: 0}
   left_speed: {x: -1, y: 0, z: 0}
---- !u!114 &11435700
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 114296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00371a7450bbf4cb582d95ea3d5f2d74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  whip: {fileID: 118648}
+  canvas: {fileID: 0}
+  visibleZ: 0
 --- !u!114 &11456924
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -214,7 +195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03e99d8ec05c94b07bfc6de23b450cb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpSpeed: {x: 0, y: 1.79999995, z: 0}
+  jumpSpeed: {x: 0, y: 2, z: 0}
   jumpRightSpeed: {x: .75, y: 0, z: 0}
   rightSpeed: {x: .0149999997, y: 0, z: 0}
   fallSpeed: {x: 0, y: -4, z: 0}
@@ -249,6 +230,57 @@ MonoBehaviour:
   sInfo: {fileID: 0}
   curStair: {fileID: 0}
   nextPos: {fileID: 0}
+--- !u!114 &11465686
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2404e168f3240b68a419aea1151d4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
+--- !u!114 &11465688
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c64bd5fee7ffc43ca8ad2e8978feb0a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 111366, guid: 8aab56791c10246a6b5632694449090c, type: 2}
+  muzzle: {fileID: 118648}
+  useInterval: 2
+--- !u!114 &11465690
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e37029e6327b448908bd689d850c7b51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 0}
+  speed: 1
+--- !u!114 &11465692
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00371a7450bbf4cb582d95ea3d5f2d74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whip: {fileID: 118648}
 --- !u!212 &21214296
 SpriteRenderer:
   m_ObjectHideFlags: 1

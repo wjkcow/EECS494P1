@@ -3,9 +3,10 @@ using System.Collections;
 
 public class Hero_hitten : MonoBehaviour
 {
-		public int immune_time = 100;
-		public int blink_time = 10;
-		public Vector3 up_speed = new Vector3 (0, 1, 0);
+		public int immune_time = 70;
+		public int blink_time = 5;
+	public int invisible_Time = 2;
+	    public Vector3 up_speed = new Vector3 (0, 1, 0);
 		public Vector3 left_speed = new Vector3 (-1, 0, 0);
 		private int immune_c = 0;
 		private int blink_c = 0;
@@ -33,25 +34,33 @@ public class Hero_hitten : MonoBehaviour
 		{
 				if (immune_c > 0) {
 						if (blink_c == 0) {
-				print ("blink");
+								print ("blink");
 								//	GetComponent<SpriteRenderer> ().enabled = !GetComponent<SpriteRenderer> ().enabled ;
 								if (transform.position.z == emptyZ) {
 										Vector3 pos = transform.position;
 										pos.z = visibleZ;
 										transform.position = pos;
+										blink_c = blink_time;
+
 								} else {
 										Vector3 pos = transform.position;
 										pos.z = emptyZ;
 										transform.position = pos;
+										blink_c = invisible_Time;
 
 								}
 				
-								blink_c = blink_time;
-				
+
 						}
 						blink_c --;	
 						immune_c --;
-	}	
+			if(immune_c == 0){
+				Vector3 pos = transform.position;
+				pos.z = visibleZ;
+				transform.position = pos;
+			}
+				}	
+				
 		}
 
 		public void hitten (float x)
@@ -71,9 +80,7 @@ public class Hero_hitten : MonoBehaviour
 						}
 						anim.SetTrigger ("Hit");	
 						GetComponent<Hero> ().hitten = true;
-
 				}
-
 
 		}
 
