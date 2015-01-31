@@ -5954,7 +5954,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 769785906}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.75, y: .0280000009, z: -10}
+  m_LocalPosition: {x: -5.73000002, y: .0299999993, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7709,7 +7709,7 @@ Transform:
   m_PrefabInternal: {fileID: 1634676889}
   m_GameObject: {fileID: 1011661151}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.09000015, y: -.360000014, z: 0}
+  m_LocalPosition: {x: -6.42000008, y: -.610000014, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1862195826}
@@ -7881,6 +7881,7 @@ MonoBehaviour:
   up_speed: {x: 0, y: 1.29999995, z: 0}
   left_speed: {x: -1, y: 0, z: 0}
   canvas: {fileID: 755974391}
+  visibleZ: 0
 --- !u!114 &1011661165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12705,11 +12706,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 414296, guid: f45b93863e3834364bd6f0226b152461, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -6.09000015
+      value: -6.42000008
       objectReference: {fileID: 0}
     - target: {fileID: 414296, guid: f45b93863e3834364bd6f0226b152461, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -.360000014
+      value: -.610000014
       objectReference: {fileID: 0}
     - target: {fileID: 414296, guid: f45b93863e3834364bd6f0226b152461, type: 2}
       propertyPath: m_LocalPosition.z
@@ -12759,6 +12760,15 @@ Prefab:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 414296, guid: f45b93863e3834364bd6f0226b152461, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11435698, guid: f45b93863e3834364bd6f0226b152461, type: 2}
+      propertyPath: emptySprite
+      value: 
+      objectReference: {fileID: 21300016, guid: 54b28c549f59d4233802f217f1a63690,
+        type: 3}
     m_RemovedComponents:
     - {fileID: 11435700, guid: f45b93863e3834364bd6f0226b152461, type: 2}
     - {fileID: 11418650, guid: f45b93863e3834364bd6f0226b152461, type: 2}

@@ -19,13 +19,12 @@ public class Whip : MonoBehaviour {
 	void OnTriggerStay2D(Collider2D other){
 		if (whipping) {	
 			if (other.tag == "Breakable") {
-				print ("hit");
 				other.GetComponent<Breakable>().breakMe();
 			} else if(other.tag == "Enemy"){
 				Enemy otherScript = other.GetComponent<Enemy>();
 				otherScript.hitten();
 				globalV.score += otherScript.score;
-				print(globalV.score +"  " + otherScript.score);
+//				print(globalV.score +"  " + otherScript.score);
 			}
 		}
 
