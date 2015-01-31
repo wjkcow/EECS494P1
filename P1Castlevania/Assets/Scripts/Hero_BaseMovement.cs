@@ -86,7 +86,6 @@ public class Hero_BaseMovement : MonoBehaviour
 				
 			}
 			if (curState == HeroState.SQUAT) {
-				print ("squat");
 				squat ();		
 				face ();
 			}
@@ -126,7 +125,7 @@ public class Hero_BaseMovement : MonoBehaviour
 	
 	void squat ()
 	{
-		if (Input.GetKeyDown (KeyCode.DownArrow)) {
+		if (Input.GetKey (KeyCode.DownArrow)) {
 			anim.SetBool ("Walk", false);
 			
 			anim.SetBool ("Squat", true);
@@ -187,7 +186,6 @@ public class Hero_BaseMovement : MonoBehaviour
 			anim.SetTrigger ("Jump"); 
 			Vector3 speed = jumpSpeed;
 			if (Input.GetKey (KeyCode.LeftArrow)) {
-				print ("Left");
 				speed -= jumpRightSpeed;
 				setFaceLeft (true);				
 			} else if (Input.GetKey (KeyCode.RightArrow)) {
@@ -195,7 +193,6 @@ public class Hero_BaseMovement : MonoBehaviour
 				setFaceLeft (false);
 				
 			}
-			print ("Speed" + speed);
 			g.setSpeed (speed);		
 			g.setAcc(Vector3.zero);
 			curState = HeroState.JUMP;
@@ -205,8 +202,6 @@ public class Hero_BaseMovement : MonoBehaviour
 	
 	void OnTriggerEnter2D (Collider2D other)
 	{
-		print (other.tag);
-
 		if (check ()) {
 			return;		
 		}
