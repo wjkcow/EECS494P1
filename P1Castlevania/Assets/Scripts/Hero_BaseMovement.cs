@@ -197,7 +197,7 @@ public class Hero_BaseMovement : MonoBehaviour
 			}
 			print ("Speed" + speed);
 			g.setSpeed (speed);		
-			
+			g.setAcc(Vector3.zero);
 			curState = HeroState.JUMP;
 		}
 		
@@ -205,6 +205,7 @@ public class Hero_BaseMovement : MonoBehaviour
 	
 	void OnTriggerEnter2D (Collider2D other)
 	{
+		print (other.tag);
 
 		if (check ()) {
 			return;		
@@ -242,7 +243,6 @@ public class Hero_BaseMovement : MonoBehaviour
 		}
 		
 		if (other.tag == "Bottom") {
-			print ("hit bottom");
 			g.speed.x = 0;
 		}
 	}

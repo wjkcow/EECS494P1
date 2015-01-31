@@ -8,8 +8,9 @@ public class wall : MonoBehaviour {
 	// Use this for initialization
 	void OnTriggerStay2D(Collider2D other){
 		if (other.tag == "Hero") {
-			print ("wall!!");
+		//	print ("wall!!");
 			if ((transform.position.x - other.transform.position.x) * dir > 0){
+				other.GetComponent<Gravity>().speed.x = 0.0f;
 				Vector3 temp = other.transform.position;
 				temp.x = temp.x + reflect * dir;
 				other.transform.position = temp;
