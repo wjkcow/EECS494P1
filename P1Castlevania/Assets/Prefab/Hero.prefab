@@ -1,5 +1,22 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400138}
+  - 114: {fileID: 11400138}
+  - 68: {fileID: 6800138}
+  m_Layer: 9
+  m_Name: whip
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &114296
 GameObject:
   m_ObjectHideFlags: 0
@@ -18,7 +35,6 @@ GameObject:
   - 114: {fileID: 11456924}
   - 114: {fileID: 11435698}
   - 114: {fileID: 11465690}
-  - 114: {fileID: 11465692}
   - 114: {fileID: 11465688}
   - 114: {fileID: 11465686}
   m_Layer: 9
@@ -39,12 +55,24 @@ GameObject:
   - 114: {fileID: 11418648}
   - 68: {fileID: 6818648}
   m_Layer: 9
-  m_Name: whip
+  m_Name: whip_long
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &400138
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100138}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.239999995, y: .180000007, z: 0}
+  m_LocalScale: {x: .300000012, y: 1.09000003, z: 1}
+  m_Children: []
+  m_Father: {fileID: 414296}
+  m_RootOrder: 0
 --- !u!4 &414296
 Transform:
   m_ObjectHideFlags: 1
@@ -52,9 +80,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 114296}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.17000008, y: -1.47000003, z: 0}
+  m_LocalPosition: {x: -6.23000002, y: -.579999983, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 400138}
   - {fileID: 418648}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -66,10 +95,10 @@ Transform:
   m_GameObject: {fileID: 118648}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -.239999995, y: .180000007, z: 0}
-  m_LocalScale: {x: .300000012, y: 1.09000003, z: 1}
+  m_LocalScale: {x: .5, y: 1.09000003, z: 1}
   m_Children: []
   m_Father: {fileID: 414296}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!50 &5014296
 Rigidbody2D:
   m_ObjectHideFlags: 1
@@ -96,6 +125,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_Size: {x: .159999996, y: .306772292}
   m_Center: {x: 0, y: .145947129}
+--- !u!68 &6800138
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100138}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Points:
+  - {x: -.5, y: 0}
+  - {x: .5, y: 0}
 --- !u!68 &6818648
 EdgeCollider2D:
   m_ObjectHideFlags: 1
@@ -104,7 +145,7 @@ EdgeCollider2D:
   m_GameObject: {fileID: 118648}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Points:
   - {x: -.5, y: 0}
   - {x: .5, y: 0}
@@ -123,6 +164,19 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11400138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64aa7f6eba7994e7d8693bead711198f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whipping: 0
+  canvas: {fileID: 0}
 --- !u!114 &11414294
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -180,6 +234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   immune_time: 100
   blink_time: 5
+  invisible_Time: 2
   up_speed: {x: 0, y: 1.29999995, z: 0}
   left_speed: {x: -1, y: 0, z: 0}
   canvas: {fileID: 0}
@@ -254,7 +309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 111366, guid: 8aab56791c10246a6b5632694449090c, type: 2}
-  muzzle: {fileID: 118648}
+  muzzle: {fileID: 100138}
   useInterval: 2
 --- !u!114 &11465690
 MonoBehaviour:
@@ -269,18 +324,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camera: {fileID: 0}
   speed: 1
---- !u!114 &11465692
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 114296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00371a7450bbf4cb582d95ea3d5f2d74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  whip: {fileID: 118648}
 --- !u!212 &21214296
 SpriteRenderer:
   m_ObjectHideFlags: 1
