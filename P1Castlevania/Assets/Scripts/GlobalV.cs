@@ -21,6 +21,9 @@ public class GlobalV : MonoBehaviour {
 	public float mytime;
 	public Sprite[] Phealth;
 	public Sprite[] Ehealth;
+	public Sprite[] items;
+	public GameObject Item;
+	public int itemNum;
 
 
 	// Use this for initialization
@@ -44,6 +47,7 @@ public class GlobalV : MonoBehaviour {
 		stageT.GetComponent<Text> ().text = String.Concat("" , stage);
 		playerImage.GetComponent<Image> ().sprite = Phealth [playerLife];
 		enemyImage.GetComponent<Image> ().sprite = Ehealth [enemyLife];
+		Item.GetComponent<Image> ().sprite = items [itemNum];
  		if (mytime + 1 < Time.time) {
 			mytime = Time.time;	
 			time --;
