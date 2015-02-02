@@ -13,9 +13,9 @@ public class control_camera : MonoBehaviour {
 		if (other.tag == "camera_wall") {
 			wall_v wall_value = other.GetComponent<wall_v>();
 			CameraFollow script =	camera.GetComponent<CameraFollow>();	
-			if ((transform.position.x - other.transform.position.x) * wall_value.dir_left > 0)
+			if ((transform.position.x - other.transform.position.x) * wall_value.dir_left > 0 && !wall_value.boss)
 				script.setCameraStop(false);
-			else 
+			else
 				script.setCameraStop(true);
 		}
 	}

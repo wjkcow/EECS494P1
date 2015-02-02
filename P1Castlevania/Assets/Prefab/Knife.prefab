@@ -75,6 +75,7 @@ MonoBehaviour:
   acc: {x: 0, y: 0, z: 0}
   canvas: {fileID: 157460, guid: e51d704c855a542ab9ea66ab68106ad4, type: 2}
   num: 1
+  breakable: 1
 --- !u!114 &11477550
 MonoBehaviour:
   m_ObjectHideFlags: 1
