@@ -78,6 +78,15 @@ public class Hero_BaseMovement : MonoBehaviour
 	}
 	void Update ()
 	{
+		if (Input.GetKeyDown (KeyCode.B)) {
+			anim.SetInteger("WhipState", 0);		
+		} 
+		if (Input.GetKeyDown (KeyCode.N)) {
+			anim.SetInteger("WhipState", 1);		
+		}
+		if (Input.GetKeyDown (KeyCode.M)) {
+			anim.SetInteger("WhipState", 2);		
+		} 
 		if (player_control_enable) {
 			if (check ()) {
 				return;		

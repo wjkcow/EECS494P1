@@ -1,15 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Ghost : MonoBehaviour {
-	public bool walk_left = true;
-	public Vector3 rightSpeed = new Vector3 (0.005f, 0, 0);
+public class Water_ghost : MonoBehaviour {
 
+	public bool faceLeft = true;
+	public Vector3 rightSpeed = new Vector3 (0.012f, 0, 0);
+	public Vector3 bulletSpeed = new Vector3 (0.02f, 0, 0);
+	public int  turnRate = 100;
+	public Transform hero;
+	public Transform muzzle;
+	public GameObject bullet;
+	private int turnC = 0;
+	
 	// Use this for initialization
 	void Start () {
-		if (!walk_left) {
-			flip ();
-		}	
+
 	}
 	
 	// Update is called once per frame
@@ -17,15 +22,20 @@ public class Ghost : MonoBehaviour {
 		if (!GetComponent<Enemy> ().start) {
 			return;		
 		}
-		if (walk_left) {
+		if (faceLeft) {
 			transform.position = transform.position - rightSpeed;
-				} else {
+		} else {
 			transform.position = transform.position + rightSpeed;
 		}
-	
+	}
+
+	void FixedUpdate(){
+
+	}
+	void fire(){
+
 	}
 	
-
 	void flip ()
 	{
 		Vector3 theScale = transform.localScale;
