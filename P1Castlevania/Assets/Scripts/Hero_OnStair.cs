@@ -221,7 +221,7 @@ public class Hero_OnStair : MonoBehaviour {
 	
 	public bool getReadyToGoStairs (){
 		Gravity g = GetComponent<Gravity> ();
-		float speed = 0.2f;
+		float speed = 0.6f;
 		target = transform.position;
 		target.x = startChecker.transform.FindChild("stairP").transform.position.x;
 		dis = target.x - transform.position.x;

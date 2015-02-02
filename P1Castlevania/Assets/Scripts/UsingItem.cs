@@ -9,11 +9,15 @@ public class UsingItem : MonoBehaviour {
 	public float useInterval;
 	private Animator anim;
 	private Hero h;
+	public GameObject canvas;
+	private GlobalV globalV;
 
 	void Start(){
 		lastUseTime = Time.time;
 		anim = GetComponent<Animator> ();
 		h = GetComponent<Hero> ();
+		globalV = canvas.GetComponent<GlobalV> ();
+
 	}
 
 	public void getItem(GameObject _item){
@@ -28,15 +32,17 @@ public class UsingItem : MonoBehaviour {
 		if (item) {
 			if (Input.GetKey (KeyCode.UpArrow) && Input.GetKeyDown (KeyCode.Space)) {
 				print ("get input");
-				if (Time.time > lastUseTime + useInterval){
-					if (item.GetComponent<usedItem>().thrownItem){
-						shoot ();
-					} else {
-						use();
-					}
-					lastUseTime = Time.time;
-				}	
-			
+				if (globalV.hearts > 0){
+					if (Time.time > lastUseTime + useInterval){
+						if (item.GetComponent<usedItem>().thrownItem){
+							shoot ();
+						} else {
+							use();
+						}
+						lastUseTime = Time.time;
+						globalV.hearts --;
+					}	
+				}
 			}
 		}
 	}
@@ -49,10 +55,10 @@ public class UsingItem : MonoBehaviour {
 		print ("start to throw");
 		anim.SetBool ("Walk", false);
 		anim.SetTrigger("Throw");
-		shootHelper ();
 	}
 
 	void shootHelper(){
+		print ("throw once");
 		GameObject newBullet =  (GameObject)Instantiate (item, muzzle.transform.position, Quaternion.identity);
 		newBullet.GetComponent<usedItem> ().facingLeft = h.facingLeft;
 	}
