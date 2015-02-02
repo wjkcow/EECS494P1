@@ -23,12 +23,12 @@ AnimationClip:
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 31
-      - time: .316666663
+      - time: .25333333
         value: 1
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 31
-      - time: .550000012
+      - time: .439999998
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -43,21 +43,21 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 21300008, guid: c6922e1a903de4294aa55b142999163a, type: 3}
-    - time: .13333334
+    - time: .106666669
       value: {fileID: 21300132, guid: c6922e1a903de4294aa55b142999163a, type: 3}
-    - time: .25
+    - time: .200000003
       value: {fileID: 21300134, guid: c6922e1a903de4294aa55b142999163a, type: 3}
-    - time: .300000012
+    - time: .239999995
       value: {fileID: 21300134, guid: c6922e1a903de4294aa55b142999163a, type: 3}
-    - time: .316666663
+    - time: .25333333
       value: {fileID: 21300136, guid: c6922e1a903de4294aa55b142999163a, type: 3}
-    - time: .550000012
+    - time: .439999998
       value: {fileID: 21300136, guid: c6922e1a903de4294aa55b142999163a, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 60
+  m_SampleRate: 75
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -86,7 +86,7 @@ AnimationClip:
   m_AnimationClipSettings:
     serializedVersion: 2
     m_StartTime: 0
-    m_StopTime: .649999976
+    m_StopTime: .519999981
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -109,12 +109,12 @@ AnimationClip:
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 31
-      - time: .316666663
+      - time: .25333333
         value: 1
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 31
-      - time: .550000012
+      - time: .439999998
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -127,7 +127,7 @@ AnimationClip:
     script: {fileID: 11500000, guid: 64aa7f6eba7994e7d8693bead711198f, type: 3}
   m_EulerEditorCurves: []
   m_Events:
-  - time: .649999976
+  - time: .519999981
     functionName: attackDone
     data: 
     objectReferenceParameter: {fileID: 0}

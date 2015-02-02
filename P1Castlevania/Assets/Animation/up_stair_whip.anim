@@ -23,12 +23,12 @@ AnimationClip:
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 31
-      - time: .600000024
+      - time: .0642857179
         value: 1
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 31
-      - time: 1
+      - time: .107142858
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -43,13 +43,13 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 21300010, guid: c6922e1a903de4294aa55b142999163a, type: 3}
-    - time: .333333343
+    - time: .0357142873
       value: {fileID: 21300036, guid: c6922e1a903de4294aa55b142999163a, type: 3}
-    - time: .600000024
+    - time: .0642857179
       value: {fileID: 21300038, guid: c6922e1a903de4294aa55b142999163a, type: 3}
-    - time: .666666687
+    - time: .0714285746
       value: {fileID: 21300040, guid: c6922e1a903de4294aa55b142999163a, type: 3}
-    - time: .933333337
+    - time: .100000001
       value: {fileID: 21300040, guid: c6922e1a903de4294aa55b142999163a, type: 3}
     attribute: m_Sprite
     path: 
@@ -69,13 +69,13 @@ AnimationClip:
     classID: 114
     script: {fileID: 11500000, guid: 00371a7450bbf4cb582d95ea3d5f2d74, type: 3}
   - curve:
-    - time: .933333337
+    - time: .100000001
       value: {fileID: 0}
     attribute: whip
     path: 
     classID: 114
     script: {fileID: 0}
-  m_SampleRate: 15
+  m_SampleRate: 140
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -120,7 +120,7 @@ AnimationClip:
   m_AnimationClipSettings:
     serializedVersion: 2
     m_StartTime: 0
-    m_StopTime: 1
+    m_StopTime: .673809528
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -143,12 +143,12 @@ AnimationClip:
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 31
-      - time: .600000024
+      - time: .0642857179
         value: 1
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 31
-      - time: 1
+      - time: .107142858
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -161,7 +161,7 @@ AnimationClip:
     script: {fileID: 11500000, guid: 64aa7f6eba7994e7d8693bead711198f, type: 3}
   m_EulerEditorCurves: []
   m_Events:
-  - time: 1
+  - time: .20714286
     functionName: attackDone
     data: 
     objectReferenceParameter: {fileID: 0}

@@ -23,12 +23,12 @@ AnimationClip:
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 31
-      - time: .316666663
+      - time: .25333333
         value: 1
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 31
-      - time: .550000012
+      - time: .439999998
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -43,21 +43,21 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 21300008, guid: c6922e1a903de4294aa55b142999163a, type: 3}
-    - time: .13333334
+    - time: .106666669
       value: {fileID: 21300120, guid: c6922e1a903de4294aa55b142999163a, type: 3}
-    - time: .25
+    - time: .200000003
       value: {fileID: 21300122, guid: c6922e1a903de4294aa55b142999163a, type: 3}
-    - time: .300000012
+    - time: .239999995
       value: {fileID: 21300122, guid: c6922e1a903de4294aa55b142999163a, type: 3}
-    - time: .316666663
+    - time: .25333333
       value: {fileID: 21300186, guid: c6922e1a903de4294aa55b142999163a, type: 3}
-    - time: .550000012
+    - time: .439999998
       value: {fileID: 21300186, guid: c6922e1a903de4294aa55b142999163a, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 60
+  m_SampleRate: 75
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -109,12 +109,12 @@ AnimationClip:
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 31
-      - time: .316666663
+      - time: .25333333
         value: 1
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 31
-      - time: .550000012
+      - time: .439999998
         value: 0
         inSlope: Infinity
         outSlope: Infinity
