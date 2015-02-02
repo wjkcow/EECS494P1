@@ -87,7 +87,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   g: {x: 0, y: 0, z: 0}
   still: 0
-  landByYourself: 0
+  landByYourself: 1
   speed: {x: 0, y: 0, z: 0}
   acc: {x: 0, y: 0, z: 0}
   landDelta: 0

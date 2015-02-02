@@ -1287,6 +1287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dir_left: -1
+  boss: 0
 --- !u!68 &197106753
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -2516,6 +2517,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dir_left: -1
+  boss: 0
 --- !u!68 &339366370
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -3277,6 +3279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dir_left: 1
+  boss: 0
 --- !u!68 &440979395
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -3977,6 +3980,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dir_left: -1
+  boss: 0
 --- !u!68 &479129462
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -5107,6 +5111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dir_left: -1
+  boss: 0
 --- !u!68 &626417344
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -6801,6 +6806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dir_left: 1
+  boss: 0
 --- !u!68 &826690902
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -8276,6 +8282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dir_left: 1
+  boss: 0
 --- !u!68 &1009573431
 EdgeCollider2D:
   m_ObjectHideFlags: 0

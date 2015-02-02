@@ -78,6 +78,8 @@
      <Compile Include="Assets\Scripts\wall_v.cs" />
      <Compile Include="Assets\WG_Spawner.cs" />
      <Compile Include="Assets\Water_ghost.cs" />
+     <Compile Include="Assets\bossAI.cs" />
+     <Compile Include="Assets\bossBattle.cs" />
      <Compile Include="Assets\leopard_trap.cs" />
      <Compile Include="Assets\moveCamera.cs" />
  <Reference Include="UnityEngine.UI">
