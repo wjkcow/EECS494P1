@@ -16,6 +16,8 @@ TagManager:
   - nextLevel
   - Breakable
   - Pickable
+  - Knife
+  - Axe
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

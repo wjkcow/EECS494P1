@@ -11,10 +11,12 @@ public class usedItem : MonoBehaviour {
 	public GameObject canvas;
 	private GlobalV globalV;
 	public int num;
+	public bool breakable;
+	private float time;
 	// Use this for initialization
 	void start(){
 		g = GetComponent<Gravity> ();
-
+		time = Time.time;
 	}
 
 	void Update(){
@@ -30,6 +32,9 @@ public class usedItem : MonoBehaviour {
 			g.setAcc(acc);
 			hasSet = true;
 		}
+		if (transform.position.y < -5) {
+			Destroy(gameObject);
+		}
 	}
 
 	void OnTriggerEnter2D(Collider2D other){
@@ -38,16 +43,19 @@ public class usedItem : MonoBehaviour {
 		if (other.tag == "Breakable") {
 			print ("hit");
 			other.GetComponent<Breakable>().breakMe();
-			Destroy(gameObject);
+			if (breakable)
+				Destroy(gameObject);
 		} else if(other.tag == "Enemy"){
 			Enemy otherScript = other.GetComponent<Enemy>();
 			otherScript.hitten();
 			globalV.score += otherScript.score;
 			print(globalV.score +"  " + otherScript.score);
-			Destroy(gameObject);
+			if (breakable)
+				Destroy(gameObject);
 		} else if(other.tag != "Hero" && other.tag != "Player" && other.tag != "Stair" && other.tag != "camera_wall"){
 			print (other.tag);
-			Destroy(gameObject);
+			if (breakable)
+				Destroy(gameObject);
 		}
 	}
 
@@ -57,6 +65,6 @@ public class usedItem : MonoBehaviour {
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
-
+	
 
 }

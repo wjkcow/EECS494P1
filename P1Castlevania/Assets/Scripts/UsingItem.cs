@@ -48,7 +48,7 @@ public class UsingItem : MonoBehaviour {
 	}
 
 	void use(){
-		//item.GetComponent<use>
+
 	}
 
 	void shoot(){

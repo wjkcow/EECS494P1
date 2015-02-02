@@ -17,7 +17,8 @@ public class Hero_pickitem : MonoBehaviour {
 			globalV.hearts ++;
 		else {
 			foreach(GameObject g in items){
-				if (g.name == name){
+				print (g.tag + "   " + name);
+				if (g.tag == name){
 					u.item = g;
 					globalV.itemNum = g.GetComponent<usedItem>().num;
 					break;
