@@ -86,7 +86,7 @@ AnimationClip:
   m_AnimationClipSettings:
     serializedVersion: 2
     m_StartTime: 0
-    m_StopTime: .583333313
+    m_StopTime: .466666669
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -127,7 +127,7 @@ AnimationClip:
     script: {fileID: 11500000, guid: 64aa7f6eba7994e7d8693bead711198f, type: 3}
   m_EulerEditorCurves: []
   m_Events:
-  - time: .583333313
+  - time: .466666669
     functionName: attackDone
     data: 
     objectReferenceParameter: {fileID: 0}

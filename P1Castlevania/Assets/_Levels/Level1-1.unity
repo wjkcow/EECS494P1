@@ -7601,7 +7601,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 414296, guid: f45b93863e3834364bd6f0226b152461, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11465690, guid: f45b93863e3834364bd6f0226b152461, type: 2}
       propertyPath: camera
