@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Bullet.cs" />
+     <Compile Include="Assets\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\Bat_fly.cs" />
      <Compile Include="Assets\Scripts\Breakable.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
@@ -74,6 +76,7 @@
      <Compile Include="Assets\Scripts\usedItem.cs" />
      <Compile Include="Assets\Scripts\wall.cs" />
      <Compile Include="Assets\Scripts\wall_v.cs" />
+     <Compile Include="Assets\WG_Spawner.cs" />
      <Compile Include="Assets\Water_ghost.cs" />
      <Compile Include="Assets\moveCamera.cs" />
  <Reference Include="UnityEngine.UI">

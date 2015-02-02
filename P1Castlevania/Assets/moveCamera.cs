@@ -27,8 +27,8 @@ public class moveCamera : MonoBehaviour {
 			camera.cullingMask = 1 << 0;
 			timing = Time.time;
 			moving = true;
+			camera.transform.position = pos;
 		}
-		camera.transform.position = pos;
 	}
 	
 }

@@ -5,6 +5,7 @@ public class Enemy : MonoBehaviour {
 	public GameObject die_effect;
 	public bool start = false;
 	public int score;
+	public GameObject spawner; 
 	// Use this for initialization
 	void Start () {
 		start = false;
@@ -16,13 +17,18 @@ public class Enemy : MonoBehaviour {
 	}
 	public void hitten(){
 		GameObject de =  (GameObject)Instantiate (die_effect, transform.position, Quaternion.identity);
+		if (spawner) {
+			spawner.GetComponent<EnemySpawner>().count --;
+		}
 		Destroy(this.gameObject);
 
 	}
 
 	void OnBecameInvisible() {
 		enabled = false;
-		Destroy (this.gameObject);
+		if (spawner) {
+			spawner.GetComponent<EnemySpawner>().count --;
+		}		Destroy (this.gameObject);
 	}
 	void OnBecameVisible(){
 		start = true;
