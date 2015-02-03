@@ -1,15 +1,16 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GlobalV.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/moveCamera.cs">
     <Files>
-      <File FileName="Assets/Scripts/Hero_pickitem.cs" Line="23" Column="14" />
-      <File FileName="Assets/Scripts/UsingItem.cs" Line="43" Column="69" />
-      <File FileName="Assets/Scripts/Hero_BaseMovement.cs" Line="127" Column="64" />
-      <File FileName="Assets/Scripts/Breakable.cs" Line="28" Column="1" />
-      <File FileName="Assets/Scripts/Enemy.cs" Line="29" Column="3" />
-      <File FileName="Assets/Scripts/GlobalV.cs" Line="57" Column="1" />
-      <File FileName="Assets/Water_ghost.cs" Line="27" Column="20" />
-      <File FileName="Assets/Scripts/Hero_OnStair.cs" Line="81" Column="34" />
+      <File FileName="Assets/Scripts/Hero_pickitem.cs" Line="15" Column="1" />
+      <File FileName="Assets/Scripts/UsingItem.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Hero_BaseMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Breakable.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Enemy.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GlobalV.cs" Line="25" Column="25" />
+      <File FileName="Assets/Water_ghost.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Hero_OnStair.cs" Line="1" Column="1" />
+      <File FileName="Assets/moveCamera.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

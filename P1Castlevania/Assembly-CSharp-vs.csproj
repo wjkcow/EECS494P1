@@ -81,6 +81,7 @@
      <Compile Include="Assets\bossAI.cs" />
      <Compile Include="Assets\bossBattle.cs" />
      <Compile Include="Assets\leopard_trap.cs" />
+     <Compile Include="Assets\level0to1.cs" />
      <Compile Include="Assets\moveCamera.cs" />
      <Compile Include="Assets\pull_green.cs" />
      <Compile Include="Assets\runTrigger.cs" />
