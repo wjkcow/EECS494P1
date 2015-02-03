@@ -23,11 +23,13 @@ public class moveCamera : MonoBehaviour {
 	void OnTriggerEnter2D (Collider2D other){
 		oldCamera = camera.cullingMask;
 		if (other.tag == "Hero") {
-			otherChecker.SetActive(false);
-			camera.cullingMask = 1 << 0;
-			timing = Time.time;
-			moving = true;
-			camera.transform.position = pos;
+			if (other.GetComponent<Hero_OnStair>().onStair){
+				otherChecker.SetActive(false);
+				camera.cullingMask = 0;
+				timing = Time.time;
+				moving = true;
+				camera.transform.position = pos;
+			}
 		}
 	}
 	

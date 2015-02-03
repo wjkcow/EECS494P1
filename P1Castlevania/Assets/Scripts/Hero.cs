@@ -5,7 +5,7 @@ public class Hero : MonoBehaviour {
 	public bool hitten = false;
 	public bool isStairMode = false;
 	public bool facingLeft = true;
-
+	public bool immune = false;
 	// Use this for initialization
 	void Start () {
 	}
@@ -15,7 +15,15 @@ public class Hero : MonoBehaviour {
 
 	}
 
-
+	void Update(){
+		if (Input.GetKeyDown (KeyCode.I)) {
+			immune = !immune;		
+		}
+		if (transform.position.y < -4) {
+			print ("fall");		
+			Application.LoadLevel (Application.loadedLevel);
+		}
+	}
 	
 	void OnTriggerEnter2D(Collider2D other){
 
@@ -41,5 +49,13 @@ public class Hero : MonoBehaviour {
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
 		transform.localScale = theScale;
+	}
+
+	public void die(){
+		if (!immune) {
+			Application.LoadLevel (Application.loadedLevel);
+		}
+	}
+	void OnBecameInvisible() {
 	}
 }

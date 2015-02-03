@@ -8,11 +8,15 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 431484}
+  - 61: {fileID: 6146064}
+  - 114: {fileID: 11446064}
+  - 114: {fileID: 11446062}
+  - 50: {fileID: 5046064}
   - 212: {fileID: 21231484}
   - 95: {fileID: 9531484}
   m_Layer: 0
   m_Name: boss_bat
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24,11 +28,37 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 131484}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.53000021, y: -.25999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 19.7040005, y: .409999996, z: 0}
+  m_LocalScale: {x: 1.20000005, y: 1.20000005, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!50 &5046064
+Rigidbody2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 131484}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_FixedAngle: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+--- !u!61 &6146064
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 131484}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Size: {x: .28628087, y: .202758506}
+  m_Center: {x: -.00379721308, y: -2.48352681e-08}
 --- !u!95 &9531484
 Animator:
   serializedVersion: 3
@@ -44,6 +74,45 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11446062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 131484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d738256090ecc4ae1ab64df58892e325, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  g: {x: 0, y: 0, z: 0}
+  still: 0
+  landByYourself: 1
+  speed: {x: 0, y: 0, z: 0}
+  acc: {x: 0, y: 0, z: 0}
+  landDelta: 1
+--- !u!114 &11446064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 131484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0857497ddaff044bc84b42dd51b998a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  middleLine: {fileID: 0}
+  state: 0
+  player: {fileID: 0}
+  goUpSpeed: 1
+  goVerticalSpeed: .400000006
+  attackingDir: {x: -1, y: 0, z: 0}
+  downSpeed: {x: 0, y: -.800000012, z: 0}
+  acc: {x: 0, y: .5, z: 0}
+  waitTime: 3
+  immuneTime: .200000003
+  area: {fileID: 0}
 --- !u!212 &21231484
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -64,7 +133,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300002, guid: 313f7989438c94d589f81f7d8802c732, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 313f7989438c94d589f81f7d8802c732, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
