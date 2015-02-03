@@ -9,7 +9,7 @@ public class Leopard : MonoBehaviour
 		private Gravity g;
 		private Animator anim;
 		private bool jumping = false;
-
+		public bool start = false;
 		// Use this for initialization
 		void Start ()
 		{
@@ -24,6 +24,9 @@ public class Leopard : MonoBehaviour
 		void FixedUpdate ()
 		{
 		if (!GetComponent<Enemy> ().start) {
+			return;		
+		}
+		if (!start) {
 			return;		
 		}
 				if (jumping) {

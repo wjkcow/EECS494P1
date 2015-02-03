@@ -14,7 +14,26 @@ AnimationClip:
   m_CompressedRotationCurves: []
   m_PositionCurves: []
   m_ScaleCurves: []
-  m_FloatCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: .200000003
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: shootDone
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: 59d9a45dc0a554f338dd3246a6a15e2a, type: 3}
   m_PPtrCurves:
   - curve:
     - time: 0
@@ -32,6 +51,12 @@ AnimationClip:
     m_Extent: {x: 0, y: 0, z: 0}
   m_ClipBindingConstant:
     genericBindings:
+    - path: 0
+      attribute: 897320885
+      script: {fileID: 11500000, guid: 59d9a45dc0a554f338dd3246a6a15e2a, type: 3}
+      classID: 114
+      customType: 0
+      isPPtrCurve: 0
     - path: 0
       attribute: 0
       script: {fileID: 0}
@@ -58,6 +83,32 @@ AnimationClip:
     m_KeepOriginalPositionXZ: 0
     m_HeightFromFeet: 0
     m_Mirror: 0
-  m_EditorCurves: []
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: .200000003
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: shootDone
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: 59d9a45dc0a554f338dd3246a6a15e2a, type: 3}
   m_EulerEditorCurves: []
-  m_Events: []
+  m_Events:
+  - time: .100000001
+    functionName: fire
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

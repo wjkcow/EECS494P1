@@ -27,6 +27,9 @@ GameObject:
   - 95: {fileID: 9592700}
   - 114: {fileID: 11471200}
   - 114: {fileID: 11471202}
+  - 114: {fileID: 11403328}
+  - 50: {fileID: 5003328}
+  - 61: {fileID: 6103328}
   m_Layer: 0
   m_Name: water_ghost
   m_TagString: Enemy
@@ -53,12 +56,38 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 192700}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.57028913, y: -.617855072, z: 0}
+  m_LocalPosition: {x: 10.9720554, y: -1.65460694, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 471202}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!50 &5003328
+Rigidbody2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 192700}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 1
+  m_FixedAngle: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+--- !u!61 &6103328
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 192700}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Size: {x: .140000001, y: .260254622}
+  m_Center: {x: 0, y: -.0298726559}
 --- !u!95 &9592700
 Animator:
   serializedVersion: 3
@@ -74,6 +103,23 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11403328
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 192700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d738256090ecc4ae1ab64df58892e325, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  g: {x: 0, y: -6, z: 0}
+  still: 0
+  landByYourself: 0
+  speed: {x: 0, y: 0, z: 0}
+  acc: {x: 0, y: 0, z: 0}
+  landDelta: .166999996
 --- !u!114 &11471200
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -88,6 +134,7 @@ MonoBehaviour:
   die_effect: {fileID: 170050, guid: 80ae569678ed642fd9e8ca2208208efc, type: 2}
   start: 0
   score: 100
+  spawner: {fileID: 0}
 --- !u!114 &11471202
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -100,10 +147,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   faceLeft: 1
-  rightSpeed: {x: .0120000001, y: 0, z: 0}
-  turnRate: 100
+  fireRate: 2
+  jumpSpeed: {x: 0, y: 4, z: 0}
+  rightSpeed: {x: .00800000038, y: 0, z: 0}
+  bulletSpeed: {x: .0199999996, y: 0, z: 0}
+  turnRate: 50
   hero: {fileID: 0}
-  bullet: {fileID: 0}
+  muzzle: {fileID: 471202}
+  bullet: {fileID: 111480, guid: ddeeede580af04e519797af95827a8d4, type: 2}
+  shootDone: 1
+  turn: 0
 --- !u!212 &21292700
 SpriteRenderer:
   m_ObjectHideFlags: 1

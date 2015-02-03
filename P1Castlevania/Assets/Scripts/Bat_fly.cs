@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class Bat_fly : MonoBehaviour {
+	private bool walk_left = true;
 	private float height;
 	public float range;
 	public float max_up;
@@ -10,6 +11,9 @@ public class Bat_fly : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		height = transform.position.y;
+		if (GameObject.Find ("Hero").transform.position.x > transform.position.x) {
+			walk_left = false;		
+		}
 	}
 	
 	// Update is called once per frame
@@ -31,7 +35,12 @@ public class Bat_fly : MonoBehaviour {
 			uspeed *= -1f;
 		}
 		speed.y = uspeed;
-		transform.position = transform.position + speed;
+		if (walk_left) {
+						transform.position = transform.position + speed;
+				} else {
+			transform.position = transform.position - speed;
+
+		}
 	}
 
 	void Die(){

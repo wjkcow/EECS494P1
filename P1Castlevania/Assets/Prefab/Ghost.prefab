@@ -89,6 +89,7 @@ MonoBehaviour:
   die_effect: {fileID: 170050, guid: 80ae569678ed642fd9e8ca2208208efc, type: 2}
   start: 0
   score: 100
+  spawner: {fileID: 0}
 --- !u!114 &11414174
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -101,7 +102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walk_left: 1
-  rightSpeed: {x: .0120000001, y: 0, z: 0}
+  rightSpeed: {x: .00800000038, y: 0, z: 0}
 --- !u!114 &11414176
 MonoBehaviour:
   m_ObjectHideFlags: 1

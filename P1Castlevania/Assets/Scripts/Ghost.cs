@@ -7,6 +7,9 @@ public class Ghost : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		if (GameObject.Find ("Hero").transform.position.x > transform.position.x) {
+			walk_left = false;		
+		}
 		if (!walk_left) {
 			flip ();
 		}	

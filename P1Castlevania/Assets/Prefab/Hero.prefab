@@ -297,6 +297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 0}
+  items: []
 --- !u!114 &11465688
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -311,6 +312,7 @@ MonoBehaviour:
   item: {fileID: 111366, guid: 8aab56791c10246a6b5632694449090c, type: 2}
   muzzle: {fileID: 100138}
   useInterval: 2
+  canvas: {fileID: 0}
 --- !u!114 &11465690
 MonoBehaviour:
   m_ObjectHideFlags: 1
