@@ -16,7 +16,8 @@ public class leopard_trap : MonoBehaviour {
 	{
 
 		if (other.tag == "Hero") {
-			l.GetComponent<Leopard>().start = true;
+			if(l)
+				l.GetComponent<Leopard>().start = true;
 		} 
 	}
 }
