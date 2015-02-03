@@ -12,6 +12,7 @@ public class Hero_BaseMovement : MonoBehaviour
 	private Vector3 jumpHeight = Vector3.zero;
 	private bool lastStairState;
 	private bool player_control_enable = true;
+	public AudioClip whipSound;
 	
 	public enum HeroState
 	{
@@ -123,7 +124,8 @@ public class Hero_BaseMovement : MonoBehaviour
 				anim.SetTrigger ("Whip");
 				lastState = curState;
 				curState = HeroState.WHIP;
-				
+				GameObject.Find("SoundEffect").audio.PlayOneShot (whipSound, 1.0f);
+
 			}
 			
 		}

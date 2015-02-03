@@ -6,10 +6,14 @@ public class Enemy : MonoBehaviour {
 	public bool start = false;
 	public int score;
 	public GameObject spawner; 
+	public AudioClip brokenSound;
+//	public AudioSource brokenSound;
 	// Use this for initialization
 	void Start () {
 		start = false;
+//		brokenSound = GetComponent<AudioSource> ();
 	}
+
 	
 	// Update is called once per frame
 	void Update () {
@@ -20,6 +24,8 @@ public class Enemy : MonoBehaviour {
 		if (spawner) {
 			spawner.GetComponent<EnemySpawner>().count --;
 		}
+		print ("hitten");
+	 	GameObject.Find("SoundEffect").audio.PlayOneShot (brokenSound, 1.0f);
 		Destroy(this.gameObject);
 
 	}

@@ -90,6 +90,7 @@ MonoBehaviour:
   start: 0
   score: 200
   spawner: {fileID: 0}
+  brokenSound: {fileID: 8300000, guid: 981d445adb5c54e0585bfe7b14dedcd0, type: 3}
 --- !u!114 &11409752
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -121,6 +122,7 @@ MonoBehaviour:
   rightSpeed: {x: .0179999992, y: 0, z: 0}
   jump: {x: -1, y: 1.5, z: 0}
   walk_left: 1
+  start: 0
 --- !u!212 &21209750
 SpriteRenderer:
   m_ObjectHideFlags: 1

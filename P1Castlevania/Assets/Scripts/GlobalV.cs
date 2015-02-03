@@ -24,7 +24,7 @@ public class GlobalV : MonoBehaviour {
 	public Sprite[] items;
 	public GameObject Item;
 	public int itemNum;
-
+	public AudioClip lostLife;
 
 	// Use this for initialization
 	void Start () {
@@ -36,6 +36,7 @@ public class GlobalV : MonoBehaviour {
 		if (playerLife < 0) {
 			P --;
 			print ("start over");
+			GameObject.Find("SoundEffect").audio.PlayOneShot (lostLife, 1.0f);
 		}
 		if (P == 0) {
 			print ("Game Over");		

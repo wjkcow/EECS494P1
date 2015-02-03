@@ -127,6 +127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   die_effect: {fileID: 170050, guid: 80ae569678ed642fd9e8ca2208208efc, type: 2}
   Drop_item: {fileID: 108900, guid: 2db1737e3223a43038bc4093271124c9, type: 2}
+  brokenSound: {fileID: 8300000, guid: 981d445adb5c54e0585bfe7b14dedcd0, type: 3}
 --- !u!212 &21206934
 SpriteRenderer:
   m_ObjectHideFlags: 1

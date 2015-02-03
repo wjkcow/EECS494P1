@@ -8,6 +8,8 @@ public class Hero_pickitem : MonoBehaviour {
 	private UsingItem u;
 	private int whipNum = 0;
 	private Animator anim;
+	public AudioClip pickHeart;
+	public AudioClip pickItem;
 	// Use this for initialization
 	void Start () {
 		globalV = canvas.GetComponent<GlobalV> ();
@@ -16,17 +18,21 @@ public class Hero_pickitem : MonoBehaviour {
 	}
 
 	public void pick(string name){
-		if (name == "Heart")
+		if (name == "Heart"){
 			globalV.hearts ++;
+			GameObject.Find("SoundEffect").audio.PlayOneShot (pickHeart, 1.0f);
+		}
 		else if (name == "Whip"){
 			whipNum ++;
 			print("whip");
+			GameObject.Find("SoundEffect").audio.PlayOneShot (pickItem, 1.0f);
 			if (whipNum <= 2)
 				anim.SetInteger("WhipState", whipNum);		
 		}
 		else {
 			foreach(GameObject g in items){
 				print (g.tag + "   " + name);
+				GameObject.Find("SoundEffect").audio.PlayOneShot (pickItem, 1.0f);
 				if (g.tag == name){
 					u.item = g;
 					globalV.itemNum = g.GetComponent<usedItem>().num;

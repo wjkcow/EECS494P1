@@ -78,7 +78,7 @@ public class Hero_OnStair : MonoBehaviour {
 				anim.SetTrigger("BackToIdle");
 				g.landByYourself = false;
 			} else if (onCheckPoint){
-				if (Input.GetKeyDown (KeyCode.S) && !attack && !startAttack) {
+				if (Input.GetKeyDown (KeyCode.X) && !attack && !startAttack) {
 					startAttack = true;
 				}
 				if (startAttack){

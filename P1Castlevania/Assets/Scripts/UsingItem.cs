@@ -11,6 +11,7 @@ public class UsingItem : MonoBehaviour {
 	private Hero h;
 	public GameObject canvas;
 	private GlobalV globalV;
+	public AudioClip useItemSound;
 
 	void Start(){
 		lastUseTime = Time.time;
@@ -39,6 +40,7 @@ public class UsingItem : MonoBehaviour {
 						} else {
 							use();
 						}
+						GameObject.Find("SoundEffect").audio.PlayOneShot (useItemSound, 1.0f);
 						lastUseTime = Time.time;
 						globalV.hearts --;
 					}	
