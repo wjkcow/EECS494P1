@@ -28,9 +28,9 @@ public class UsingItem : MonoBehaviour {
 		Instantiate (item.gameObject, muzzle.transform.position, Quaternion.identity);
 	}
 
-	void FixedUpdate(){
+	void Update(){
 		if (item) {
-			if (Input.GetKey (KeyCode.UpArrow) && Input.GetKeyDown (KeyCode.Space)) {
+			if (Input.GetKey (KeyCode.UpArrow) && Input.GetKeyDown (KeyCode.X)) {
 				print ("get input");
 				if (globalV.hearts > 0){
 					if (Time.time > lastUseTime + useInterval){

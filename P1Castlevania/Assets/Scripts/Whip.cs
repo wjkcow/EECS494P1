@@ -22,8 +22,15 @@ public class Whip : MonoBehaviour {
 				other.GetComponent<Breakable>().breakMe();
 			} else if(other.tag == "Enemy"){
 				Enemy otherScript = other.GetComponent<Enemy>();
-				otherScript.hitten();
-				globalV.score += otherScript.score;
+				if (other.name != "Boss"){
+					otherScript.hitten();
+					globalV.score += otherScript.score;
+				} else {
+					bossAI script = other.GetComponent<bossAI>();
+					script.hitten();
+				}
+
+
 //				print(globalV.score +"  " + otherScript.score);
 			}
 		}

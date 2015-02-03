@@ -19,17 +19,17 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 21300010, guid: c6922e1a903de4294aa55b142999163a, type: 3}
-    - time: .116666667
+    - time: .233333334
       value: {fileID: 21300024, guid: c6922e1a903de4294aa55b142999163a, type: 3}
-    - time: .150000006
+    - time: .300000012
       value: {fileID: 21300026, guid: c6922e1a903de4294aa55b142999163a, type: 3}
-    - time: .183333337
+    - time: .366666675
       value: {fileID: 21300028, guid: c6922e1a903de4294aa55b142999163a, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 60
+  m_SampleRate: 30
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -50,7 +50,7 @@ AnimationClip:
   m_AnimationClipSettings:
     serializedVersion: 2
     m_StartTime: 0
-    m_StopTime: .200000003
+    m_StopTime: .400000006
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -66,4 +66,11 @@ AnimationClip:
     m_Mirror: 0
   m_EditorCurves: []
   m_EulerEditorCurves: []
-  m_Events: []
+  m_Events:
+  - time: .366666675
+    functionName: shootHelper
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

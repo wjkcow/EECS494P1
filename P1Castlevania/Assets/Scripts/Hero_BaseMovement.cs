@@ -118,7 +118,7 @@ public class Hero_BaseMovement : MonoBehaviour
 	{
 		if (curState == HeroState.STAND || curState == HeroState.WALK || 
 		    curState == HeroState.JUMP || curState == HeroState.SQUAT) {
-			if (Input.GetKeyDown (KeyCode.S)) {
+			if (Input.GetKeyDown (KeyCode.X)) {
 				anim.SetBool ("Walk", false);
 				anim.SetTrigger ("Whip");
 				lastState = curState;
@@ -198,7 +198,7 @@ public class Hero_BaseMovement : MonoBehaviour
 	
 	void jump ()
 	{
-		if (Input.GetKeyDown (KeyCode.A)) {
+		if (Input.GetKeyDown (KeyCode.Z)) {
 			anim.SetBool ("Walk", false);
 			jumpHeight = transform.position;
 			anim.SetTrigger ("Jump"); 

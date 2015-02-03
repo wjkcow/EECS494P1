@@ -47,7 +47,12 @@ public class usedItem : MonoBehaviour {
 				Destroy(gameObject);
 		} else if(other.tag == "Enemy"){
 			Enemy otherScript = other.GetComponent<Enemy>();
-			otherScript.hitten();
+			if (other.name != "Boss")
+				otherScript.hitten();
+			else {
+				bossAI script = other.GetComponent<bossAI>();
+				script.hitten();
+			}
 			globalV.score += otherScript.score;
 			print(globalV.score +"  " + otherScript.score);
 			if (breakable)
