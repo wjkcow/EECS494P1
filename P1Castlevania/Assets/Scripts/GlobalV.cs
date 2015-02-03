@@ -24,6 +24,7 @@ public class GlobalV : MonoBehaviour {
 	public Sprite[] items;
 	public GameObject Item;
 	public int itemNum;
+	public GameObject H;
 
 
 	// Use this for initialization
@@ -35,6 +36,7 @@ public class GlobalV : MonoBehaviour {
 	void FixedUpdate () {
 		if (playerLife < 0) {
 			P --;
+			H.GetComponent<Hero>().die();
 			print ("start over");
 		}
 		if (P == 0) {
