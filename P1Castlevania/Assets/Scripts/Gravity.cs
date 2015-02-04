@@ -71,7 +71,6 @@ public class Gravity : MonoBehaviour
 								speed = new Vector3 (0, 0, 0);
 								acc = -1 * g;
 							if(landDelta > 0){
-					print ("gravity delta");
 								Vector3 pos = transform.position;
 								pos.y = other.transform.position.y + landDelta; // measured
 								transform.position = pos;
