@@ -2,13 +2,13 @@
 using System.Collections;
 
 public class doorTrigger : MonoBehaviour {
+	public GameObject door;
 
 	// Use this for initialization
 	void OnTriggerEnter2D (Collider2D other){
-		
 		if (other.tag == "Knife") {
-			print ("hit hero");
-				
+			door.GetComponent<greenDoor>().triggering();
+			Destroy(other.gameObject);
 		}
 	}
 }

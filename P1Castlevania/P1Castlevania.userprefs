@@ -1,21 +1,12 @@
 ﻿<Properties>
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Gravity.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/doorTrigger.cs">
     <Files>
-      <File FileName="Assets/Scripts/Gravity.cs" Line="58" Column="5" />
-=======
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Hero_pickitem.cs">
-    <Files>
-      <File FileName="Assets/Scripts/Enemy.cs" Line="27" Column="1" />
-      <File FileName="Assets/Scripts/Breakable.cs" Line="1" Column="1" />
-      <File FileName="Assets/bossAI.cs" Line="148" Column="98" />
-      <File FileName="Assets/Scripts/GlobalV.cs" Line="1" Column="1" />
-      <File FileName="Assets/bossBattle.cs" Line="19" Column="17" />
-      <File FileName="Assets/Scripts/Pickable.cs" Line="17" Column="34" />
-      <File FileName="Assets/Scripts/Hero_pickitem.cs" Line="34" Column="22" />
->>>>>>> ee8d8cf65f6a1973009df5bf4af182f0f9a6ed22
+      <File FileName="Assets/Water_ghost.cs" Line="52" Column="9" />
+      <File FileName="Assets/Scripts/Hero.cs" Line="1" Column="1" />
+      <File FileName="Assets/doorTrigger.cs" Line="15" Column="1" />
+      <File FileName="Assets/greenDoor.cs" Line="6" Column="9" />
+      <File FileName="Assets/pull_green.cs" Line="5" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
