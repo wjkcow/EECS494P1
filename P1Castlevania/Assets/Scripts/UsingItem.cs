@@ -12,6 +12,8 @@ public class UsingItem : MonoBehaviour {
 	public GameObject canvas;
 	private GlobalV globalV;
 	public AudioClip useItemSound;
+	private GameObject thrownObj;
+	public GameObject itemForCustom;
 
 	void Start(){
 		lastUseTime = Time.time;
@@ -36,6 +38,7 @@ public class UsingItem : MonoBehaviour {
 				if (globalV.hearts > 0){
 					if (Time.time > lastUseTime + useInterval){
 						if (item.GetComponent<usedItem>().thrownItem){
+							thrownObj = item;
 							shoot ();
 						} else {
 							use();
@@ -45,6 +48,16 @@ public class UsingItem : MonoBehaviour {
 						globalV.hearts --;
 					}	
 				}
+			}
+		}
+		if (Input.GetKey (KeyCode.T)) {
+			if (Time.time > lastUseTime + 0.4){
+				if (item.GetComponent<usedItem>().thrownItem){
+					thrownObj = itemForCustom;
+					shoot ();
+				} 
+				GameObject.Find("SoundEffect").audio.PlayOneShot (useItemSound, 1.0f);
+				lastUseTime = Time.time;
 			}
 		}
 	}
@@ -61,7 +74,7 @@ public class UsingItem : MonoBehaviour {
 
 	void shootHelper(){
 		print ("throw once");
-		GameObject newBullet =  (GameObject)Instantiate (item, muzzle.transform.position, Quaternion.identity);
+		GameObject newBullet =  (GameObject)Instantiate (thrownObj, muzzle.transform.position, Quaternion.identity);
 		newBullet.GetComponent<usedItem> ().facingLeft = h.facingLeft;
 	}
 }
