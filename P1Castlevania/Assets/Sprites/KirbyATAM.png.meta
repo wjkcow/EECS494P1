@@ -529,7 +529,7 @@ TextureImporter:
         y: 1072
         width: 22
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_1
@@ -539,7 +539,7 @@ TextureImporter:
         y: 1069
         width: 24
         height: 27
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_2
@@ -549,7 +549,7 @@ TextureImporter:
         y: 1069
         width: 25
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_3
@@ -559,7 +559,7 @@ TextureImporter:
         y: 1071
         width: 27
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_4
@@ -569,7 +569,7 @@ TextureImporter:
         y: 1072
         width: 22
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_5
@@ -579,7 +579,7 @@ TextureImporter:
         y: 1072
         width: 26
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_6
@@ -589,7 +589,7 @@ TextureImporter:
         y: 1072
         width: 24
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_7
@@ -599,7 +599,7 @@ TextureImporter:
         y: 1073
         width: 22
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_8
@@ -609,7 +609,7 @@ TextureImporter:
         y: 1073
         width: 23
         height: 27
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_9
@@ -619,7 +619,7 @@ TextureImporter:
         y: 1073
         width: 25
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_10
@@ -629,7 +629,7 @@ TextureImporter:
         y: 1073
         width: 23
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_11
@@ -639,7 +639,7 @@ TextureImporter:
         y: 1072
         width: 26
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_12
@@ -649,7 +649,7 @@ TextureImporter:
         y: 1072
         width: 24
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_13
@@ -659,7 +659,7 @@ TextureImporter:
         y: 1072
         width: 25
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_14
@@ -669,7 +669,7 @@ TextureImporter:
         y: 1073
         width: 23
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_15
@@ -679,7 +679,7 @@ TextureImporter:
         y: 1043
         width: 25
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_16
@@ -689,7 +689,7 @@ TextureImporter:
         y: 1044
         width: 26
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_17
@@ -699,7 +699,7 @@ TextureImporter:
         y: 1041
         width: 25
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_18
@@ -709,7 +709,7 @@ TextureImporter:
         y: 1041
         width: 26
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_19
@@ -719,7 +719,7 @@ TextureImporter:
         y: 1041
         width: 25
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_20
@@ -729,7 +729,7 @@ TextureImporter:
         y: 1041
         width: 24
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_21
@@ -739,7 +739,7 @@ TextureImporter:
         y: 1041
         width: 26
         height: 16
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_22
@@ -749,7 +749,7 @@ TextureImporter:
         y: 1041
         width: 23
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_23
@@ -759,7 +759,7 @@ TextureImporter:
         y: 1041
         width: 25
         height: 17
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_24
@@ -769,7 +769,7 @@ TextureImporter:
         y: 1041
         width: 24
         height: 9
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_25
@@ -779,7 +779,7 @@ TextureImporter:
         y: 1041
         width: 25
         height: 10
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_26
@@ -789,7 +789,7 @@ TextureImporter:
         y: 1041
         width: 24
         height: 16
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_27
@@ -799,7 +799,7 @@ TextureImporter:
         y: 1040
         width: 26
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_28
@@ -809,7 +809,7 @@ TextureImporter:
         y: 1041
         width: 24
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_29
@@ -819,7 +819,7 @@ TextureImporter:
         y: 1043
         width: 24
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_30
@@ -829,7 +829,7 @@ TextureImporter:
         y: 1044
         width: 20
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_31
@@ -839,7 +839,7 @@ TextureImporter:
         y: 1043
         width: 23
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_32
@@ -849,7 +849,7 @@ TextureImporter:
         y: 1007
         width: 22
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_33
@@ -859,7 +859,7 @@ TextureImporter:
         y: 1007
         width: 24
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_34
@@ -869,7 +869,7 @@ TextureImporter:
         y: 1007
         width: 24
         height: 16
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_35
@@ -879,7 +879,7 @@ TextureImporter:
         y: 1005
         width: 25
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_36
@@ -889,7 +889,7 @@ TextureImporter:
         y: 1005
         width: 25
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_37
@@ -899,7 +899,7 @@ TextureImporter:
         y: 1005
         width: 25
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_38
@@ -909,7 +909,7 @@ TextureImporter:
         y: 1005
         width: 23
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_39
@@ -919,7 +919,7 @@ TextureImporter:
         y: 1005
         width: 24
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_40
@@ -929,7 +929,7 @@ TextureImporter:
         y: 1005
         width: 24
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_41
@@ -939,7 +939,7 @@ TextureImporter:
         y: 1005
         width: 24
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_42
@@ -949,7 +949,7 @@ TextureImporter:
         y: 1005
         width: 23
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_43
@@ -959,7 +959,7 @@ TextureImporter:
         y: 1005
         width: 25
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_44
@@ -969,7 +969,7 @@ TextureImporter:
         y: 1005
         width: 23
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_45
@@ -979,7 +979,7 @@ TextureImporter:
         y: 1005
         width: 25
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_46
@@ -989,7 +989,7 @@ TextureImporter:
         y: 1008
         width: 18
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_47
@@ -999,7 +999,7 @@ TextureImporter:
         y: 1009
         width: 18
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_48
@@ -1009,7 +1009,7 @@ TextureImporter:
         y: 1005
         width: 17
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_49
@@ -1019,7 +1019,7 @@ TextureImporter:
         y: 1009
         width: 22
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_50
@@ -1029,7 +1029,7 @@ TextureImporter:
         y: 1008
         width: 25
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_51
@@ -1039,7 +1039,7 @@ TextureImporter:
         y: 962
         width: 22
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_52
@@ -1049,7 +1049,7 @@ TextureImporter:
         y: 962
         width: 22
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_53
@@ -1059,7 +1059,7 @@ TextureImporter:
         y: 964
         width: 24
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_54
@@ -1069,7 +1069,7 @@ TextureImporter:
         y: 964
         width: 24
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_55
@@ -1079,7 +1079,7 @@ TextureImporter:
         y: 965
         width: 22
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_56
@@ -1089,7 +1089,7 @@ TextureImporter:
         y: 965
         width: 23
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_57
@@ -1099,7 +1099,7 @@ TextureImporter:
         y: 965
         width: 23
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_58
@@ -1109,7 +1109,7 @@ TextureImporter:
         y: 968
         width: 24
         height: 19
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_59
@@ -1119,7 +1119,7 @@ TextureImporter:
         y: 969
         width: 24
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_60
@@ -1129,7 +1129,7 @@ TextureImporter:
         y: 968
         width: 23
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_61
@@ -1139,7 +1139,7 @@ TextureImporter:
         y: 968
         width: 22
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_62
@@ -1149,7 +1149,7 @@ TextureImporter:
         y: 968
         width: 28
         height: 12
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_63
@@ -1159,7 +1159,7 @@ TextureImporter:
         y: 967
         width: 27
         height: 12
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_64
@@ -1169,7 +1169,7 @@ TextureImporter:
         y: 967
         width: 30
         height: 19
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_65
@@ -1179,7 +1179,7 @@ TextureImporter:
         y: 968
         width: 24
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_66
@@ -1189,7 +1189,7 @@ TextureImporter:
         y: 929
         width: 22
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_67
@@ -1199,7 +1199,7 @@ TextureImporter:
         y: 931
         width: 24
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_68
@@ -1209,7 +1209,7 @@ TextureImporter:
         y: 932
         width: 22
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_69
@@ -1219,7 +1219,7 @@ TextureImporter:
         y: 932
         width: 21
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_70
@@ -1229,7 +1229,7 @@ TextureImporter:
         y: 932
         width: 19
         height: 19
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_71
@@ -1239,7 +1239,7 @@ TextureImporter:
         y: 933
         width: 19
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_72
@@ -1249,7 +1249,7 @@ TextureImporter:
         y: 934
         width: 23
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_73
@@ -1259,7 +1259,7 @@ TextureImporter:
         y: 936
         width: 22
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_74
@@ -1269,7 +1269,7 @@ TextureImporter:
         y: 936
         width: 21
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_75
@@ -1279,7 +1279,7 @@ TextureImporter:
         y: 937
         width: 21
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_76
@@ -1289,7 +1289,7 @@ TextureImporter:
         y: 937
         width: 24
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_77
@@ -1299,7 +1299,7 @@ TextureImporter:
         y: 937
         width: 22
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_78
@@ -1309,7 +1309,7 @@ TextureImporter:
         y: 937
         width: 21
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_79
@@ -1319,7 +1319,7 @@ TextureImporter:
         y: 936
         width: 23
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_80
@@ -1329,7 +1329,7 @@ TextureImporter:
         y: 934
         width: 22
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_81
@@ -1339,7 +1339,7 @@ TextureImporter:
         y: 890
         width: 21
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_82
@@ -1349,7 +1349,7 @@ TextureImporter:
         y: 891
         width: 19
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_83
@@ -1359,7 +1359,7 @@ TextureImporter:
         y: 891
         width: 20
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_84
@@ -1369,7 +1369,7 @@ TextureImporter:
         y: 891
         width: 21
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_85
@@ -1379,7 +1379,7 @@ TextureImporter:
         y: 891
         width: 20
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_86
@@ -1389,7 +1389,7 @@ TextureImporter:
         y: 894
         width: 19
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_87
@@ -1399,7 +1399,7 @@ TextureImporter:
         y: 894
         width: 21
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_88
@@ -1409,7 +1409,7 @@ TextureImporter:
         y: 895
         width: 26
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_89
@@ -1419,7 +1419,7 @@ TextureImporter:
         y: 891
         width: 24
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_90
@@ -1429,7 +1429,7 @@ TextureImporter:
         y: 891
         width: 23
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_91
@@ -1439,7 +1439,7 @@ TextureImporter:
         y: 891
         width: 19
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_92
@@ -1449,7 +1449,7 @@ TextureImporter:
         y: 893
         width: 22
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_93
@@ -1459,7 +1459,7 @@ TextureImporter:
         y: 894
         width: 24
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_94
@@ -1469,7 +1469,7 @@ TextureImporter:
         y: 895
         width: 24
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_95
@@ -1479,7 +1479,7 @@ TextureImporter:
         y: 894
         width: 21
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_96
@@ -1489,7 +1489,7 @@ TextureImporter:
         y: 893
         width: 23
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_97
@@ -1499,7 +1499,7 @@ TextureImporter:
         y: 839
         width: 25
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_98
@@ -1509,7 +1509,7 @@ TextureImporter:
         y: 840
         width: 24
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_99
@@ -1519,7 +1519,7 @@ TextureImporter:
         y: 839
         width: 25
         height: 19
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_100
@@ -1529,7 +1529,7 @@ TextureImporter:
         y: 840
         width: 24
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_101
@@ -1539,7 +1539,7 @@ TextureImporter:
         y: 841
         width: 25
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_102
@@ -1549,7 +1549,7 @@ TextureImporter:
         y: 841
         width: 26
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_103
@@ -1559,7 +1559,7 @@ TextureImporter:
         y: 840
         width: 24
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_104
@@ -1569,7 +1569,7 @@ TextureImporter:
         y: 840
         width: 26
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_105
@@ -1579,7 +1579,7 @@ TextureImporter:
         y: 841
         width: 24
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_106
@@ -1589,7 +1589,7 @@ TextureImporter:
         y: 841
         width: 23
         height: 19
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_107
@@ -1599,7 +1599,7 @@ TextureImporter:
         y: 840
         width: 25
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_108
@@ -1609,7 +1609,7 @@ TextureImporter:
         y: 838
         width: 25
         height: 19
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_109
@@ -1619,7 +1619,7 @@ TextureImporter:
         y: 839
         width: 23
         height: 19
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_110
@@ -1629,7 +1629,7 @@ TextureImporter:
         y: 788
         width: 25
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_111
@@ -1639,7 +1639,7 @@ TextureImporter:
         y: 788
         width: 24
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_112
@@ -1649,7 +1649,7 @@ TextureImporter:
         y: 788
         width: 25
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_113
@@ -1659,7 +1659,7 @@ TextureImporter:
         y: 788
         width: 26
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_114
@@ -1669,7 +1669,7 @@ TextureImporter:
         y: 789
         width: 25
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_115
@@ -1679,7 +1679,7 @@ TextureImporter:
         y: 790
         width: 27
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_116
@@ -1689,7 +1689,7 @@ TextureImporter:
         y: 790
         width: 26
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_117
@@ -1699,7 +1699,7 @@ TextureImporter:
         y: 790
         width: 26
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_118
@@ -1709,7 +1709,7 @@ TextureImporter:
         y: 791
         width: 25
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_119
@@ -1719,7 +1719,7 @@ TextureImporter:
         y: 791
         width: 26
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_120
@@ -1729,7 +1729,7 @@ TextureImporter:
         y: 794
         width: 26
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_121
@@ -1739,7 +1739,7 @@ TextureImporter:
         y: 795
         width: 25
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_122
@@ -1749,7 +1749,7 @@ TextureImporter:
         y: 796
         width: 26
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_123
@@ -1759,7 +1759,7 @@ TextureImporter:
         y: 798
         width: 27
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_124
@@ -1769,7 +1769,7 @@ TextureImporter:
         y: 798
         width: 26
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_125
@@ -1779,7 +1779,7 @@ TextureImporter:
         y: 798
         width: 27
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_126
@@ -1789,7 +1789,7 @@ TextureImporter:
         y: 798
         width: 26
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_127
@@ -1799,7 +1799,7 @@ TextureImporter:
         y: 733
         width: 23
         height: 33
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_128
@@ -1809,7 +1809,7 @@ TextureImporter:
         y: 737
         width: 25
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_129
@@ -1819,7 +1819,7 @@ TextureImporter:
         y: 738
         width: 25
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_130
@@ -1829,7 +1829,7 @@ TextureImporter:
         y: 740
         width: 26
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_131
@@ -1839,7 +1839,7 @@ TextureImporter:
         y: 741
         width: 27
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_132
@@ -1849,7 +1849,7 @@ TextureImporter:
         y: 744
         width: 29
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_133
@@ -1859,7 +1859,7 @@ TextureImporter:
         y: 744
         width: 27
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_134
@@ -1869,7 +1869,7 @@ TextureImporter:
         y: 746
         width: 32
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_135
@@ -1879,7 +1879,7 @@ TextureImporter:
         y: 746
         width: 28
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_136
@@ -1889,7 +1889,7 @@ TextureImporter:
         y: 748
         width: 26
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_137
@@ -1899,7 +1899,7 @@ TextureImporter:
         y: 748
         width: 28
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_138
@@ -1909,7 +1909,7 @@ TextureImporter:
         y: 750
         width: 28
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_139
@@ -1919,7 +1919,7 @@ TextureImporter:
         y: 751
         width: 27
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_140
@@ -1929,7 +1929,7 @@ TextureImporter:
         y: 687
         width: 25
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_141
@@ -1939,7 +1939,7 @@ TextureImporter:
         y: 688
         width: 27
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_142
@@ -1949,7 +1949,7 @@ TextureImporter:
         y: 688
         width: 27
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_143
@@ -1959,7 +1959,7 @@ TextureImporter:
         y: 688
         width: 27
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_144
@@ -1969,7 +1969,7 @@ TextureImporter:
         y: 689
         width: 33
         height: 16
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_145
@@ -1979,7 +1979,7 @@ TextureImporter:
         y: 690
         width: 34
         height: 13
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_146
@@ -1989,7 +1989,7 @@ TextureImporter:
         y: 690
         width: 28
         height: 16
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_147
@@ -1999,7 +1999,7 @@ TextureImporter:
         y: 690
         width: 21
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_148
@@ -2009,7 +2009,7 @@ TextureImporter:
         y: 691
         width: 24
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_149
@@ -2019,7 +2019,7 @@ TextureImporter:
         y: 691
         width: 24
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_150
@@ -2029,7 +2029,7 @@ TextureImporter:
         y: 691
         width: 27
         height: 19
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_151
@@ -2039,7 +2039,7 @@ TextureImporter:
         y: 694
         width: 33
         height: 35
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_152
@@ -2049,7 +2049,7 @@ TextureImporter:
         y: 694
         width: 34
         height: 35
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_153
@@ -2059,7 +2059,7 @@ TextureImporter:
         y: 653
         width: 24
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_154
@@ -2069,7 +2069,7 @@ TextureImporter:
         y: 648
         width: 22
         height: 28
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_155
@@ -2079,7 +2079,7 @@ TextureImporter:
         y: 650
         width: 23
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_156
@@ -2089,7 +2089,7 @@ TextureImporter:
         y: 648
         width: 24
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_157
@@ -2099,7 +2099,7 @@ TextureImporter:
         y: 673
         width: 46
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_158
@@ -2109,7 +2109,7 @@ TextureImporter:
         y: 652
         width: 12
         height: 11
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_159
@@ -2119,7 +2119,7 @@ TextureImporter:
         y: 650
         width: 21
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_160
@@ -2129,7 +2129,7 @@ TextureImporter:
         y: 652
         width: 24
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_161
@@ -2139,7 +2139,7 @@ TextureImporter:
         y: 653
         width: 23
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_162
@@ -2149,7 +2149,7 @@ TextureImporter:
         y: 651
         width: 22
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_163
@@ -2159,7 +2159,7 @@ TextureImporter:
         y: 650
         width: 24
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_164
@@ -2169,7 +2169,7 @@ TextureImporter:
         y: 651
         width: 22
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_165
@@ -2179,7 +2179,7 @@ TextureImporter:
         y: 651
         width: 22
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_166
@@ -2189,7 +2189,7 @@ TextureImporter:
         y: 652
         width: 22
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_167
@@ -2199,7 +2199,7 @@ TextureImporter:
         y: 651
         width: 22
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_168
@@ -2209,7 +2209,7 @@ TextureImporter:
         y: 650
         width: 22
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_169
@@ -2219,7 +2219,7 @@ TextureImporter:
         y: 650
         width: 22
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_170
@@ -2229,7 +2229,7 @@ TextureImporter:
         y: 650
         width: 22
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_171
@@ -2239,7 +2239,7 @@ TextureImporter:
         y: 607
         width: 22
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_172
@@ -2249,7 +2249,7 @@ TextureImporter:
         y: 608
         width: 23
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_173
@@ -2259,7 +2259,7 @@ TextureImporter:
         y: 610
         width: 25
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_174
@@ -2269,7 +2269,7 @@ TextureImporter:
         y: 611
         width: 26
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_175
@@ -2279,7 +2279,7 @@ TextureImporter:
         y: 612
         width: 27
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_176
@@ -2289,7 +2289,7 @@ TextureImporter:
         y: 615
         width: 27
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_177
@@ -2299,7 +2299,7 @@ TextureImporter:
         y: 617
         width: 28
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_178
@@ -2309,7 +2309,7 @@ TextureImporter:
         y: 618
         width: 27
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_179
@@ -2319,7 +2319,7 @@ TextureImporter:
         y: 620
         width: 26
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_180
@@ -2329,7 +2329,7 @@ TextureImporter:
         y: 619
         width: 26
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_181
@@ -2339,7 +2339,7 @@ TextureImporter:
         y: 618
         width: 26
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_182
@@ -2349,7 +2349,7 @@ TextureImporter:
         y: 617
         width: 26
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_183
@@ -2359,7 +2359,7 @@ TextureImporter:
         y: 618
         width: 26
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_184
@@ -2369,7 +2369,7 @@ TextureImporter:
         y: 620
         width: 25
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_185
@@ -2379,7 +2379,7 @@ TextureImporter:
         y: 620
         width: 25
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_186
@@ -2389,7 +2389,7 @@ TextureImporter:
         y: 622
         width: 24
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_187
@@ -2399,7 +2399,7 @@ TextureImporter:
         y: 561
         width: 20
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_188
@@ -2409,7 +2409,7 @@ TextureImporter:
         y: 563
         width: 20
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_189
@@ -2419,7 +2419,7 @@ TextureImporter:
         y: 563
         width: 22
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_190
@@ -2429,7 +2429,7 @@ TextureImporter:
         y: 562
         width: 22
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_191
@@ -2439,7 +2439,7 @@ TextureImporter:
         y: 561
         width: 20
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_192
@@ -2449,7 +2449,7 @@ TextureImporter:
         y: 562
         width: 20
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_193
@@ -2459,7 +2459,7 @@ TextureImporter:
         y: 563
         width: 20
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_194
@@ -2469,7 +2469,7 @@ TextureImporter:
         y: 563
         width: 22
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_195
@@ -2479,7 +2479,7 @@ TextureImporter:
         y: 563
         width: 26
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_196
@@ -2489,7 +2489,7 @@ TextureImporter:
         y: 565
         width: 26
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_197
@@ -2499,7 +2499,7 @@ TextureImporter:
         y: 565
         width: 26
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_198
@@ -2509,7 +2509,7 @@ TextureImporter:
         y: 563
         width: 24
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_199
@@ -2519,7 +2519,7 @@ TextureImporter:
         y: 568
         width: 23
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_200
@@ -2529,7 +2529,7 @@ TextureImporter:
         y: 568
         width: 21
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_201
@@ -2539,7 +2539,7 @@ TextureImporter:
         y: 569
         width: 23
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_202
@@ -2549,7 +2549,7 @@ TextureImporter:
         y: 569
         width: 22
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_203
@@ -2559,7 +2559,7 @@ TextureImporter:
         y: 502
         width: 26
         height: 46
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_204
@@ -2569,7 +2569,7 @@ TextureImporter:
         y: 503
         width: 27
         height: 46
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_205
@@ -2579,7 +2579,7 @@ TextureImporter:
         y: 541
         width: 5
         height: 5
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_206
@@ -2589,7 +2589,7 @@ TextureImporter:
         y: 544
         width: 4
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_207
@@ -2599,7 +2599,7 @@ TextureImporter:
         y: 544
         width: 4
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_208
@@ -2609,7 +2609,7 @@ TextureImporter:
         y: 541
         width: 4
         height: 5
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_209
@@ -2619,7 +2619,7 @@ TextureImporter:
         y: 503
         width: 26
         height: 43
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_210
@@ -2629,7 +2629,7 @@ TextureImporter:
         y: 503
         width: 26
         height: 45
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_211
@@ -2639,7 +2639,7 @@ TextureImporter:
         y: 505
         width: 26
         height: 46
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_212
@@ -2649,7 +2649,7 @@ TextureImporter:
         y: 543
         width: 5
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_213
@@ -2659,7 +2659,7 @@ TextureImporter:
         y: 545
         width: 4
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_214
@@ -2669,7 +2669,7 @@ TextureImporter:
         y: 545
         width: 4
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_215
@@ -2679,7 +2679,7 @@ TextureImporter:
         y: 543
         width: 5
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_216
@@ -2689,7 +2689,7 @@ TextureImporter:
         y: 543
         width: 4
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_217
@@ -2699,7 +2699,7 @@ TextureImporter:
         y: 545
         width: 5
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_218
@@ -2709,7 +2709,7 @@ TextureImporter:
         y: 545
         width: 4
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_219
@@ -2719,7 +2719,7 @@ TextureImporter:
         y: 543
         width: 4
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_220
@@ -2729,7 +2729,7 @@ TextureImporter:
         y: 501
         width: 25
         height: 44
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_221
@@ -2739,7 +2739,7 @@ TextureImporter:
         y: 537
         width: 4
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_222
@@ -2749,7 +2749,7 @@ TextureImporter:
         y: 539
         width: 4
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_223
@@ -2759,7 +2759,7 @@ TextureImporter:
         y: 539
         width: 4
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_224
@@ -2769,7 +2769,7 @@ TextureImporter:
         y: 537
         width: 4
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_225
@@ -2779,7 +2779,7 @@ TextureImporter:
         y: 505
         width: 26
         height: 40
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_226
@@ -2789,7 +2789,7 @@ TextureImporter:
         y: 531
         width: 12
         height: 12
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_227
@@ -2799,7 +2799,7 @@ TextureImporter:
         y: 533
         width: 11
         height: 11
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_228
@@ -2809,7 +2809,7 @@ TextureImporter:
         y: 531
         width: 4
         height: 5
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_229
@@ -2819,7 +2819,7 @@ TextureImporter:
         y: 533
         width: 4
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_230
@@ -2829,7 +2829,7 @@ TextureImporter:
         y: 533
         width: 5
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_231
@@ -2839,7 +2839,7 @@ TextureImporter:
         y: 531
         width: 4
         height: 5
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_232
@@ -2849,7 +2849,7 @@ TextureImporter:
         y: 500
         width: 25
         height: 39
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_233
@@ -2859,8 +2859,8 @@ TextureImporter:
         y: 502
         width: 22
         height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_234
       rect:
@@ -2869,8 +2869,8 @@ TextureImporter:
         y: 502
         width: 35
         height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .694841683, y: 8.97575831e-07}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_235
       rect:
@@ -2879,8 +2879,8 @@ TextureImporter:
         y: 504
         width: 35
         height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .665616274, y: .00344478711}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_236
       rect:
@@ -2889,8 +2889,8 @@ TextureImporter:
         y: 504
         width: 35
         height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .704584599, y: -.0103315869}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_237
       rect:
@@ -2899,7 +2899,7 @@ TextureImporter:
         y: 527
         width: 11
         height: 11
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_238
@@ -2909,8 +2909,8 @@ TextureImporter:
         y: 504
         width: 36
         height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .721001506, y: 8.71930808e-07}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_239
       rect:
@@ -2919,8 +2919,8 @@ TextureImporter:
         y: 503
         width: 22
         height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_240
       rect:
@@ -2929,8 +2929,8 @@ TextureImporter:
         y: 503
         width: 26
         height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .565572858, y: 1.32685125e-06}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_241
       rect:
@@ -2939,8 +2939,8 @@ TextureImporter:
         y: 505
         width: 25
         height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .595473647, y: .00541323703}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_242
       rect:
@@ -2949,7 +2949,7 @@ TextureImporter:
         y: 506
         width: 25
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_243
@@ -2959,7 +2959,7 @@ TextureImporter:
         y: 506
         width: 25
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_244
@@ -2969,7 +2969,7 @@ TextureImporter:
         y: 506
         width: 27
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_245
@@ -2979,7 +2979,7 @@ TextureImporter:
         y: 506
         width: 28
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_246
@@ -2989,7 +2989,7 @@ TextureImporter:
         y: 506
         width: 24
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_247
@@ -2999,7 +2999,7 @@ TextureImporter:
         y: 452
         width: 22
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_248
@@ -3009,7 +3009,7 @@ TextureImporter:
         y: 452
         width: 22
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_249
@@ -3019,7 +3019,7 @@ TextureImporter:
         y: 452
         width: 22
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_250
@@ -3029,7 +3029,7 @@ TextureImporter:
         y: 452
         width: 23
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_251
@@ -3039,7 +3039,7 @@ TextureImporter:
         y: 453
         width: 23
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_252
@@ -3049,7 +3049,7 @@ TextureImporter:
         y: 454
         width: 23
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_253
@@ -3059,7 +3059,7 @@ TextureImporter:
         y: 454
         width: 22
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_254
@@ -3069,7 +3069,7 @@ TextureImporter:
         y: 454
         width: 21
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_255
@@ -3079,7 +3079,7 @@ TextureImporter:
         y: 454
         width: 21
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_256
@@ -3089,7 +3089,7 @@ TextureImporter:
         y: 453
         width: 21
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_257
@@ -3099,7 +3099,7 @@ TextureImporter:
         y: 453
         width: 22
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_258
@@ -3109,7 +3109,7 @@ TextureImporter:
         y: 452
         width: 23
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_259
@@ -3119,7 +3119,7 @@ TextureImporter:
         y: 452
         width: 24
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_260
@@ -3129,7 +3129,7 @@ TextureImporter:
         y: 453
         width: 21
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_261
@@ -3139,7 +3139,7 @@ TextureImporter:
         y: 453
         width: 21
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_262
@@ -3149,7 +3149,7 @@ TextureImporter:
         y: 454
         width: 21
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_263
@@ -3159,7 +3159,7 @@ TextureImporter:
         y: 454
         width: 21
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_264
@@ -3169,7 +3169,7 @@ TextureImporter:
         y: 448
         width: 20
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_265
@@ -3179,7 +3179,7 @@ TextureImporter:
         y: 448
         width: 21
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_266
@@ -3189,7 +3189,7 @@ TextureImporter:
         y: 451
         width: 21
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_267
@@ -3199,7 +3199,7 @@ TextureImporter:
         y: 449
         width: 20
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_268
@@ -3209,7 +3209,7 @@ TextureImporter:
         y: 447
         width: 20
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_269
@@ -3219,7 +3219,7 @@ TextureImporter:
         y: 413
         width: 4
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_270
@@ -3229,7 +3229,7 @@ TextureImporter:
         y: 401
         width: 41
         height: 28
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_271
@@ -3239,7 +3239,7 @@ TextureImporter:
         y: 400
         width: 43
         height: 29
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_272
@@ -3249,7 +3249,7 @@ TextureImporter:
         y: 399
         width: 45
         height: 30
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_273
@@ -3259,7 +3259,7 @@ TextureImporter:
         y: 412
         width: 4
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_274
@@ -3269,7 +3269,7 @@ TextureImporter:
         y: 399
         width: 43
         height: 28
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_275
@@ -3279,7 +3279,7 @@ TextureImporter:
         y: 401
         width: 22
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_276
@@ -3289,7 +3289,7 @@ TextureImporter:
         y: 402
         width: 23
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_277
@@ -3299,7 +3299,7 @@ TextureImporter:
         y: 402
         width: 22
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_278
@@ -3309,7 +3309,7 @@ TextureImporter:
         y: 402
         width: 22
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_279
@@ -3319,7 +3319,7 @@ TextureImporter:
         y: 402
         width: 22
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_280
@@ -3329,7 +3329,7 @@ TextureImporter:
         y: 402
         width: 22
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_281
@@ -3339,7 +3339,7 @@ TextureImporter:
         y: 408
         width: 27
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_282
@@ -3349,7 +3349,7 @@ TextureImporter:
         y: 409
         width: 27
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_283
@@ -3359,7 +3359,7 @@ TextureImporter:
         y: 412
         width: 26
         height: 17
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_284
@@ -3369,7 +3369,7 @@ TextureImporter:
         y: 406
         width: 4
         height: 5
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_285
@@ -3379,7 +3379,7 @@ TextureImporter:
         y: 406
         width: 4
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_286
@@ -3389,7 +3389,7 @@ TextureImporter:
         y: 419
         width: 4
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_287
@@ -3399,7 +3399,7 @@ TextureImporter:
         y: 418
         width: 4
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_288
@@ -3409,7 +3409,7 @@ TextureImporter:
         y: 343
         width: 22
         height: 44
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_289
@@ -3419,7 +3419,7 @@ TextureImporter:
         y: 341
         width: 25
         height: 47
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_290
@@ -3429,7 +3429,7 @@ TextureImporter:
         y: 367
         width: 23
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_291
@@ -3439,7 +3439,7 @@ TextureImporter:
         y: 367
         width: 22
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_292
@@ -3449,7 +3449,7 @@ TextureImporter:
         y: 369
         width: 22
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_293
@@ -3459,7 +3459,7 @@ TextureImporter:
         y: 369
         width: 22
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_294
@@ -3469,7 +3469,7 @@ TextureImporter:
         y: 344
         width: 26
         height: 48
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_295
@@ -3479,7 +3479,7 @@ TextureImporter:
         y: 367
         width: 22
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_296
@@ -3489,7 +3489,7 @@ TextureImporter:
         y: 367
         width: 23
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_297
@@ -3499,7 +3499,7 @@ TextureImporter:
         y: 363
         width: 27
         height: 28
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_298
@@ -3509,7 +3509,7 @@ TextureImporter:
         y: 365
         width: 27
         height: 27
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_299
@@ -3519,7 +3519,7 @@ TextureImporter:
         y: 383
         width: 16
         height: 16
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_300
@@ -3529,7 +3529,7 @@ TextureImporter:
         y: 383
         width: 10
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_301
@@ -3539,7 +3539,7 @@ TextureImporter:
         y: 383
         width: 10
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_302
@@ -3549,7 +3549,7 @@ TextureImporter:
         y: 383
         width: 11
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_303
@@ -3559,7 +3559,7 @@ TextureImporter:
         y: 383
         width: 10
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_304
@@ -3569,7 +3569,7 @@ TextureImporter:
         y: 383
         width: 18
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_305
@@ -3579,7 +3579,7 @@ TextureImporter:
         y: 383
         width: 18
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_306
@@ -3589,7 +3589,7 @@ TextureImporter:
         y: 383
         width: 18
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_307
@@ -3599,7 +3599,7 @@ TextureImporter:
         y: 383
         width: 18
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_308
@@ -3609,7 +3609,7 @@ TextureImporter:
         y: 383
         width: 19
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_309
@@ -3619,7 +3619,7 @@ TextureImporter:
         y: 343
         width: 24
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_310
@@ -3629,7 +3629,7 @@ TextureImporter:
         y: 367
         width: 27
         height: 15
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_311
@@ -3639,7 +3639,7 @@ TextureImporter:
         y: 366
         width: 26
         height: 15
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_312
@@ -3649,7 +3649,7 @@ TextureImporter:
         y: 362
         width: 10
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_313
@@ -3659,7 +3659,7 @@ TextureImporter:
         y: 362
         width: 10
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_314
@@ -3669,7 +3669,7 @@ TextureImporter:
         y: 362
         width: 10
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_315
@@ -3679,7 +3679,7 @@ TextureImporter:
         y: 362
         width: 11
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_316
@@ -3689,7 +3689,7 @@ TextureImporter:
         y: 362
         width: 10
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_317
@@ -3699,7 +3699,7 @@ TextureImporter:
         y: 362
         width: 18
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_318
@@ -3709,7 +3709,7 @@ TextureImporter:
         y: 362
         width: 18
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_319
@@ -3719,7 +3719,7 @@ TextureImporter:
         y: 362
         width: 18
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_320
@@ -3729,7 +3729,7 @@ TextureImporter:
         y: 362
         width: 18
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_321
@@ -3739,7 +3739,7 @@ TextureImporter:
         y: 362
         width: 19
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_322
@@ -3749,7 +3749,7 @@ TextureImporter:
         y: 347
         width: 5
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_323
@@ -3759,7 +3759,7 @@ TextureImporter:
         y: 347
         width: 4
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_324
@@ -3769,7 +3769,7 @@ TextureImporter:
         y: 340
         width: 26
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_325
@@ -3779,7 +3779,7 @@ TextureImporter:
         y: 344
         width: 4
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_326
@@ -3789,7 +3789,7 @@ TextureImporter:
         y: 343
         width: 12
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_327
@@ -3799,7 +3799,7 @@ TextureImporter:
         y: 343
         width: 10
         height: 5
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_328
@@ -3809,7 +3809,7 @@ TextureImporter:
         y: 344
         width: 22
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_329
@@ -3819,7 +3819,7 @@ TextureImporter:
         y: 326
         width: 28
         height: 30
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_330
@@ -3829,7 +3829,7 @@ TextureImporter:
         y: 327
         width: 26
         height: 32
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_331
@@ -3839,7 +3839,7 @@ TextureImporter:
         y: 327
         width: 28
         height: 31
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_332
@@ -3849,7 +3849,7 @@ TextureImporter:
         y: 331
         width: 28
         height: 27
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_333
@@ -3859,7 +3859,7 @@ TextureImporter:
         y: 330
         width: 28
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_334
@@ -3869,7 +3869,7 @@ TextureImporter:
         y: 341
         width: 10
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_335
@@ -3879,7 +3879,7 @@ TextureImporter:
         y: 341
         width: 10
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_336
@@ -3889,7 +3889,7 @@ TextureImporter:
         y: 341
         width: 10
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_337
@@ -3899,7 +3899,7 @@ TextureImporter:
         y: 341
         width: 11
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_338
@@ -3909,7 +3909,7 @@ TextureImporter:
         y: 341
         width: 10
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_339
@@ -3919,7 +3919,7 @@ TextureImporter:
         y: 341
         width: 18
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_340
@@ -3929,7 +3929,7 @@ TextureImporter:
         y: 341
         width: 18
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_341
@@ -3939,7 +3939,7 @@ TextureImporter:
         y: 341
         width: 18
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_342
@@ -3949,7 +3949,7 @@ TextureImporter:
         y: 341
         width: 18
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_343
@@ -3959,7 +3959,7 @@ TextureImporter:
         y: 341
         width: 19
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_344
@@ -3969,7 +3969,7 @@ TextureImporter:
         y: 320
         width: 18
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_345
@@ -3979,7 +3979,7 @@ TextureImporter:
         y: 320
         width: 18
         height: 17
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_346
@@ -3989,7 +3989,7 @@ TextureImporter:
         y: 320
         width: 18
         height: 17
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_347
@@ -3999,7 +3999,7 @@ TextureImporter:
         y: 320
         width: 19
         height: 17
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_348
@@ -4009,7 +4009,7 @@ TextureImporter:
         y: 320
         width: 19
         height: 17
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_349
@@ -4019,7 +4019,7 @@ TextureImporter:
         y: 320
         width: 18
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_350
@@ -4029,7 +4029,7 @@ TextureImporter:
         y: 320
         width: 18
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_351
@@ -4039,7 +4039,7 @@ TextureImporter:
         y: 320
         width: 18
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_352
@@ -4049,7 +4049,7 @@ TextureImporter:
         y: 320
         width: 18
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_353
@@ -4059,7 +4059,7 @@ TextureImporter:
         y: 320
         width: 19
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_354
@@ -4069,7 +4069,7 @@ TextureImporter:
         y: 286
         width: 27
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_355
@@ -4079,7 +4079,7 @@ TextureImporter:
         y: 287
         width: 27
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_356
@@ -4089,7 +4089,7 @@ TextureImporter:
         y: 288
         width: 25
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_357
@@ -4099,7 +4099,7 @@ TextureImporter:
         y: 288
         width: 26
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_358
@@ -4109,7 +4109,7 @@ TextureImporter:
         y: 289
         width: 26
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_359
@@ -4119,7 +4119,7 @@ TextureImporter:
         y: 289
         width: 25
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_360
@@ -4129,7 +4129,7 @@ TextureImporter:
         y: 288
         width: 26
         height: 27
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_361
@@ -4139,7 +4139,7 @@ TextureImporter:
         y: 288
         width: 26
         height: 27
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_362
@@ -4149,7 +4149,7 @@ TextureImporter:
         y: 288
         width: 25
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_363
@@ -4159,7 +4159,7 @@ TextureImporter:
         y: 290
         width: 25
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_364
@@ -4169,7 +4169,7 @@ TextureImporter:
         y: 289
         width: 26
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_365
@@ -4179,7 +4179,7 @@ TextureImporter:
         y: 288
         width: 28
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_366
@@ -4189,7 +4189,7 @@ TextureImporter:
         y: 287
         width: 26
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_367
@@ -4199,7 +4199,7 @@ TextureImporter:
         y: 285
         width: 26
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_368
@@ -4209,7 +4209,7 @@ TextureImporter:
         y: 284
         width: 26
         height: 27
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_369
@@ -4219,7 +4219,7 @@ TextureImporter:
         y: 285
         width: 26
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_370
@@ -4229,7 +4229,7 @@ TextureImporter:
         y: 286
         width: 27
         height: 25
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_371
@@ -4239,7 +4239,7 @@ TextureImporter:
         y: 280
         width: 22
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_372
@@ -4249,7 +4249,7 @@ TextureImporter:
         y: 286
         width: 17
         height: 17
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_373
@@ -4259,7 +4259,7 @@ TextureImporter:
         y: 286
         width: 11
         height: 17
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_374
@@ -4269,7 +4269,7 @@ TextureImporter:
         y: 287
         width: 17
         height: 17
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_375
@@ -4279,7 +4279,7 @@ TextureImporter:
         y: 287
         width: 10
         height: 17
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_376
@@ -4289,7 +4289,7 @@ TextureImporter:
         y: 242
         width: 24
         height: 30
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_377
@@ -4299,7 +4299,7 @@ TextureImporter:
         y: 247
         width: 24
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_378
@@ -4309,7 +4309,7 @@ TextureImporter:
         y: 249
         width: 23
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_379
@@ -4319,7 +4319,7 @@ TextureImporter:
         y: 248
         width: 19
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_380
@@ -4329,7 +4329,7 @@ TextureImporter:
         y: 249
         width: 23
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_381
@@ -4339,7 +4339,7 @@ TextureImporter:
         y: 249
         width: 25
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_382
@@ -4349,7 +4349,7 @@ TextureImporter:
         y: 249
         width: 26
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_383
@@ -4359,7 +4359,7 @@ TextureImporter:
         y: 249
         width: 21
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_384
@@ -4369,7 +4369,7 @@ TextureImporter:
         y: 249
         width: 21
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_385
@@ -4379,7 +4379,7 @@ TextureImporter:
         y: 249
         width: 23
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_386
@@ -4389,7 +4389,7 @@ TextureImporter:
         y: 242
         width: 18
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_387
@@ -4399,7 +4399,7 @@ TextureImporter:
         y: 242
         width: 23
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_388
@@ -4409,7 +4409,7 @@ TextureImporter:
         y: 242
         width: 29
         height: 17
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_389
@@ -4419,7 +4419,7 @@ TextureImporter:
         y: 244
         width: 23
         height: 14
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_390
@@ -4429,7 +4429,7 @@ TextureImporter:
         y: 244
         width: 17
         height: 13
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_391
@@ -4439,7 +4439,7 @@ TextureImporter:
         y: 194
         width: 34
         height: 35
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_392
@@ -4449,7 +4449,7 @@ TextureImporter:
         y: 195
         width: 33
         height: 34
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_393
@@ -4459,7 +4459,7 @@ TextureImporter:
         y: 199
         width: 34
         height: 34
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_394
@@ -4469,7 +4469,7 @@ TextureImporter:
         y: 198
         width: 32
         height: 33
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_395
@@ -4479,7 +4479,7 @@ TextureImporter:
         y: 201
         width: 27
         height: 28
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_396
@@ -4489,7 +4489,7 @@ TextureImporter:
         y: 211
         width: 23
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_397
@@ -4499,7 +4499,7 @@ TextureImporter:
         y: 212
         width: 24
         height: 17
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_398
@@ -4509,7 +4509,7 @@ TextureImporter:
         y: 215
         width: 22
         height: 14
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_399
@@ -4519,7 +4519,7 @@ TextureImporter:
         y: 217
         width: 15
         height: 12
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_400
@@ -4529,7 +4529,7 @@ TextureImporter:
         y: 224
         width: 22
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_401
@@ -4539,7 +4539,7 @@ TextureImporter:
         y: 224
         width: 23
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_402
@@ -4549,7 +4549,7 @@ TextureImporter:
         y: 224
         width: 22
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_403
@@ -4559,7 +4559,7 @@ TextureImporter:
         y: 224
         width: 22
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_404
@@ -4569,7 +4569,7 @@ TextureImporter:
         y: 224
         width: 22
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_405
@@ -4579,7 +4579,7 @@ TextureImporter:
         y: 224
         width: 22
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_406
@@ -4589,7 +4589,7 @@ TextureImporter:
         y: 224
         width: 22
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_407
@@ -4599,7 +4599,7 @@ TextureImporter:
         y: 224
         width: 22
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_408
@@ -4609,7 +4609,7 @@ TextureImporter:
         y: 224
         width: 22
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_409
@@ -4619,7 +4619,7 @@ TextureImporter:
         y: 224
         width: 22
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_410
@@ -4629,7 +4629,7 @@ TextureImporter:
         y: 224
         width: 23
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_411
@@ -4639,7 +4639,7 @@ TextureImporter:
         y: 224
         width: 22
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_412
@@ -4649,7 +4649,7 @@ TextureImporter:
         y: 224
         width: 22
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_413
@@ -4659,7 +4659,7 @@ TextureImporter:
         y: 223
         width: 22
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_414
@@ -4669,7 +4669,7 @@ TextureImporter:
         y: 224
         width: 22
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_415
@@ -4679,7 +4679,7 @@ TextureImporter:
         y: 190
         width: 28
         height: 29
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_416
@@ -4689,7 +4689,7 @@ TextureImporter:
         y: 218
         width: 4
         height: 4
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_417
@@ -4699,7 +4699,7 @@ TextureImporter:
         y: 190
         width: 31
         height: 33
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_418
@@ -4709,7 +4709,7 @@ TextureImporter:
         y: 192
         width: 34
         height: 32
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_419
@@ -4719,7 +4719,7 @@ TextureImporter:
         y: 201
         width: 22
         height: 21
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_420
@@ -4729,7 +4729,7 @@ TextureImporter:
         y: 142
         width: 40
         height: 47
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_421
@@ -4739,7 +4739,7 @@ TextureImporter:
         y: 142
         width: 31
         height: 45
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_422
@@ -4749,7 +4749,7 @@ TextureImporter:
         y: 181
         width: 23
         height: 20
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_423
@@ -4759,7 +4759,7 @@ TextureImporter:
         y: 183
         width: 24
         height: 18
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_424
@@ -4769,7 +4769,7 @@ TextureImporter:
         y: 148
         width: 35
         height: 46
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_425
@@ -4779,7 +4779,7 @@ TextureImporter:
         y: 149
         width: 32
         height: 48
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_426
@@ -4789,7 +4789,7 @@ TextureImporter:
         y: 151
         width: 42
         height: 37
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_427
@@ -4799,7 +4799,7 @@ TextureImporter:
         y: 156
         width: 34
         height: 30
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_428
@@ -4809,7 +4809,7 @@ TextureImporter:
         y: 149
         width: 48
         height: 19
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_429
@@ -4819,7 +4819,7 @@ TextureImporter:
         y: 136
         width: 28
         height: 32
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_430
@@ -4829,7 +4829,7 @@ TextureImporter:
         y: 135
         width: 25
         height: 33
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_431
@@ -4839,7 +4839,7 @@ TextureImporter:
         y: 137
         width: 41
         height: 31
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_432
@@ -4849,7 +4849,7 @@ TextureImporter:
         y: 137
         width: 48
         height: 35
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_433
@@ -4859,7 +4859,7 @@ TextureImporter:
         y: 141
         width: 49
         height: 33
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_434
@@ -4869,7 +4869,7 @@ TextureImporter:
         y: 146
         width: 47
         height: 27
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_435
@@ -4879,7 +4879,7 @@ TextureImporter:
         y: 146
         width: 45
         height: 26
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_436
@@ -4889,7 +4889,7 @@ TextureImporter:
         y: 149
         width: 44
         height: 23
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_437
@@ -4899,7 +4899,7 @@ TextureImporter:
         y: 147
         width: 40
         height: 36
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_438
@@ -4909,7 +4909,7 @@ TextureImporter:
         y: 148
         width: 30
         height: 35
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_439
@@ -4919,7 +4919,7 @@ TextureImporter:
         y: 161
         width: 46
         height: 19
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_440
@@ -4929,7 +4929,7 @@ TextureImporter:
         y: 73
         width: 57
         height: 43
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_441
@@ -4939,7 +4939,7 @@ TextureImporter:
         y: 70
         width: 57
         height: 43
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_442
@@ -4949,7 +4949,7 @@ TextureImporter:
         y: 65
         width: 41
         height: 57
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_443
@@ -4959,7 +4959,7 @@ TextureImporter:
         y: 66
         width: 44
         height: 57
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_444
@@ -4969,7 +4969,7 @@ TextureImporter:
         y: 73
         width: 57
         height: 40
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_445
@@ -4979,7 +4979,7 @@ TextureImporter:
         y: 68
         width: 59
         height: 45
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_446
@@ -4989,7 +4989,7 @@ TextureImporter:
         y: 58
         width: 44
         height: 57
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_447
@@ -4999,7 +4999,7 @@ TextureImporter:
         y: 56
         width: 42
         height: 59
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_448
@@ -5009,7 +5009,7 @@ TextureImporter:
         y: 66
         width: 25
         height: 42
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_449
@@ -5019,7 +5019,7 @@ TextureImporter:
         y: 97
         width: 15
         height: 15
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_450
@@ -5029,7 +5029,7 @@ TextureImporter:
         y: 73
         width: 42
         height: 39
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_451
@@ -5039,7 +5039,7 @@ TextureImporter:
         y: 74
         width: 37
         height: 35
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_452
@@ -5049,7 +5049,7 @@ TextureImporter:
         y: 77
         width: 31
         height: 31
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_453
@@ -5059,7 +5059,7 @@ TextureImporter:
         y: 76
         width: 27
         height: 28
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_454
@@ -5069,7 +5069,7 @@ TextureImporter:
         y: 77
         width: 26
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_455
@@ -5079,7 +5079,7 @@ TextureImporter:
         y: 79
         width: 26
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_456
@@ -5089,7 +5089,7 @@ TextureImporter:
         y: 79
         width: 24
         height: 22
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_457
@@ -5099,7 +5099,7 @@ TextureImporter:
         y: 111
         width: 6
         height: 5
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_458
@@ -5109,7 +5109,7 @@ TextureImporter:
         y: 13
         width: 21
         height: 36
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_459
@@ -5119,7 +5119,7 @@ TextureImporter:
         y: 19
         width: 35
         height: 29
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_460
@@ -5129,7 +5129,7 @@ TextureImporter:
         y: 15
         width: 38
         height: 32
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_461
@@ -5139,7 +5139,7 @@ TextureImporter:
         y: 17
         width: 37
         height: 27
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_462
@@ -5149,7 +5149,7 @@ TextureImporter:
         y: 16
         width: 39
         height: 28
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_463
@@ -5159,7 +5159,7 @@ TextureImporter:
         y: 18
         width: 42
         height: 24
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_464
@@ -5169,7 +5169,7 @@ TextureImporter:
         y: 17
         width: 34
         height: 37
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_465
@@ -5179,7 +5179,7 @@ TextureImporter:
         y: 13
         width: 27
         height: 39
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_466
@@ -5189,7 +5189,7 @@ TextureImporter:
         y: 13
         width: 23
         height: 38
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_467
@@ -5199,7 +5199,7 @@ TextureImporter:
         y: 13
         width: 18
         height: 38
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_468
@@ -5209,7 +5209,7 @@ TextureImporter:
         y: 13
         width: 29
         height: 40
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_469
@@ -5219,7 +5219,7 @@ TextureImporter:
         y: 15
         width: 38
         height: 38
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_470
@@ -5229,7 +5229,7 @@ TextureImporter:
         y: 20
         width: 43
         height: 31
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_471
@@ -5239,7 +5239,7 @@ TextureImporter:
         y: 19
         width: 40
         height: 29
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_472
@@ -5249,7 +5249,7 @@ TextureImporter:
         y: 19
         width: 39
         height: 39
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_473
@@ -5259,7 +5259,7 @@ TextureImporter:
         y: 19
         width: 29
         height: 39
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_474
@@ -5269,7 +5269,7 @@ TextureImporter:
         y: 18
         width: 29
         height: 40
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_475
@@ -5279,7 +5279,7 @@ TextureImporter:
         y: 18
         width: 38
         height: 38
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_476
@@ -5289,7 +5289,7 @@ TextureImporter:
         y: 18
         width: 42
         height: 29
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_477
@@ -5299,7 +5299,7 @@ TextureImporter:
         y: 22
         width: 40
         height: 29
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: KirbyATAM_478
@@ -5309,7 +5309,7 @@ TextureImporter:
         y: 19
         width: 38
         height: 39
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 

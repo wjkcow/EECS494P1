@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Bullet.cs" />
      <Compile Include="Assets\EnemySpawner.cs" />
+     <Compile Include="Assets\Kirby.cs" />
      <Compile Include="Assets\Scripts\Bat_fly.cs" />
      <Compile Include="Assets\Scripts\Breakable.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
