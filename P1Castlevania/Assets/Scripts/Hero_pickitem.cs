@@ -32,7 +32,7 @@ public class Hero_pickitem : MonoBehaviour {
 			globalV.score += 100;
 		} else if (name == "BigMoney"){
 			globalV.score += 700;
-		}
+		} 
 		else {
 			foreach(GameObject g in items){
 				print (g.tag + "   " + name);
