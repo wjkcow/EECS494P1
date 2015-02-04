@@ -1055,6 +1055,7 @@ MonoBehaviour:
   score: 200
   spawner: {fileID: 0}
   brokenSound: {fileID: 8300000, guid: 981d445adb5c54e0585bfe7b14dedcd0, type: 3}
+  Drop_item: {fileID: 140680, guid: 632ec433786f249369aa4861bfa62626, type: 2}
 --- !u!61 &112146197
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2626,6 +2627,7 @@ MonoBehaviour:
   score: 200
   spawner: {fileID: 0}
   brokenSound: {fileID: 8300000, guid: 981d445adb5c54e0585bfe7b14dedcd0, type: 3}
+  Drop_item: {fileID: 140680, guid: 632ec433786f249369aa4861bfa62626, type: 2}
 --- !u!61 &292007682
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3321,7 +3323,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 431484, guid: 645c4aa34ee814ebab83274e344ce21f, type: 2}
       propertyPath: m_RootOrder
-      value: 21
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 131484, guid: 645c4aa34ee814ebab83274e344ce21f, type: 2}
       propertyPath: m_Name
@@ -3339,6 +3341,10 @@ Prefab:
       propertyPath: area
       value: 
       objectReference: {fileID: 77678207}
+    - target: {fileID: 11446064, guid: 645c4aa34ee814ebab83274e344ce21f, type: 2}
+      propertyPath: Drop_item
+      value: 
+      objectReference: {fileID: 134402, guid: 623adba82a0734e91a91eb19c399d769, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 645c4aa34ee814ebab83274e344ce21f, type: 2}
   m_RootGameObject: {fileID: 918431303}
@@ -3973,6 +3979,7 @@ MonoBehaviour:
   score: 200
   spawner: {fileID: 0}
   brokenSound: {fileID: 8300000, guid: 981d445adb5c54e0585bfe7b14dedcd0, type: 3}
+  Drop_item: {fileID: 140680, guid: 632ec433786f249369aa4861bfa62626, type: 2}
 --- !u!61 &412252796
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6047,7 +6054,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 406004, guid: 1a73a97ff4a6b4e4db7b68f84098cf78, type: 2}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 11406002, guid: 1a73a97ff4a6b4e4db7b68f84098cf78, type: 2}
       propertyPath: camera
@@ -8167,6 +8174,7 @@ MonoBehaviour:
   score: 200
   spawner: {fileID: 0}
   brokenSound: {fileID: 8300000, guid: 981d445adb5c54e0585bfe7b14dedcd0, type: 3}
+  Drop_item: {fileID: 140680, guid: 632ec433786f249369aa4861bfa62626, type: 2}
 --- !u!61 &872127267
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8750,6 +8758,7 @@ MonoBehaviour:
   waitTime: 3
   immuneTime: .200000003
   area: {fileID: 77678207}
+  Drop_item: {fileID: 134402, guid: 623adba82a0734e91a91eb19c399d769, type: 2}
 --- !u!114 &918431305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11025,7 +11034,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 406004, guid: 1a73a97ff4a6b4e4db7b68f84098cf78, type: 2}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 11406002, guid: 1a73a97ff4a6b4e4db7b68f84098cf78, type: 2}
       propertyPath: camera

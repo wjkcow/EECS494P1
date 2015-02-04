@@ -74,6 +74,7 @@ MonoBehaviour:
   score: 0
   spawner: {fileID: 0}
   brokenSound: {fileID: 8300000, guid: 981d445adb5c54e0585bfe7b14dedcd0, type: 3}
+  Drop_item: {fileID: 108900, guid: 2db1737e3223a43038bc4093271124c9, type: 2}
 --- !u!114 &11408530
 MonoBehaviour:
   m_ObjectHideFlags: 1
