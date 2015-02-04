@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour {
 	public GameObject spawner; 
 	public AudioClip brokenSound;
 	private Gravity g;
+	public GameObject Drop_item;
 //	public AudioSource brokenSound;
 	// Use this for initialization
 	void Start () {
@@ -23,6 +24,8 @@ public class Enemy : MonoBehaviour {
 	}
 	public void hitten(){
 		GameObject de =  (GameObject)Instantiate (die_effect, transform.position, Quaternion.identity);
+		GameObject di =  (GameObject)Instantiate (Drop_item, transform.position, Quaternion.identity);
+
 		if (spawner) {
 			spawner.GetComponent<EnemySpawner>().count --;
 		}

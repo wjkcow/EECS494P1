@@ -4,6 +4,7 @@ using System.Collections;
 public class bossBattle : MonoBehaviour {
 	public GameObject wall;
 	public GameObject boss;
+	private bool once = true;
 	// Use this for initialization
 	void Start () {
 		wall.SetActive (false);
@@ -11,8 +12,11 @@ public class bossBattle : MonoBehaviour {
 	}
 	
 	void OnTriggerEnter2D(Collider2D other){
-		wall.SetActive (true);
-		boss.SetActive (true);
-		boss.GetComponent<bossAI> ().reset ();
+		if (once){
+			wall.SetActive (true);
+			boss.SetActive (true);
+			boss.GetComponent<bossAI> ().reset ();
+			once = false;
+		}
 	}
 }

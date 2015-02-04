@@ -17,6 +17,7 @@ public class bossAI : MonoBehaviour {
 	private float hitTime;
 	public float immuneTime = 0.2f;
 	public GameObject area;
+	public GameObject Drop_item;
 
 	private GameObject canvas;
 	private GlobalV globalV;
@@ -144,12 +145,14 @@ public class bossAI : MonoBehaviour {
 			hitTime = Time.time;
 		}
 		if (globalV.enemyLife <= 0) {
+			GameObject di =  (GameObject)Instantiate (Drop_item, transform.position, Quaternion.identity);
 			Destroy(gameObject);		
 		}
 	}
 
 	void OnTriggerStay2D (Collider2D other){
-		
+
+
 		if (other.tag == "Hero") {
 			print ("hit hero");
 			other.GetComponent<Hero_hitten>().hitten(this.transform.position.x);		
