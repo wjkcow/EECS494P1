@@ -19,7 +19,7 @@ public class Hero : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.I)) {
 			immune = !immune;		
 		}
-		if (transform.position.y < -4) {
+		if (transform.position.y < -8) {
 			print ("fall");		
 			Application.LoadLevel (Application.loadedLevel);
 		}
