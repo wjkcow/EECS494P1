@@ -6363,6 +6363,7 @@ MonoBehaviour:
   useInterval: 2
   canvas: {fileID: 755974391}
   useItemSound: {fileID: 8300000, guid: 3f51c33dca88f43898afccad1beb82d1, type: 3}
+  itemForCustom: {fileID: 0}
 --- !u!114 &1076070284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7316,7 +7317,6 @@ GameObject:
   - 4: {fileID: 1208340417}
   - 212: {fileID: 1208340416}
   - 95: {fileID: 1208340415}
-  - 114: {fileID: 1208340420}
   - 61: {fileID: 1208340419}
   - 50: {fileID: 1208340418}
   - 114: {fileID: 1208340421}
@@ -7373,7 +7373,7 @@ Transform:
   m_PrefabInternal: {fileID: 1988515036}
   m_GameObject: {fileID: 1208340414}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .661000013, y: .0689999983, z: 0}
+  m_LocalPosition: {x: -1.04999995, y: .0199999996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1181249421}
@@ -7404,23 +7404,6 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_Size: {x: .210000023, y: .214478731}
   m_Center: {x: 0, y: .117541112}
---- !u!114 &1208340420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1208340414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d738256090ecc4ae1ab64df58892e325, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  g: {x: 0, y: -6, z: 0}
-  still: 0
-  landByYourself: 0
-  speed: {x: 0, y: 0, z: 0}
-  acc: {x: 0, y: 0, z: 0}
-  landDelta: 0
 --- !u!114 &1208340421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7434,18 +7417,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   faceLeft: 1
   fireRate: 3
-  jumpSpeed: {x: 0, y: 3, z: 0}
-  rightSpeed: {x: .0120000001, y: 0, z: 0}
+  rightSpeed: {x: .00800000038, y: 0, z: 0}
   turnRate: 100
   shootDone: 1
   turn: 0
   ghostPrefab: {fileID: 192700, guid: ac7f3af48d8d84ff59b8e53589758fb7, type: 2}
   ghostsPos:
   - {fileID: 1224076107}
-  - {fileID: 1911803781}
+  - {fileID: 1224076107}
   - {fileID: 343612415}
-  immuneTime: .200000003
-  Drop_item: {fileID: 0}
 --- !u!1 &1215334006
 GameObject:
   m_ObjectHideFlags: 0
@@ -10895,11 +10875,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 484156, guid: ba3ca1e0d755f4ed89d260c1bcb0512a, type: 2}
       propertyPath: m_LocalPosition.x
-      value: .661000013
+      value: -1.04999995
       objectReference: {fileID: 0}
     - target: {fileID: 484156, guid: ba3ca1e0d755f4ed89d260c1bcb0512a, type: 2}
       propertyPath: m_LocalPosition.y
-      value: .0689999983
+      value: .0199999996
       objectReference: {fileID: 0}
     - target: {fileID: 484156, guid: ba3ca1e0d755f4ed89d260c1bcb0512a, type: 2}
       propertyPath: m_LocalPosition.z
