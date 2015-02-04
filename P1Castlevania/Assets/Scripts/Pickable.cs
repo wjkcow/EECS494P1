@@ -14,6 +14,8 @@ public class Pickable : MonoBehaviour {
 	}
 	void OnTriggerEnter2D (Collider2D other){
 		if (other.tag == "Hero") {
+			print ("PickItem");
+
 			other.GetComponent<Hero_pickitem>().pick(kind);
 			Destroy(this.gameObject);
 		}

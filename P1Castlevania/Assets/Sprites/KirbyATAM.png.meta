@@ -1,0 +1,5316 @@
+fileFormatVersion: 2
+guid: 1f3598516e2d143138218ccadf477e34
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: KirbyATAM_0
+    21300002: KirbyATAM_1
+    21300004: KirbyATAM_2
+    21300006: KirbyATAM_3
+    21300008: KirbyATAM_4
+    21300010: KirbyATAM_5
+    21300012: KirbyATAM_6
+    21300014: KirbyATAM_7
+    21300016: KirbyATAM_8
+    21300018: KirbyATAM_9
+    21300020: KirbyATAM_10
+    21300022: KirbyATAM_11
+    21300024: KirbyATAM_12
+    21300026: KirbyATAM_13
+    21300028: KirbyATAM_14
+    21300030: KirbyATAM_15
+    21300032: KirbyATAM_16
+    21300034: KirbyATAM_17
+    21300036: KirbyATAM_18
+    21300038: KirbyATAM_19
+    21300040: KirbyATAM_20
+    21300042: KirbyATAM_21
+    21300044: KirbyATAM_22
+    21300046: KirbyATAM_23
+    21300048: KirbyATAM_24
+    21300050: KirbyATAM_25
+    21300052: KirbyATAM_26
+    21300054: KirbyATAM_27
+    21300056: KirbyATAM_28
+    21300058: KirbyATAM_29
+    21300060: KirbyATAM_30
+    21300062: KirbyATAM_31
+    21300064: KirbyATAM_32
+    21300066: KirbyATAM_33
+    21300068: KirbyATAM_34
+    21300070: KirbyATAM_35
+    21300072: KirbyATAM_36
+    21300074: KirbyATAM_37
+    21300076: KirbyATAM_38
+    21300078: KirbyATAM_39
+    21300080: KirbyATAM_40
+    21300082: KirbyATAM_41
+    21300084: KirbyATAM_42
+    21300086: KirbyATAM_43
+    21300088: KirbyATAM_44
+    21300090: KirbyATAM_45
+    21300092: KirbyATAM_46
+    21300094: KirbyATAM_47
+    21300096: KirbyATAM_48
+    21300098: KirbyATAM_49
+    21300100: KirbyATAM_50
+    21300102: KirbyATAM_51
+    21300104: KirbyATAM_52
+    21300106: KirbyATAM_53
+    21300108: KirbyATAM_54
+    21300110: KirbyATAM_55
+    21300112: KirbyATAM_56
+    21300114: KirbyATAM_57
+    21300116: KirbyATAM_58
+    21300118: KirbyATAM_59
+    21300120: KirbyATAM_60
+    21300122: KirbyATAM_61
+    21300124: KirbyATAM_62
+    21300126: KirbyATAM_63
+    21300128: KirbyATAM_64
+    21300130: KirbyATAM_65
+    21300132: KirbyATAM_66
+    21300134: KirbyATAM_67
+    21300136: KirbyATAM_68
+    21300138: KirbyATAM_69
+    21300140: KirbyATAM_70
+    21300142: KirbyATAM_71
+    21300144: KirbyATAM_72
+    21300146: KirbyATAM_73
+    21300148: KirbyATAM_74
+    21300150: KirbyATAM_75
+    21300152: KirbyATAM_76
+    21300154: KirbyATAM_77
+    21300156: KirbyATAM_78
+    21300158: KirbyATAM_79
+    21300160: KirbyATAM_80
+    21300162: KirbyATAM_81
+    21300164: KirbyATAM_82
+    21300166: KirbyATAM_83
+    21300168: KirbyATAM_84
+    21300170: KirbyATAM_85
+    21300172: KirbyATAM_86
+    21300174: KirbyATAM_87
+    21300176: KirbyATAM_88
+    21300178: KirbyATAM_89
+    21300180: KirbyATAM_90
+    21300182: KirbyATAM_91
+    21300184: KirbyATAM_92
+    21300186: KirbyATAM_93
+    21300188: KirbyATAM_94
+    21300190: KirbyATAM_95
+    21300192: KirbyATAM_96
+    21300194: KirbyATAM_97
+    21300196: KirbyATAM_98
+    21300198: KirbyATAM_99
+    21300200: KirbyATAM_100
+    21300202: KirbyATAM_101
+    21300204: KirbyATAM_102
+    21300206: KirbyATAM_103
+    21300208: KirbyATAM_104
+    21300210: KirbyATAM_105
+    21300212: KirbyATAM_106
+    21300214: KirbyATAM_107
+    21300216: KirbyATAM_108
+    21300218: KirbyATAM_109
+    21300220: KirbyATAM_110
+    21300222: KirbyATAM_111
+    21300224: KirbyATAM_112
+    21300226: KirbyATAM_113
+    21300228: KirbyATAM_114
+    21300230: KirbyATAM_115
+    21300232: KirbyATAM_116
+    21300234: KirbyATAM_117
+    21300236: KirbyATAM_118
+    21300238: KirbyATAM_119
+    21300240: KirbyATAM_120
+    21300242: KirbyATAM_121
+    21300244: KirbyATAM_122
+    21300246: KirbyATAM_123
+    21300248: KirbyATAM_124
+    21300250: KirbyATAM_125
+    21300252: KirbyATAM_126
+    21300254: KirbyATAM_127
+    21300256: KirbyATAM_128
+    21300258: KirbyATAM_129
+    21300260: KirbyATAM_130
+    21300262: KirbyATAM_131
+    21300264: KirbyATAM_132
+    21300266: KirbyATAM_133
+    21300268: KirbyATAM_134
+    21300270: KirbyATAM_135
+    21300272: KirbyATAM_136
+    21300274: KirbyATAM_137
+    21300276: KirbyATAM_138
+    21300278: KirbyATAM_139
+    21300280: KirbyATAM_140
+    21300282: KirbyATAM_141
+    21300284: KirbyATAM_142
+    21300286: KirbyATAM_143
+    21300288: KirbyATAM_144
+    21300290: KirbyATAM_145
+    21300292: KirbyATAM_146
+    21300294: KirbyATAM_147
+    21300296: KirbyATAM_148
+    21300298: KirbyATAM_149
+    21300300: KirbyATAM_150
+    21300302: KirbyATAM_151
+    21300304: KirbyATAM_152
+    21300306: KirbyATAM_153
+    21300308: KirbyATAM_154
+    21300310: KirbyATAM_155
+    21300312: KirbyATAM_156
+    21300314: KirbyATAM_157
+    21300316: KirbyATAM_158
+    21300318: KirbyATAM_159
+    21300320: KirbyATAM_160
+    21300322: KirbyATAM_161
+    21300324: KirbyATAM_162
+    21300326: KirbyATAM_163
+    21300328: KirbyATAM_164
+    21300330: KirbyATAM_165
+    21300332: KirbyATAM_166
+    21300334: KirbyATAM_167
+    21300336: KirbyATAM_168
+    21300338: KirbyATAM_169
+    21300340: KirbyATAM_170
+    21300342: KirbyATAM_171
+    21300344: KirbyATAM_172
+    21300346: KirbyATAM_173
+    21300348: KirbyATAM_174
+    21300350: KirbyATAM_175
+    21300352: KirbyATAM_176
+    21300354: KirbyATAM_177
+    21300356: KirbyATAM_178
+    21300358: KirbyATAM_179
+    21300360: KirbyATAM_180
+    21300362: KirbyATAM_181
+    21300364: KirbyATAM_182
+    21300366: KirbyATAM_183
+    21300368: KirbyATAM_184
+    21300370: KirbyATAM_185
+    21300372: KirbyATAM_186
+    21300374: KirbyATAM_187
+    21300376: KirbyATAM_188
+    21300378: KirbyATAM_189
+    21300380: KirbyATAM_190
+    21300382: KirbyATAM_191
+    21300384: KirbyATAM_192
+    21300386: KirbyATAM_193
+    21300388: KirbyATAM_194
+    21300390: KirbyATAM_195
+    21300392: KirbyATAM_196
+    21300394: KirbyATAM_197
+    21300396: KirbyATAM_198
+    21300398: KirbyATAM_199
+    21300400: KirbyATAM_200
+    21300402: KirbyATAM_201
+    21300404: KirbyATAM_202
+    21300406: KirbyATAM_203
+    21300408: KirbyATAM_204
+    21300410: KirbyATAM_205
+    21300412: KirbyATAM_206
+    21300414: KirbyATAM_207
+    21300416: KirbyATAM_208
+    21300418: KirbyATAM_209
+    21300420: KirbyATAM_210
+    21300422: KirbyATAM_211
+    21300424: KirbyATAM_212
+    21300426: KirbyATAM_213
+    21300428: KirbyATAM_214
+    21300430: KirbyATAM_215
+    21300432: KirbyATAM_216
+    21300434: KirbyATAM_217
+    21300436: KirbyATAM_218
+    21300438: KirbyATAM_219
+    21300440: KirbyATAM_220
+    21300442: KirbyATAM_221
+    21300444: KirbyATAM_222
+    21300446: KirbyATAM_223
+    21300448: KirbyATAM_224
+    21300450: KirbyATAM_225
+    21300452: KirbyATAM_226
+    21300454: KirbyATAM_227
+    21300456: KirbyATAM_228
+    21300458: KirbyATAM_229
+    21300460: KirbyATAM_230
+    21300462: KirbyATAM_231
+    21300464: KirbyATAM_232
+    21300466: KirbyATAM_233
+    21300468: KirbyATAM_234
+    21300470: KirbyATAM_235
+    21300472: KirbyATAM_236
+    21300474: KirbyATAM_237
+    21300476: KirbyATAM_238
+    21300478: KirbyATAM_239
+    21300480: KirbyATAM_240
+    21300482: KirbyATAM_241
+    21300484: KirbyATAM_242
+    21300486: KirbyATAM_243
+    21300488: KirbyATAM_244
+    21300490: KirbyATAM_245
+    21300492: KirbyATAM_246
+    21300494: KirbyATAM_247
+    21300496: KirbyATAM_248
+    21300498: KirbyATAM_249
+    21300500: KirbyATAM_250
+    21300502: KirbyATAM_251
+    21300504: KirbyATAM_252
+    21300506: KirbyATAM_253
+    21300508: KirbyATAM_254
+    21300510: KirbyATAM_255
+    21300512: KirbyATAM_256
+    21300514: KirbyATAM_257
+    21300516: KirbyATAM_258
+    21300518: KirbyATAM_259
+    21300520: KirbyATAM_260
+    21300522: KirbyATAM_261
+    21300524: KirbyATAM_262
+    21300526: KirbyATAM_263
+    21300528: KirbyATAM_264
+    21300530: KirbyATAM_265
+    21300532: KirbyATAM_266
+    21300534: KirbyATAM_267
+    21300536: KirbyATAM_268
+    21300538: KirbyATAM_269
+    21300540: KirbyATAM_270
+    21300542: KirbyATAM_271
+    21300544: KirbyATAM_272
+    21300546: KirbyATAM_273
+    21300548: KirbyATAM_274
+    21300550: KirbyATAM_275
+    21300552: KirbyATAM_276
+    21300554: KirbyATAM_277
+    21300556: KirbyATAM_278
+    21300558: KirbyATAM_279
+    21300560: KirbyATAM_280
+    21300562: KirbyATAM_281
+    21300564: KirbyATAM_282
+    21300566: KirbyATAM_283
+    21300568: KirbyATAM_284
+    21300570: KirbyATAM_285
+    21300572: KirbyATAM_286
+    21300574: KirbyATAM_287
+    21300576: KirbyATAM_288
+    21300578: KirbyATAM_289
+    21300580: KirbyATAM_290
+    21300582: KirbyATAM_291
+    21300584: KirbyATAM_292
+    21300586: KirbyATAM_293
+    21300588: KirbyATAM_294
+    21300590: KirbyATAM_295
+    21300592: KirbyATAM_296
+    21300594: KirbyATAM_297
+    21300596: KirbyATAM_298
+    21300598: KirbyATAM_299
+    21300600: KirbyATAM_300
+    21300602: KirbyATAM_301
+    21300604: KirbyATAM_302
+    21300606: KirbyATAM_303
+    21300608: KirbyATAM_304
+    21300610: KirbyATAM_305
+    21300612: KirbyATAM_306
+    21300614: KirbyATAM_307
+    21300616: KirbyATAM_308
+    21300618: KirbyATAM_309
+    21300620: KirbyATAM_310
+    21300622: KirbyATAM_311
+    21300624: KirbyATAM_312
+    21300626: KirbyATAM_313
+    21300628: KirbyATAM_314
+    21300630: KirbyATAM_315
+    21300632: KirbyATAM_316
+    21300634: KirbyATAM_317
+    21300636: KirbyATAM_318
+    21300638: KirbyATAM_319
+    21300640: KirbyATAM_320
+    21300642: KirbyATAM_321
+    21300644: KirbyATAM_322
+    21300646: KirbyATAM_323
+    21300648: KirbyATAM_324
+    21300650: KirbyATAM_325
+    21300652: KirbyATAM_326
+    21300654: KirbyATAM_327
+    21300656: KirbyATAM_328
+    21300658: KirbyATAM_329
+    21300660: KirbyATAM_330
+    21300662: KirbyATAM_331
+    21300664: KirbyATAM_332
+    21300666: KirbyATAM_333
+    21300668: KirbyATAM_334
+    21300670: KirbyATAM_335
+    21300672: KirbyATAM_336
+    21300674: KirbyATAM_337
+    21300676: KirbyATAM_338
+    21300678: KirbyATAM_339
+    21300680: KirbyATAM_340
+    21300682: KirbyATAM_341
+    21300684: KirbyATAM_342
+    21300686: KirbyATAM_343
+    21300688: KirbyATAM_344
+    21300690: KirbyATAM_345
+    21300692: KirbyATAM_346
+    21300694: KirbyATAM_347
+    21300696: KirbyATAM_348
+    21300698: KirbyATAM_349
+    21300700: KirbyATAM_350
+    21300702: KirbyATAM_351
+    21300704: KirbyATAM_352
+    21300706: KirbyATAM_353
+    21300708: KirbyATAM_354
+    21300710: KirbyATAM_355
+    21300712: KirbyATAM_356
+    21300714: KirbyATAM_357
+    21300716: KirbyATAM_358
+    21300718: KirbyATAM_359
+    21300720: KirbyATAM_360
+    21300722: KirbyATAM_361
+    21300724: KirbyATAM_362
+    21300726: KirbyATAM_363
+    21300728: KirbyATAM_364
+    21300730: KirbyATAM_365
+    21300732: KirbyATAM_366
+    21300734: KirbyATAM_367
+    21300736: KirbyATAM_368
+    21300738: KirbyATAM_369
+    21300740: KirbyATAM_370
+    21300742: KirbyATAM_371
+    21300744: KirbyATAM_372
+    21300746: KirbyATAM_373
+    21300748: KirbyATAM_374
+    21300750: KirbyATAM_375
+    21300752: KirbyATAM_376
+    21300754: KirbyATAM_377
+    21300756: KirbyATAM_378
+    21300758: KirbyATAM_379
+    21300760: KirbyATAM_380
+    21300762: KirbyATAM_381
+    21300764: KirbyATAM_382
+    21300766: KirbyATAM_383
+    21300768: KirbyATAM_384
+    21300770: KirbyATAM_385
+    21300772: KirbyATAM_386
+    21300774: KirbyATAM_387
+    21300776: KirbyATAM_388
+    21300778: KirbyATAM_389
+    21300780: KirbyATAM_390
+    21300782: KirbyATAM_391
+    21300784: KirbyATAM_392
+    21300786: KirbyATAM_393
+    21300788: KirbyATAM_394
+    21300790: KirbyATAM_395
+    21300792: KirbyATAM_396
+    21300794: KirbyATAM_397
+    21300796: KirbyATAM_398
+    21300798: KirbyATAM_399
+    21300800: KirbyATAM_400
+    21300802: KirbyATAM_401
+    21300804: KirbyATAM_402
+    21300806: KirbyATAM_403
+    21300808: KirbyATAM_404
+    21300810: KirbyATAM_405
+    21300812: KirbyATAM_406
+    21300814: KirbyATAM_407
+    21300816: KirbyATAM_408
+    21300818: KirbyATAM_409
+    21300820: KirbyATAM_410
+    21300822: KirbyATAM_411
+    21300824: KirbyATAM_412
+    21300826: KirbyATAM_413
+    21300828: KirbyATAM_414
+    21300830: KirbyATAM_415
+    21300832: KirbyATAM_416
+    21300834: KirbyATAM_417
+    21300836: KirbyATAM_418
+    21300838: KirbyATAM_419
+    21300840: KirbyATAM_420
+    21300842: KirbyATAM_421
+    21300844: KirbyATAM_422
+    21300846: KirbyATAM_423
+    21300848: KirbyATAM_424
+    21300850: KirbyATAM_425
+    21300852: KirbyATAM_426
+    21300854: KirbyATAM_427
+    21300856: KirbyATAM_428
+    21300858: KirbyATAM_429
+    21300860: KirbyATAM_430
+    21300862: KirbyATAM_431
+    21300864: KirbyATAM_432
+    21300866: KirbyATAM_433
+    21300868: KirbyATAM_434
+    21300870: KirbyATAM_435
+    21300872: KirbyATAM_436
+    21300874: KirbyATAM_437
+    21300876: KirbyATAM_438
+    21300878: KirbyATAM_439
+    21300880: KirbyATAM_440
+    21300882: KirbyATAM_441
+    21300884: KirbyATAM_442
+    21300886: KirbyATAM_443
+    21300888: KirbyATAM_444
+    21300890: KirbyATAM_445
+    21300892: KirbyATAM_446
+    21300894: KirbyATAM_447
+    21300896: KirbyATAM_448
+    21300898: KirbyATAM_449
+    21300900: KirbyATAM_450
+    21300902: KirbyATAM_451
+    21300904: KirbyATAM_452
+    21300906: KirbyATAM_453
+    21300908: KirbyATAM_454
+    21300910: KirbyATAM_455
+    21300912: KirbyATAM_456
+    21300914: KirbyATAM_457
+    21300916: KirbyATAM_458
+    21300918: KirbyATAM_459
+    21300920: KirbyATAM_460
+    21300922: KirbyATAM_461
+    21300924: KirbyATAM_462
+    21300926: KirbyATAM_463
+    21300928: KirbyATAM_464
+    21300930: KirbyATAM_465
+    21300932: KirbyATAM_466
+    21300934: KirbyATAM_467
+    21300936: KirbyATAM_468
+    21300938: KirbyATAM_469
+    21300940: KirbyATAM_470
+    21300942: KirbyATAM_471
+    21300944: KirbyATAM_472
+    21300946: KirbyATAM_473
+    21300948: KirbyATAM_474
+    21300950: KirbyATAM_475
+    21300952: KirbyATAM_476
+    21300954: KirbyATAM_477
+    21300956: KirbyATAM_478
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: KirbyATAM_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1072
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1069
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1069
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1071
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1072
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_5
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1072
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_6
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1072
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_7
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1073
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_8
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1073
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_9
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1073
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_10
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1073
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_11
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1072
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_12
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1072
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_13
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1072
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_14
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1073
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_15
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1043
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_16
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1044
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_17
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1041
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_18
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1041
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_19
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1041
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_20
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1041
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_21
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1041
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_22
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1041
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1041
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_24
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1041
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_25
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1041
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_26
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1041
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_27
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1040
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_28
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1041
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_29
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1043
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_30
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1044
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_31
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1043
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_32
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1007
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_33
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1007
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_34
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1007
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_35
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1005
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_36
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1005
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_37
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1005
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_38
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1005
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_39
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1005
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_40
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1005
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_41
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1005
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_42
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1005
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_43
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1005
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_44
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1005
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_45
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1005
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_46
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1008
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_47
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1009
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_48
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1005
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_49
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1009
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_50
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1008
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_51
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 962
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_52
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 962
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_53
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 964
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_54
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 964
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_55
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 965
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_56
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 965
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_57
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 965
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_58
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 968
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_59
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 969
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_60
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 968
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_61
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 968
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_62
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 968
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_63
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 967
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_64
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 967
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_65
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 968
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_66
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 929
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_67
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 931
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_68
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 932
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_69
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 932
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_70
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 932
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_71
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 933
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_72
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 934
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_73
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 936
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_74
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 936
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_75
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 937
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_76
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 937
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_77
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 937
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_78
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 937
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_79
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 936
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_80
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 934
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_81
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 890
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_82
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 891
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_83
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 891
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_84
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 891
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_85
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 891
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_86
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 894
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_87
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 894
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_88
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 895
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_89
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 891
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_90
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 891
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_91
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 891
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_92
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 893
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_93
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 894
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_94
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 895
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_95
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 894
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_96
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 893
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_97
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 839
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_98
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 840
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_99
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 839
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_100
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 840
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_101
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 841
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_102
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 841
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_103
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 840
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_104
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 840
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_105
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 841
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_106
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 841
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_107
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 840
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_108
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 838
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_109
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 839
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_110
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 788
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_111
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 788
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_112
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 788
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_113
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 788
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_114
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 789
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_115
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 790
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_116
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 790
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_117
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 790
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_118
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 791
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_119
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 791
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_120
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 794
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_121
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 795
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_122
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 796
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_123
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 798
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_124
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 798
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_125
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 798
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_126
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 798
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_127
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 733
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_128
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 737
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_129
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 738
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_130
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 740
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_131
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 741
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_132
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 744
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_133
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 744
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_134
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 746
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_135
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 746
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_136
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 748
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_137
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 748
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_138
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 750
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_139
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 751
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_140
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 687
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_141
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 688
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_142
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 688
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_143
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 688
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_144
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 689
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_145
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 690
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_146
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 690
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_147
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 690
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_148
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 691
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_149
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 691
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_150
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 691
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_151
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 694
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_152
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 694
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_153
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 653
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_154
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 648
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_155
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 650
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_156
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 648
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_157
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 673
+        width: 46
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_158
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 652
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_159
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 650
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_160
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 652
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_161
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 653
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_162
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 651
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_163
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 650
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_164
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 651
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_165
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 651
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_166
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 652
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_167
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 651
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_168
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 650
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_169
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 650
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_170
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 650
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_171
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 607
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_172
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 608
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_173
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 610
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_174
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 611
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_175
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 612
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_176
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 615
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_177
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 617
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_178
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 618
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_179
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 620
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_180
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 619
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_181
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 618
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_182
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 617
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_183
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 618
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_184
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 620
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_185
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 620
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_186
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 622
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_187
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 561
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_188
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 563
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_189
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 563
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_190
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 562
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_191
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 561
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_192
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 562
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_193
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 563
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_194
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 563
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_195
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 563
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_196
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 565
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_197
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 565
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_198
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 563
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_199
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 568
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_200
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 568
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_201
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 569
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_202
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 569
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_203
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 502
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_204
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 503
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_205
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 541
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_206
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 544
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_207
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 544
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_208
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 541
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_209
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 503
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_210
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 503
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_211
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 505
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_212
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 543
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_213
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 545
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_214
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 545
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_215
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 543
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_216
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 543
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_217
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 545
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_218
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 545
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_219
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 543
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_220
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 501
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_221
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 537
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_222
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 539
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_223
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 539
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_224
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 537
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_225
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 505
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_226
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 531
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_227
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 533
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_228
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 531
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_229
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 533
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_230
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 533
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_231
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 531
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_232
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 500
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_233
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 502
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_234
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 502
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_235
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 504
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_236
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 504
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_237
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 527
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_238
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 504
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_239
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 503
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_240
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 503
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_241
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 505
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_242
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 506
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_243
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 506
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_244
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 506
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_245
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 506
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_246
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 506
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_247
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 452
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_248
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 452
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_249
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 452
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_250
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 452
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_251
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 453
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_252
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 454
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_253
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 454
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_254
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 454
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_255
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 454
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_256
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 453
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_257
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 453
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_258
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 452
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_259
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 452
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_260
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 453
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_261
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 453
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_262
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 454
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_263
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 454
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_264
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 448
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_265
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 448
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_266
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 451
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_267
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 449
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_268
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 447
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_269
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 413
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_270
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 401
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_271
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 400
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_272
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 399
+        width: 45
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_273
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 412
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_274
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 399
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_275
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 401
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_276
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 402
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_277
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 402
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_278
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 402
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_279
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 402
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_280
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 402
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_281
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 408
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_282
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 409
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_283
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 412
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_284
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 406
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_285
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 406
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_286
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 419
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_287
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 418
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_288
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 343
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_289
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 341
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_290
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 367
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_291
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 367
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_292
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 369
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_293
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 369
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_294
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 344
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_295
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 367
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_296
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 367
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_297
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 363
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_298
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 365
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_299
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 383
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_300
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 383
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_301
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 383
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_302
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 383
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_303
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 383
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_304
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 383
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_305
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 383
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_306
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 383
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_307
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 383
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_308
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 383
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_309
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 343
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_310
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 367
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_311
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 366
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_312
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 362
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_313
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 362
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_314
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 362
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_315
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 362
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_316
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 362
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_317
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 362
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_318
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 362
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_319
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 362
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_320
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 362
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_321
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 362
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_322
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 347
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_323
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 347
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_324
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 340
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_325
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 344
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_326
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 343
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_327
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 343
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_328
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 344
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_329
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 326
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_330
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 327
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_331
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 327
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_332
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 331
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_333
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 330
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_334
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 341
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_335
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 341
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_336
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 341
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_337
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 341
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_338
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 341
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_339
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 341
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_340
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 341
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_341
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 341
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_342
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 341
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_343
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 341
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_344
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 320
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_345
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 320
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_346
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 320
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_347
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 320
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_348
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 320
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_349
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 320
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_350
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 320
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_351
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 320
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_352
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 320
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_353
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 320
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_354
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 286
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_355
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 287
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_356
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 288
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_357
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 288
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_358
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 289
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_359
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 289
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_360
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 288
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_361
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 288
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_362
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 288
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_363
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 290
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_364
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 289
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_365
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 288
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_366
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 287
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_367
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 285
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_368
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 284
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_369
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 285
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_370
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 286
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_371
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 280
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_372
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 286
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_373
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 286
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_374
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 287
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_375
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 287
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_376
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 242
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_377
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 247
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_378
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 249
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_379
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 248
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_380
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 249
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_381
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 249
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_382
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 249
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_383
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 249
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_384
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 249
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_385
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 249
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_386
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 242
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_387
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 242
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_388
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 242
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_389
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 244
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_390
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 244
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_391
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 194
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_392
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 195
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_393
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 199
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_394
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 198
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_395
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 201
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_396
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 211
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_397
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 212
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_398
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 215
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_399
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 217
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_400
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 224
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_401
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 224
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_402
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 224
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_403
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 224
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_404
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 224
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_405
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 224
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_406
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 224
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_407
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 224
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_408
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 224
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_409
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 224
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_410
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 224
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_411
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 224
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_412
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 224
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_413
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 223
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_414
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 224
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_415
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 190
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_416
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 218
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_417
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 190
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_418
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 192
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_419
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 201
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_420
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 142
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_421
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 142
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_422
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 181
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_423
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 183
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_424
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 148
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_425
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 149
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_426
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 151
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_427
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 156
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_428
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 149
+        width: 48
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_429
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 136
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_430
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 135
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_431
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 137
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_432
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 137
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_433
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 141
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_434
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 146
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_435
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 146
+        width: 45
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_436
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 149
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_437
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 147
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_438
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 148
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_439
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 161
+        width: 46
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_440
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 73
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_441
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 70
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_442
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 65
+        width: 41
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_443
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 66
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_444
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 73
+        width: 57
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_445
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 68
+        width: 59
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_446
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 58
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_447
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 56
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_448
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 66
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_449
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 97
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_450
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 73
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_451
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 74
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_452
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 77
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_453
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 76
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_454
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 77
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_455
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 79
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_456
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 79
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_457
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 111
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_458
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 13
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_459
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 19
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_460
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 15
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_461
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 17
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_462
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 16
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_463
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 18
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_464
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 17
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_465
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 13
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_466
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 13
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_467
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 13
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_468
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 13
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_469
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 15
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_470
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 20
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_471
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 19
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_472
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 19
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_473
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 19
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_474
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 18
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_475
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 18
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_476
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 18
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_477
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 22
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KirbyATAM_478
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 19
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
