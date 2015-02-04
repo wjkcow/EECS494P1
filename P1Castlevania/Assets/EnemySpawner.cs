@@ -31,17 +31,21 @@ public class EnemySpawner : MonoBehaviour {
 			if(count == 0){
 				for(int i = 0; i < ghostsPos.Length; i++){
 					Transform pos = ghostsPos[i];
-					GameObject e =  (GameObject)Instantiate (ghostPrefab, pos.position, Quaternion.identity);
-					count ++;
-					e.GetComponent<Enemy>().spawner = this.gameObject;
+					if(Mathf.Abs( pos.position.x - GameObject.Find ("Hero").transform.position.x) > 0.2){
+						GameObject e =  (GameObject)Instantiate (ghostPrefab, pos.position, Quaternion.identity);
+						count ++;
+						e.GetComponent<Enemy>().spawner = this.gameObject;
+					}
 				}
 			}
 			if(count < threshold){
 				int idx = (int)Random.Range(0.0f, ghostsPos.Length - 1.0f);
 				Transform pos = ghostsPos[idx];
-				GameObject e =  (GameObject)Instantiate (ghostPrefab, pos.position, Quaternion.identity);
-				count ++;
-				e.GetComponent<Enemy>().spawner = this.gameObject;
+				if(Mathf.Abs( pos.position.x - GameObject.Find ("Hero").transform.position.x) > 0.8){
+					GameObject e =  (GameObject)Instantiate (ghostPrefab, pos.position, Quaternion.identity);
+					count ++;
+					e.GetComponent<Enemy>().spawner = this.gameObject;
+				}
 			}
 		}
 	}
