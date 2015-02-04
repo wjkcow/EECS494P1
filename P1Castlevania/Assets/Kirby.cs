@@ -17,9 +17,17 @@ public class Kirby : MonoBehaviour {
 	private int fire_c;
 	public GameObject ghostPrefab;
 	public Transform[] ghostsPos;
+	private GameObject canvas;
+	private GlobalV globalV;
+
+	private float hitTime;
+	public float immuneTime = 0.2f;
 	
 	// Use this for initialization
 	void Start () {
+		hitTime = Time.time;
+		canvas = GameObject.Find("Canvas");
+		globalV = canvas.GetComponent<GlobalV> ();
 		anim = GetComponent<Animator> ();
 		turnC = turnRate;
 		hero = GameObject.Find("Hero").transform;
@@ -88,6 +96,17 @@ public class Kirby : MonoBehaviour {
 		flip ();
 		faceLeft = !faceLeft;
 	}
+
+	public void hitten(){
+		print ("boss hitten");
+		if (hitTime + immuneTime < Time.time){
+			globalV.enemyLife --;
+			hitTime = Time.time;
+		}
+		if (globalV.enemyLife <= 0) {
+			Destroy(gameObject);		
+		}
+	}
 	
 	void OnTriggerEnter2D (Collider2D other)
 	{
@@ -100,7 +119,17 @@ public class Kirby : MonoBehaviour {
 			flipObj();
 		}
 	}
-	
+
+
+	void OnTriggerStay2D (Collider2D other){
+		
+		
+		if (other.tag == "Hero") {
+			print ("hit hero");
+			other.GetComponent<Hero_hitten>().hitten(this.transform.position.x);		
+		}
+	}
+
 	void OnTriggerExit2D (Collider2D other)
 	{
 		

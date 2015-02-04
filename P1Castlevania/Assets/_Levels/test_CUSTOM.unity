@@ -7322,7 +7322,7 @@ GameObject:
   - 114: {fileID: 1208340421}
   m_Layer: 0
   m_Name: Kirby
-  m_TagString: Boss
+  m_TagString: Kriby
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7429,6 +7429,7 @@ MonoBehaviour:
   - {fileID: 1224076107}
   - {fileID: 1224076107}
   - {fileID: 343612415}
+  immuneTime: .200000003
 --- !u!1 &1215334006
 GameObject:
   m_ObjectHideFlags: 0
@@ -11224,6 +11225,10 @@ Prefab:
     - target: {fileID: 431868, guid: 335475fdd96c04973b8e18f41e222c15, type: 2}
       propertyPath: m_RootOrder
       value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 131866, guid: 335475fdd96c04973b8e18f41e222c15, type: 2}
+      propertyPath: m_TagString
+      value: Kriby
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 335475fdd96c04973b8e18f41e222c15, type: 2}

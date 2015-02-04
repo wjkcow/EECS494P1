@@ -44,7 +44,7 @@ public class greenDoor : MonoBehaviour {
 	void OnTriggerEnter2D (Collider2D other){
 		if (other.tag == "Axe_t") {
 			Destroy(other.gameObject);		
-		}
+		} 
 	}
 	
 	public void triggering(){
