@@ -84,6 +84,7 @@
      <Compile Include="Assets\bossBattle.cs" />
      <Compile Include="Assets\ci.cs" />
      <Compile Include="Assets\doorTrigger.cs" />
+     <Compile Include="Assets\greenDoor.cs" />
      <Compile Include="Assets\leopard_trap.cs" />
      <Compile Include="Assets\level0to1.cs" />
      <Compile Include="Assets\moveCamera.cs" />
