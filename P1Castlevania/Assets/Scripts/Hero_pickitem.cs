@@ -28,6 +28,10 @@ public class Hero_pickitem : MonoBehaviour {
 			GameObject.Find("SoundEffect").audio.PlayOneShot (pickItem, 1.0f);
 			if (whipNum <= 2)
 				anim.SetInteger("WhipState", whipNum);		
+		} else if (name == "Money"){
+			globalV.score += 100;
+		} else if (name == "BigMoney"){
+			globalV.score += 700;
 		}
 		else {
 			foreach(GameObject g in items){
