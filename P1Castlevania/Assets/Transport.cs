@@ -16,7 +16,7 @@ public class Transport : MonoBehaviour {
 		print ("HHHHHIT");
 				if (other.tag == "TransportSurface") {
 			Vector3 pos = transform.position + delta;
-			pos.z = -1;
+			pos.z = 0;
 			GameObject.Find("Hero").transform.position = pos;
 			Destroy(this.gameObject);
 				}
