@@ -7,10 +7,12 @@ public class Enemy : MonoBehaviour {
 	public int score;
 	public GameObject spawner; 
 	public AudioClip brokenSound;
+	private Gravity g;
 //	public AudioSource brokenSound;
 	// Use this for initialization
 	void Start () {
 		start = false;
+		g = GetComponent<Gravity> ();
 //		brokenSound = GetComponent<AudioSource> ();
 	}
 

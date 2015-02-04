@@ -35,4 +35,15 @@ public class Ghost : MonoBehaviour {
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
+
+	void flipObj(){
+		flip ();
+		rightSpeed = -1 * rightSpeed;
+	}
+
+	void OnTriggerEnter2D (Collider2D other){
+		if (other.tag == "Wall"){
+			flipObj();
+		}
+	}
 }

@@ -98,6 +98,12 @@ public class Water_ghost : MonoBehaviour {
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
+
+	void flipObj(){
+		flip ();
+		faceLeft = !faceLeft;
+	}
+
 	void OnTriggerEnter2D (Collider2D other)
 	{
 		if (other.tag == "Ground") {
@@ -105,8 +111,11 @@ public class Water_ghost : MonoBehaviour {
 			if (other.transform.position.y < transform.position.y + 0.07) {
 				start = true;
 			}
-		} 
+		} else if (other.tag == "Wall"){
+			flipObj();
+		}
 	}
+
 	void OnTriggerExit2D (Collider2D other)
 	{
 
@@ -116,4 +125,6 @@ public class Water_ghost : MonoBehaviour {
 			}
 		} 
 	}
+
+
 }

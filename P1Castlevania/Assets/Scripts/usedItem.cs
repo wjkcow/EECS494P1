@@ -23,7 +23,9 @@ public class usedItem : MonoBehaviour {
 		g = GetComponent<Gravity> ();
 		if (!hasSet) {
 			if (facingLeft){
-				g.setSpeed(-1 * vel);
+				Vector3 tmp = vel;
+				tmp.x = vel.x * -1;
+				g.setSpeed(tmp);
 				flip ();
 			}
 			else {
@@ -41,23 +43,24 @@ public class usedItem : MonoBehaviour {
 		canvas = GameObject.Find("Canvas");
 		globalV = canvas.GetComponent<GlobalV> ();
 		if (other.tag == "Breakable") {
-			print ("hit");
-			other.GetComponent<Breakable>().breakMe();
-			if (breakable)
-				Destroy(gameObject);
-		} else if(other.tag == "Enemy"){
-			Enemy otherScript = other.GetComponent<Enemy>();
-			if (other.name != "Boss")
-				otherScript.hitten();
-			else {
-				bossAI script = other.GetComponent<bossAI>();
-				script.hitten();
-			}
-			globalV.score += otherScript.score;
-			print(globalV.score +"  " + otherScript.score);
-			if (breakable)
-				Destroy(gameObject);
-		} else if(other.tag != "Hero" && other.tag != "Player" && other.tag != "Stair" && other.tag != "camera_wall"){
+						print ("hit");
+						other.GetComponent<Breakable> ().breakMe ();
+						if (breakable)
+								Destroy (gameObject);
+				} else if (other.tag == "Enemy") {
+						Enemy otherScript = other.GetComponent<Enemy> ();
+						if (other.name != "Boss")
+								otherScript.hitten ();
+						else {
+								bossAI script = other.GetComponent<bossAI> ();
+								script.hitten ();
+						}
+						globalV.score += otherScript.score;
+						print (globalV.score + "  " + otherScript.score);
+						if (breakable)
+								Destroy (gameObject);
+
+		} else if(other.tag == "Wall"){
 			print (other.tag);
 			if (breakable)
 				Destroy(gameObject);

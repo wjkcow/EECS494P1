@@ -55,6 +55,8 @@ public class Leopard : MonoBehaviour
 								anim.SetTrigger ("Run");
 								jumping = false;
 						}
+				} else if (other.tag == "Wall"){
+					flipObj();
 				}
 
 		}
@@ -77,4 +79,11 @@ public class Leopard : MonoBehaviour
 				}
 
 		}
+
+
+	void flipObj(){
+		flip ();
+		rightSpeed = -1 * rightSpeed;
+	}
+
 }

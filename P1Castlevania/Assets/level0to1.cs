@@ -10,7 +10,13 @@ public class level0to1 : MonoBehaviour {
 	public float duration;
 	private float timing;
 	private bool moving = false;
+	private GlobalV g;
 	// Use this for initialization
+	void Start(){
+		g = GameObject.Find ("Canvas").GetComponent<GlobalV> ();
+
+	}
+
 	void FixedUpdate(){
 		if (timing + duration < Time.time  && moving) {
 			camera.cullingMask = oldCamera;
@@ -30,6 +36,7 @@ public class level0to1 : MonoBehaviour {
 			hero.transform.position = heroPos.transform.position;
 			CameraFollow script =	camera.GetComponent<CameraFollow>();	
 			script.setCameraStop(true);
+			g.stage = 1;
 		}
 	}
 }

@@ -2102,7 +2102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   die_effect: {fileID: 170050, guid: 80ae569678ed642fd9e8ca2208208efc, type: 2}
-  Drop_item: {fileID: 108900, guid: 2db1737e3223a43038bc4093271124c9, type: 2}
+  Drop_item: {fileID: 140680, guid: 632ec433786f249369aa4861bfa62626, type: 2}
   brokenSound: {fileID: 8300000, guid: 981d445adb5c54e0585bfe7b14dedcd0, type: 3}
 --- !u!61 &219472815
 BoxCollider2D:
@@ -4248,7 +4248,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 436636597}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.2399998, y: -.589999974, z: 0}
+  m_LocalPosition: {x: -12.2399998, y: -.620000005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 899978613}
@@ -4551,7 +4551,7 @@ GameObject:
   - 114: {fileID: 453569184}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5110,7 +5110,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 414296, guid: f45b93863e3834364bd6f0226b152461, type: 2}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 11471338, guid: f45b93863e3834364bd6f0226b152461, type: 2}
       propertyPath: canvas
@@ -5136,6 +5136,26 @@ Prefab:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 755974391}
+    - target: {fileID: 471338, guid: f45b93863e3834364bd6f0226b152461, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -.0949993134
+      objectReference: {fileID: 0}
+    - target: {fileID: 471338, guid: f45b93863e3834364bd6f0226b152461, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400138, guid: f45b93863e3834364bd6f0226b152461, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 418648, guid: f45b93863e3834364bd6f0226b152461, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11471338, guid: f45b93863e3834364bd6f0226b152461, type: 2}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f45b93863e3834364bd6f0226b152461, type: 2}
   m_RootGameObject: {fileID: 1076070281}
@@ -7161,7 +7181,7 @@ GameObject:
   - 114: {fileID: 782878418}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Respawn
+  m_TagString: BlockWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7341,7 +7361,7 @@ GameObject:
   - 114: {fileID: 811475568}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7835,7 +7855,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   die_effect: {fileID: 170050, guid: 80ae569678ed642fd9e8ca2208208efc, type: 2}
-  Drop_item: {fileID: 108900, guid: 2db1737e3223a43038bc4093271124c9, type: 2}
+  Drop_item: {fileID: 108570, guid: 95188f1c86c214cf3a3eecbdb315e6a4, type: 2}
   brokenSound: {fileID: 8300000, guid: 981d445adb5c54e0585bfe7b14dedcd0, type: 3}
 --- !u!61 &862617077
 BoxCollider2D:
@@ -9253,7 +9273,7 @@ GameObject:
   - 114: {fileID: 942157550}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9534,7 +9554,7 @@ GameObject:
   - 114: {fileID: 1003801005}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9911,7 +9931,7 @@ GameObject:
   - 114: {fileID: 1025745028}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10510,7 +10530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c64bd5fee7ffc43ca8ad2e8978feb0a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 102964, guid: 4ec3e901fe69147cb9e077be7aff5c4a, type: 2}
+  item: {fileID: 0}
   muzzle: {fileID: 1374104109}
   useInterval: 2
   canvas: {fileID: 755974391}
@@ -10708,9 +10728,9 @@ Transform:
   m_LocalPosition: {x: -23.4799995, y: -.629999995, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1374104110}
   - {fileID: 1403721451}
   - {fileID: 1156901926}
+  - {fileID: 1374104110}
   m_Father: {fileID: 0}
   m_RootOrder: 17
 --- !u!1 &1076640964
@@ -11367,7 +11387,7 @@ Transform:
   m_LocalScale: {x: .300000012, y: 1.09000003, z: 1}
   m_Children: []
   m_Father: {fileID: 1076070294}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!68 &1156901927
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -11765,7 +11785,7 @@ GameObject:
   - 114: {fileID: 1215450551}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Respawn
+  m_TagString: BlockWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13209,6 +13229,10 @@ Prefab:
       propertyPath: m_TagString
       value: Breakable
       objectReference: {fileID: 0}
+    - target: {fileID: 11406936, guid: 1daf44f5d325a4c39a39425c59281338, type: 2}
+      propertyPath: Drop_item
+      value: 
+      objectReference: {fileID: 140680, guid: 632ec433786f249369aa4861bfa62626, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1daf44f5d325a4c39a39425c59281338, type: 2}
   m_RootGameObject: {fileID: 219472812}
@@ -13236,11 +13260,11 @@ Transform:
   m_PrefabInternal: {fileID: 505827545}
   m_GameObject: {fileID: 1374104109}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.0949999988, y: .166999996, z: 1}
+  m_LocalPosition: {x: -.0949993134, y: .166999996, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1076070294}
-  m_RootOrder: 0
+  m_RootOrder: 2
 --- !u!1 &1388989637
 GameObject:
   m_ObjectHideFlags: 0
@@ -13419,7 +13443,7 @@ Transform:
   m_LocalScale: {x: .5, y: 1.09000003, z: 1}
   m_Children: []
   m_Father: {fileID: 1076070294}
-  m_RootOrder: 1
+  m_RootOrder: 0
 --- !u!68 &1403721452
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -14126,6 +14150,10 @@ Prefab:
       propertyPath: m_TagString
       value: Breakable
       objectReference: {fileID: 0}
+    - target: {fileID: 11406936, guid: 1daf44f5d325a4c39a39425c59281338, type: 2}
+      propertyPath: Drop_item
+      value: 
+      objectReference: {fileID: 108570, guid: 95188f1c86c214cf3a3eecbdb315e6a4, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1daf44f5d325a4c39a39425c59281338, type: 2}
   m_RootGameObject: {fileID: 862617075}
@@ -14235,7 +14263,7 @@ GameObject:
   - 114: {fileID: 1541153017}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Respawn
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14723,7 +14751,7 @@ GameObject:
   - 114: {fileID: 1608754141}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15781,7 +15809,7 @@ GameObject:
   - 114: {fileID: 1714532277}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17453,7 +17481,7 @@ GameObject:
   - 114: {fileID: 1930745377}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Respawn
+  m_TagString: BlockWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17971,7 +17999,7 @@ GameObject:
   - 114: {fileID: 2004365351}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18194,7 +18222,7 @@ GameObject:
   - 114: {fileID: 2023850659}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18992,7 +19020,7 @@ GameObject:
   - 114: {fileID: 2131735735}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: BlockWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -34,7 +34,7 @@ public class GlobalV : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		if (playerLife < 0) {
+		if (playerLife <= 0) {
 			P --;
 			H.GetComponent<Hero>().die();
 			print ("start over");
@@ -57,9 +57,4 @@ public class GlobalV : MonoBehaviour {
 		}
 	}
 
-	void updatePlayer(){
-
-
-
-	}
 }
