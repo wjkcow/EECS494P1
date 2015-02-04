@@ -5,18 +5,18 @@ public class Kirby : MonoBehaviour {
 
 	public bool faceLeft = true;
 	public int fireRate = 2;
-	public Vector3 jumpSpeed = new Vector3 (0.0f, 3.0f, 0);
-	
 	public Vector3 rightSpeed = new Vector3 (0.012f, 0, 0);
-	public Vector3 bulletSpeed = new Vector3 (0.02f, 0, 0);
 	public int  turnRate = 25;
 	private Transform hero;
+
 	public bool 	shootDone = true;
 	private int turnC = 0;
 	public bool turn = false;
 	private Animator anim;
 	private bool start = false;
 	private int fire_c;
+	public GameObject ghostPrefab;
+	public Transform[] ghostsPos;
 	
 	// Use this for initialization
 	void Start () {
@@ -28,6 +28,7 @@ public class Kirby : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
+
 		if (!shootDone) {
 			return;		
 		}
@@ -60,9 +61,15 @@ public class Kirby : MonoBehaviour {
 	
 	
 	void Call(){
-
+		for(int i = 0; i < ghostsPos.Length; i++){
+			Transform pos = ghostsPos[i];
+			if(Mathf.Abs( pos.position.x - GameObject.Find ("Hero").transform.position.x) > 0.2){
+				GameObject e =  (GameObject)Instantiate (ghostPrefab, pos.position, Quaternion.identity);
+			}
+		}
 	}
 	void move(){
+		print ("moving");
 		if (faceLeft) {
 			transform.position = transform.position - rightSpeed;
 		} else {
@@ -85,9 +92,24 @@ public class Kirby : MonoBehaviour {
 	void OnTriggerEnter2D (Collider2D other)
 	{
 		if (other.tag == "Ground") {
+			//print ("delta" + (transform.position.y - other.transform.position.y ));
+			if (other.transform.position.y < transform.position.y + 0.07) {
+				start = true;
+			}
 		} else if (other.tag == "Wall"){
 			flipObj();
 		}
 	}
+	
+	void OnTriggerExit2D (Collider2D other)
+	{
+		
+		if (other.tag == "Ground") {
+			if (other.transform.position.y < transform.position.y) {
+				start = false;
+			}
+		} 
+	}
+
 
 }
