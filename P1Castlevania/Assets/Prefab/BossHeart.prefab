@@ -86,7 +86,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb12adcab8e274f9687bc567bd78823b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kind: Heart
+  kind: BossHeart
 --- !u!212 &21234402
 SpriteRenderer:
   m_ObjectHideFlags: 1
