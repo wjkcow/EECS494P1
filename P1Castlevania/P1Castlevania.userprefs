@@ -1,5 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+<<<<<<< HEAD
+  <MonoDevelop.Ide.Workbench />
+=======
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Kirby.cs">
     <Files>
       <File FileName="Assets/Scripts/Gravity.cs" Line="74" Column="27" />
@@ -25,6 +28,7 @@
       <File FileName="Assets/bossAI.cs" Line="17" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+>>>>>>> FETCH_HEAD
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
