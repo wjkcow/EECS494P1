@@ -18,6 +18,7 @@ public class Transport : MonoBehaviour {
 			Vector3 pos = transform.position + delta;
 			pos.z = -1;
 			GameObject.Find("Hero").transform.position = pos;
+			Destroy(this.gameObject);
 				}
 	}
 }
