@@ -105,11 +105,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrownItem: 1
   facingLeft: 0
-  vel: {x: .600000024, y: 1.60000002, z: 0}
+  vel: {x: .550000012, y: 1.60000002, z: 0}
   acc: {x: 0, y: -2, z: 0}
   canvas: {fileID: 157460, guid: e51d704c855a542ab9ea66ab68106ad4, type: 2}
   num: 3
-  breakable: 0
+  breakable: 1
 --- !u!114 &11420822
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23440a51edbb644698b9430341073d83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delta: {x: 0, y: .100000001, z: -100}
+  delta: {x: 0, y: .0299999993, z: -100}
 --- !u!212 &21202964
 SpriteRenderer:
   m_ObjectHideFlags: 1

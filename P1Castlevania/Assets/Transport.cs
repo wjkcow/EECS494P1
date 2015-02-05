@@ -14,11 +14,13 @@ public class Transport : MonoBehaviour {
 	}
 	void OnTriggerEnter2D(Collider2D other){
 		print ("HHHHHIT");
-				if (other.tag == "TransportSurface") {
+		if (other.tag == "TransportSurface") {
 			Vector3 pos = transform.position + delta;
 			pos.z = 0;
+			print (pos);
 			GameObject.Find("Hero").transform.position = pos;
+			GameObject.Find("Hero").transform.GetComponent<Gravity>().setAcc(Vector3.zero);
 			Destroy(this.gameObject);
-				}
+		}
 	}
 }

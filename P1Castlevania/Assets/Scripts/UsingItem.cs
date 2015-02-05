@@ -50,7 +50,7 @@ public class UsingItem : MonoBehaviour {
 				}
 			}
 		}
-		if (Input.GetKey (KeyCode.T)) {
+		if (Input.GetKey (KeyCode.C)) {
 			if (Time.time > lastUseTime + 0.4){
 				if (item.GetComponent<usedItem>().thrownItem){
 					thrownObj = itemForCustom;

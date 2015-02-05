@@ -71,7 +71,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrownItem: 1
   facingLeft: 0
-  vel: {x: 1, y: 0, z: 0}
+  vel: {x: 2, y: 0, z: 0}
   acc: {x: 0, y: 0, z: 0}
   canvas: {fileID: 157460, guid: e51d704c855a542ab9ea66ab68106ad4, type: 2}
   num: 1
